@@ -1,0 +1,177 @@
+\documentclass[a4j, 11pt]{jarticle}
+% START:共通設定＆共通パッケージ読み込み（基本変更しない）
+\renewcommand{\baselinestretch}{1.4}
+\setlength{\oddsidemargin}{-0mm}
+\setlength{\textwidth}{16cm}
+\setlength{\topmargin}{-1.5cm}
+\setlength{\textheight}{24cm}
+\setlength{\baselineskip}{2cm}
+\special{pdf: minorversion=7}    % 出力するPDFのバージョンを指定
+\usepackage{ifthen}              % if文制御用
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{amsmath}             % 数式用
+\usepackage{array}               % 数式での場合分け用
+\usepackage{url}                 % URL表示用
+\usepackage{here}                % [H]用
+\usepackage[dvipdfmx]{hyperref}  % 全体像把握＆簡易移動のため
+\usepackage{pxjahyper}           % 日本語のしおり（ブックマーク）表示用
+\hypersetup{pdfborder = {0 0 0}} % hyperrefリンクの囲みを消す
+\pagenumbering{roman}            % ページ番号をアラビア数字に変更
+\newcounter{fiscal_year}         % 卒業年度計算用
+\setcounter{fiscal_year}{\the\year}
+\ifthenelse{\the\month < 4}{
+	% 年明けから3月までは年-1にする
+	\addtocounter{fiscal_year}{-1}
+}{}
+% END:共通設定＆共通パッケージ読み込み（基本変更しない）
+
+
+% START:ユーザ設定＆ユーザパッケージ読み込み---------
+
+
+% END:ユーザ設定＆ユーザパッケージ読み込み-----------
+
+
+\begin{document}
+% START:タイトル
+\begin{titlepage}\Large ~
+{\normalsize \the\value{fiscal_year} 年度卒業}
+\vfill
+\begin{center}
+
+% START: 論文の種類-------------------------------
+{\Huge 修士論文}
+% {\Huge 卒業論文}
+% END: 論文の種類---------------------------------
+\end{center}
+\begin{center}
+
+% START: 日本語タイトル---------------------------
+空間解像度差のあるデータセットを用いた深層学習による銀河形状分類精度
+% END: 日本語タイトル-----------------------------
+\end{center}
+\begin{center}
+
+% START: 英語タイトル-----------------------------
+日本語タイトル暫定版なため、ここ英語タイトルも未完！
+% END: 英語タイトル-------------------------------
+\end{center}
+\vfill
+\begin{center}
+\begin{tabular}{|c|l|}
+\hline
+
+% START: 論文の種類-------------------------------
+所属 & 新潟大学自然科学研究科 電気情報工学専攻・飯田佑輔研究室 \\
+% 所属 & 新潟大学工学部情報工学科・林隆史研究室 \\
+% END: 論文の種類---------------------------------
+\hline
+
+% START: 在籍番号---------------------------------
+在籍番号 & F20C026D \\
+% END: 在籍番号-----------------------------------
+\hline
+
+% START: 論文著者---------------------------------
+氏名 & 本間 裕也 \\
+% START: 論文著者---------------------------------
+\hline
+\end{tabular}
+\end{center}
+\vspace{1cm}
+\vfill
+\end{titlepage}
+\pagebreak
+\addtocounter{page}{1}
+\thispagestyle{empty}  % このページにページ番号を振らない
+% END:タイトル
+
+% START:アブストラクト-----------------------------
+\section*{概要}
+日本語のアブストラクト
+
+\section*{Abstract}
+English Abstract Here
+
+% END:アブストラクト-------------------------------
+
+% START:目次作成
+\newpage
+\tableofcontents       % 目次作成
+\thispagestyle{empty}  % このページにページ番号を振らない
+\pagebreak
+\pagenumbering{arabic} % ページ番号をアラビア数字に変更
+% END:目次作成
+
+
+% START:本編--------------------------------------
+\section{はじめに}
+
+
+\newpage
+\section{銀河の形態分類学}
+
+\newpage
+\section{深層学習}
+\subsection{パーセプトロン}
+深層学習の説明を行う前に，
+
+\subsection{ニューラルネットワーク}
+ニューラルネットワークとは，
+
+\newpage
+\subsection{損失関数と重み更新}
+深層学習の学習で用いられる指標を，損失関数と呼ぶ．損失関数には様々な種類が存在し，解く問題の種類によって使い分ける．
+一般的な損失関数として，式(\ref{eq:mse})の2乗平均誤差(主に回帰問題に使用) や，式(\ref{eq:ce})のクロスエントロピー誤差(主に分類問題に使用)が挙げられる．
+
+\begin{equation}
+E = \frac{1}{n} \sum_{i=1}^{n} (\hat{y_i} - y_i)^2
+\label{eq:mse}
+\end{equation}
+
+\begin{equation}
+E = sans
+\label{eq:ce}
+\end{equation}
+
+
+\newpage
+\section{関連研究}
+
+\newpage
+\section{関連研究}
+
+\newpage
+\section{使用するデータセット}
+
+\newpage
+\section{SDSS \& Galaxy Zooを用いた深層学習による形態分類}
+
+\newpage
+
+
+% END:本編----------------------------------------
+
+% START:参考文献----------------------------------
+%% ベタ打ちの場合
+% \begin{thebibliography}{1}
+% \bibitem{key1}サイト名\\ \url{http://google.com} （yyyy年mm月dd日アクセス） % ウェブサイトの場合
+% \bibitem{key2}著者，書籍タイトル，出版                                      % 書籍，論文の場合
+% \end{thebibliography}
+
+
+%% bibtexを使用する場合
+\newpage
+\bibliography{Master_thesis_bib}         % .bibファイルから拡張子を外した名前 ex)ref.bib
+\bibliographystyle{junsrt} % 参考文献出力スタイル
+\nocite{*}                 % 参照していない項目も出力する
+% END:参考文献------------------------------------
+
+
+\newpage
+\section*{謝辞}
+本研究を進めるにあたり，ご指導を頂いた飯田佑輔准教授に厚く感謝申し上げます．
+また，日常の議論を通じて多くの知識や示唆を頂いた飯田佑輔研究室の皆様に感謝いたします．
+
+\end{document}
+%------------------------------------------------
