@@ -1,11 +1,16 @@
 %このファイルは日本語文字を含みます.
 \BOOKMARK [1][-]{section.1}{はじめに}{}% 1
-\BOOKMARK [1][-]{section.2}{銀河の形態分類学}{}% 2
-\BOOKMARK [1][-]{section.3}{深層学習}{}% 3
-\BOOKMARK [2][-]{subsection.3.1}{パーセプトロン}{section.3}% 4
-\BOOKMARK [2][-]{subsection.3.2}{ニューラルネットワーク}{section.3}% 5
-\BOOKMARK [2][-]{subsection.3.3}{損失関数と重み更新}{section.3}% 6
-\BOOKMARK [1][-]{section.4}{関連研究}{}% 7
-\BOOKMARK [1][-]{section.5}{関連研究}{}% 8
-\BOOKMARK [1][-]{section.6}{使用するデータセット}{}% 9
-\BOOKMARK [1][-]{section.7}{SDSS \046 Galaxy Zooを用いた深層学習による形態分類}{}% 10
+\BOOKMARK [1][-]{section.2}{深層学習}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{パーセプトロン}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{ニューラルネットワーク}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{損失関数と重み更新}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{使用するデータセット}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{Sloan Digital Sky Survey\(SDSS\)}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Galaxy Zoo 1 \(GZ1\)}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{SDSS \046 Galaxy Zooを用いた分類モデル学習}{}% 9
+\BOOKMARK [1][-]{section.5}{空間解像度差のあるデータセットを用いた分類モデル学習}{}% 10
+\BOOKMARK [1][-]{section.6}{議論}{}% 11
+\BOOKMARK [2][-]{subsection.6.1}{今回の実験から得た結論}{section.6}% 12
+\BOOKMARK [2][-]{subsection.6.2}{将来課題}{section.6}% 13
+\BOOKMARK [2][-]{subsection.6.3}{将来展望}{section.6}% 14
+\BOOKMARK [1][-]{section.7}{おわりに}{}% 15
