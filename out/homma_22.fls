@@ -644,6 +644,23 @@ INPUT extractbb -B cropbox -O images/dr7_filters.png
 INPUT ./images/camera_filters-300x274.png
 INPUT images/camera_filters-300x274.png
 INPUT extractbb -B cropbox -O images/camera_filters-300x274.png
+INPUT ./images/gz1_website.png
+INPUT ./images/gz1_website.png
+INPUT images/gz1_website.png
+INPUT extractbb -B cropbox -O images/gz1_website.png
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
+INPUT ./images/table2.png
+INPUT ./images/table2.png
+INPUT images/table2.png
+INPUT extractbb -B cropbox -O images/table2.png
+INPUT ./images/z_15000_4.png
+INPUT ./images/z_15000_4.png
+INPUT images/z_15000_4.png
+INPUT extractbb -B cropbox -O images/z_15000_4.png
+INPUT ./images/model_shape.png
+INPUT ./images/model_shape.png
+INPUT images/model_shape.png
+INPUT extractbb -B cropbox -O images/model_shape.PNG
 INPUT out/homma_22.aux
 INPUT out/homma_22.out
 INPUT out/homma_22.out

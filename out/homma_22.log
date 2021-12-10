@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.21)  8 DEC 2021 19:20
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.21)  10 DEC 2021 19:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -356,26 +356,66 @@ File: images/dr7_filters.png Graphic file (type bmp)
 [4]
 File: images/camera_filters-300x274.png Graphic file (type bmp)
 <images/camera_filters-300x274.png>
-[5] [6] [7] [8] [9]
+
+LaTeX Warning: Reference `Lintott2008' on page 5 undefined on input line 170.
+
+[5]
+
+LaTeX Warning: Reference `Lintott2010' on page 6 undefined on input line 172.
+
+
+LaTeX Warning: Reference `Willett2013' on page 6 undefined on input line 172.
+
+File: images/gz1_website.png Graphic file (type bmp)
+<images/gz1_website.png>
+
+LaTeX Warning: Reference `Lintott2010' on page 6 undefined on input line 180.
+
+
+LaTeX Warning: Reference `Lintott2010' on page 6 undefined on input line 180.
+
+[6]
+File: images/table2.png Graphic file (type bmp)
+<images/table2.png>
+
+Overfull \hbox (56.90552pt too wide) in paragraph at lines 202--203
+ [][] 
+ []
+
+[7]
+File: images/z_15000_4.png Graphic file (type bmp)
+<images/z_15000_4.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `Cheng2019' on page 8 undefined on input line 229.
+
+File: images/model_shape.PNG Graphic file (type bmp)
+<images/model_shape.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8] [9] [10] [11] [12]
 No file homma_22.bbl.
 
 Package caption Warning: Unused \captionsetup[table] on input line 28.
 See the caption package documentation for explanation.
 
-[10] (out/homma_22.aux)
+[13] (out/homma_22.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `homma_22.out' has not changed.
-(rerunfilecheck)             Checksum: 179357F4855B7CD9201684BAD494C900;1090.
+(rerunfilecheck)             Checksum: D5A955AC32958515BA5A28862152EA4C;1087.
  ) 
 Here is how much of TeX's memory you used:
- 10529 strings out of 479042
- 157994 string characters out of 5869023
- 474215 words of memory out of 5000000
- 28525 multiletter control sequences out of 15000+600000
- 447354 words of font info for 80 fonts, out of 8000000 for 9000
+ 10563 strings out of 479042
+ 158646 string characters out of 5869023
+ 474493 words of memory out of 5000000
+ 28553 multiletter control sequences out of 15000+600000
+ 447695 words of font info for 81 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 60i,6n,66p,770b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,6n,66p,770b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/homma_22.dvi (13 pages, 20776 bytes).
+Output written on out/homma_22.dvi (16 pages, 32872 bytes).

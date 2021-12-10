@@ -5,11 +5,14 @@
 \contentsline {subsection}{\numberline {2.3}損失関数と重み更新}{3}{subsection.2.3}%
 \contentsline {section}{\numberline {3}使用するデータセット}{4}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Sloan Digital Sky Survey(SDSS)}{4}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Galaxy Zoo 1 (GZ1)}{5}{subsection.3.2}%
-\contentsline {section}{\numberline {4}SDSS \& Galaxy Zooを用いた分類モデル学習}{6}{section.4}%
-\contentsline {section}{\numberline {5}空間解像度差のあるデータセットを用いた分類モデル学習}{7}{section.5}%
-\contentsline {section}{\numberline {6}議論}{8}{section.6}%
-\contentsline {subsection}{\numberline {6.1}今回の実験から得た結論}{8}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}将来課題}{8}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}将来展望}{8}{subsection.6.3}%
-\contentsline {section}{\numberline {7}おわりに}{9}{section.7}%
+\contentsline {subsection}{\numberline {3.2}Galaxy Zoo (GZ)}{5}{subsection.3.2}%
+\contentsline {section}{\numberline {4}SDSS \& Galaxy Zooを用いた分類モデル学習}{8}{section.4}%
+\contentsline {paragraph}{学習データ}{8}{section*.14}%
+\contentsline {paragraph}{モデル構造}{8}{section*.16}%
+\contentsline {paragraph}{モデルの評価方法}{8}{section*.18}%
+\contentsline {section}{\numberline {5}空間解像度差のあるデータセットを用いた分類モデル学習}{10}{section.5}%
+\contentsline {section}{\numberline {6}議論}{11}{section.6}%
+\contentsline {subsection}{\numberline {6.1}今回の実験から得た結論}{11}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}将来課題}{11}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}将来展望}{11}{subsection.6.3}%
+\contentsline {section}{\numberline {7}おわりに}{12}{section.7}%

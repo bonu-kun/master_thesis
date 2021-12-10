@@ -6,7 +6,7 @@
 \BOOKMARK [2][-]{subsection.2.3}{損失関数と重み更新}{section.2}% 5
 \BOOKMARK [1][-]{section.3}{使用するデータセット}{}% 6
 \BOOKMARK [2][-]{subsection.3.1}{Sloan Digital Sky Survey\(SDSS\)}{section.3}% 7
-\BOOKMARK [2][-]{subsection.3.2}{Galaxy Zoo 1 \(GZ1\)}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Galaxy Zoo \(GZ\)}{section.3}% 8
 \BOOKMARK [1][-]{section.4}{SDSS \046 Galaxy Zooを用いた分類モデル学習}{}% 9
 \BOOKMARK [1][-]{section.5}{空間解像度差のあるデータセットを用いた分類モデル学習}{}% 10
 \BOOKMARK [1][-]{section.6}{議論}{}% 11
