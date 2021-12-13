@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.21)  10 DEC 2021 19:07
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.21)  13 DEC 2021 21:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -396,26 +396,30 @@ File: images/model_shape.PNG Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8] [9] [10] [11] [12]
+[8] [9]
+
+LaTeX Warning: Reference `' on page 10 undefined on input line 273.
+
+[10]
+
+LaTeX Warning: Reference `' on page 11 undefined on input line 334.
+
+[11] [12] [13] [14]
 No file homma_22.bbl.
-
-Package caption Warning: Unused \captionsetup[table] on input line 28.
-See the caption package documentation for explanation.
-
-[13] (out/homma_22.aux)
+[15] (out/homma_22.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `homma_22.out' has not changed.
-(rerunfilecheck)             Checksum: D5A955AC32958515BA5A28862152EA4C;1087.
+(rerunfilecheck)             Checksum: 9AA2267408B96F031747300F6A02D849;1397.
  ) 
 Here is how much of TeX's memory you used:
- 10563 strings out of 479042
- 158646 string characters out of 5869023
- 474493 words of memory out of 5000000
- 28553 multiletter control sequences out of 15000+600000
+ 10567 strings out of 479042
+ 158704 string characters out of 5869023
+ 475807 words of memory out of 5000000
+ 28557 multiletter control sequences out of 15000+600000
  447695 words of font info for 81 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 60i,6n,66p,770b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,8n,66p,770b,630s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/homma_22.dvi (16 pages, 32872 bytes).
+Output written on out/homma_22.dvi (18 pages, 40800 bytes).

@@ -211,7 +211,7 @@ GZ1では，ウェブサイト(www.galaxyzoo.org)を通じて有志の一般人�
 
 当論文の将来展望は，高空間分解能観測装置データを用いてモデル学習を行うことで，既存の低空間分解能データセットに対し更なる高精度形態分類を提供するというものである．この将来展望にまつわる実験の最も初段階の前提条件として，まずは学習データとテストデータの解像度が揃っている条件にて高精度分類が行えるかを検証する必要がある．そこで2つの実験を行った．
 
-\subsubsection*{実験条件}
+\subsection{実験概要}
 第4章ではSDSSから取得した銀河画像とGZから取得した分類フラグを学習データとし，渦巻銀河・楕円銀河・不確かな天体のいずれかを予測する分類モデルを学習する．
 \paragraph{学習データ}
 学習に用いる画像データは，SDSSから取得した64ピクセル四辺の銀河切り出し画像を使用し，正解ラベルはGZから取得した分類フラグを用いる．実験には15,000天体を用いた．15,000天体の赤方偏移別の個数を示したグラフを図\ref{fig:z_15000}に示す．一般的に赤方偏移の値が小さいほど，地球から近い天体といえる．15,000天体のうち，GZの分類フラグにて渦巻銀河と分類されている天体は4,058天体，楕円銀河は1,561天体，不確かな天体は9,310天体であった．
@@ -238,7 +238,7 @@ GZ1では，ウェブサイト(www.galaxyzoo.org)を通じて有志の一般人�
 \paragraph{モデルの評価方法}
 分類モデルの評価指標として，主にaccuracy (正解率)，そして一部実験においてTrue Skill Statistics (以下，TSS)を用いた．accuracyは全テストデータの中で正しく分類できたデータがどれだけあるかというものであり，モデルの正確性を表す指標である．TSSも同じく正確性を表す指標であるが，テストデータ内のデータインバランス性に対しロバストな性質がある．
 
-以下に2値分類問題を例とした場合の，accuracy, TSSの導出方法を示す．ここで混同行列とは，分類問題においてモデルが予測した値および真の値を行列形式で表したものであり，分類モデルの性能を評価または可視化するのによく用いられる指標である．
+以下に2値分類問題を例とした場合の，accuracy, TSSの導出方法を示す．ここで混同行列とは，分類問題においてモデルが予測した値および真の値を行列形式で表したものであり，分類モデルの性能を評価または可視化するのによく用いられる指標である．モデルの予測値と真の値が交差する対角成分における数が多いほど，モデルが正確な予測を行っているといえる．
 
 \begin{equation}
  accuracy = \frac{TP + TN}{TP + FP + FN + TN}
@@ -251,6 +251,99 @@ GZ1では，ウェブサイト(www.galaxyzoo.org)を通じて有志の一般人�
 \end{equation}
 
 また，深層学習モデルには実行毎に学習のブレが存在するため，モデルの評価の際には学習・テストを30回実行し，評価指標の平均値，標準偏差および標準誤差を導出する．
+
+\subsection{不確かラベルが与える分類精度への影響}
+GZが与える形態分類フラグのうち「不確かな天体」というフラグが立っている天体は，渦巻銀河・楕円銀河のどちらの得票率も8割を超えなかった天体である．これらの天体は人間の目による形態分類が比較的難しい天体，つまり特徴があやふやな天体であると考えられる．
+
+この節では特徴があいまいだと考えられる不確かな天体群が，分類精度に与える影響を調べる．具体的には以下の2条件で実験を行い，テストデータに対する予測のaccuracyや混同行列の比較を行う．
+\begin{quote}
+ \begin{itemize}
+	\item 不確かを含めた、渦巻・楕円・不確かの3値分類
+	\item 不確かを除いた、渦巻・楕円の2値分類
+ \end{itemize}
+\end{quote}
+
+\subsubsection{実験条件}
+モデルの学習およびテストを行う際，1000天体を使用した．使用する天体は，GZによる形態分類が行われた15,000天体(図\ref{fig:z_15000}参照)からランダムに取得を行う．使用天体を1000天体取得したあと，学習データとテストデータの比率が7:3となるように切り分けを行った．
+
+モデルの評価を行う際，モデルの学習およびテストを30回行い，accuracyの平均値，標準偏差および標準誤差を導出した．なお，30回の学習およびテストの際，用いられる天体は毎回ランダムに取得される．
+
+\subsubsection{実験結果}
+\paragraph{学習結果}
+不確かを含めた渦巻・楕円・不確かの3値分類モデル，および不確かを除いた渦巻・楕円の2値分類モデルの学習結果を図\ref{}にに示す．
+
+\begin{quote}
+ \begin{itemize}
+	\item 一番上の図は、横軸epoch数・縦軸loss（損失関数）となっている。
+	\item 中段の図は、横軸epoch数・縦軸accuracy（正解率）となっている。
+	\begin{quote}
+	 \begin{itemize}
+		\item これら2つの図は、青色のラインが学習データに対するスコア、黄色のラインがテストデータに対するスコアとなっている。
+		\item lossのグラフについて、学習データに対する損失関数は学習が進むにつれ順当に下がっていくものの、ある一定のepochからテストデータに対する損失関数が上昇していく現象が見受けられる。この現象は\textbf{過学習}と呼ばれている。この現象が起こると、学習データに対し分類モデルが過剰に適合した結果、学習データに対する予測精度に比べテストデータに対する予測精度が低下していく。
+	 \end{itemize}
+	\end{quote}
+	\item 一番下の図はテストデータに対する予測結果から生成した混同行列であり、横軸がモデルによる予測ラベル、縦軸がテストデータの真のラベルである。
+ \end{itemize}
+\end{quote}
+
+% \begin{figure}[htbp]
+% 	\begin{tabular}{cc}
+% 		\begin{minipage}[t]{0.45\hsize}
+% 			\centering
+% 			\includegraphics[keepaspectratio, scale=0.8]{images/losses_ex4-1.png}
+% 			\subcaption{Composite}
+% 			\label{composite}
+% 		\end{minipage} &
+% 		\begin{minipage}[t]{0.45\hsize}
+% 			\centering
+% 			\includegraphics[keepaspectratio, scale=0.8]{images/losses_ex4-2.png}
+% 			\subcaption{Gradation}
+% 			\label{Gradation}
+% 		\end{minipage} \\
+ 
+% 		\begin{minipage}[t]{0.45\hsize}
+% 			\centering
+% 			\includegraphics[keepaspectratio, scale=0.8]{images/accs_ex4-1.png}
+% 			\subcaption{Fill}
+% 			\label{a}
+% 		\end{minipage} &
+% 		\begin{minipage}[t]{0.45\hsize}
+% 			\centering
+% 			\includegraphics[keepaspectratio, scale=0.8]{images/accs_ex4-2.png}
+% 			\subcaption{Transform}
+% 			\label{b}
+% 		\end{minipage} \\
+
+% 		\begin{minipage}[t]{0.45\hsize}
+% 			\centering
+% 			\includegraphics[keepaspectratio, scale=0.8]{images/cm_mean_std_ex4-1.png}
+% 			\subcaption{Fill}
+% 			\label{fill}
+% 		\end{minipage} &
+% 		\begin{minipage}[t]{0.45\hsize}
+% 			\centering
+% 			\includegraphics[keepaspectratio, scale=0.8]{images/cm_mean_std_ex4-2.png}
+% 			\subcaption{Transform}
+% 			\label{transform}
+% 		\end{minipage} 
+% 	\end{tabular}
+% 	 \caption{subcaptionを用いた複数図}
+% \end{figure}
+
+\paragraph{結果}
+不確かを含めた渦巻・楕円・不確かの3値分類モデル，および不確かを除いた渦巻・楕円の2値分類モデルの学習結果を表\ref{}にに示す．
+
+\begin{table}[htbp]
+  \centering
+	\caption{fugafuga}
+  \begin{tabular}{|c|c|c|}
+		\hline
+    & mean ± std (2) & mean ± ste (2σ) \\ \hline
+    3値分類 & 0.688±0.031(148epoch) & 0.688± \\ \hline
+    2値分類 & pine & banana \\ \hline
+  \end{tabular}
+  \label{tb:fugafuga}
+\end{table}
 
 \newpage
 \section{空間解像度差のあるデータセットを用いた分類モデル学習}
