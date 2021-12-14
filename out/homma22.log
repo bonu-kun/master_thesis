@@ -1,34 +1,35 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.21)  13 DEC 2021 21:02
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.21)  14 DEC 2021 20:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/homma/Documents/master_thesis/homma_22.tex
-(c:/Users/homma/Documents/master_thesis/homma_22.tex
+**c:/Users/homma/Documents/master_thesis/homma22.tex
+(c:/Users/homma/Documents/master_thesis/homma22.tex
 pLaTeX2e <2021-06-01>+2 (based on LaTeX2e <2021-06-01> patch level 1)
-L3 programming layer <2021-10-18> (c:/texlive/2021/texmf-dist/tex/platex/base/jarticle.cls
-Document Class: jarticle 2020/09/30 v1.8f Standard pLaTeX class
+L3 programming layer <2021-10-18> (c:/texlive/2021/texmf-dist/tex/platex/base/jreport.cls
+Document Class: jreport 2020/09/30 v1.8f Standard pLaTeX class
 \c@@paper=\count181
 (c:/texlive/2021/texmf-dist/tex/platex/base/jsize11.clo
 File: jsize11.clo 2020/09/30 v1.8f Standard pLaTeX file (size option)
 )
 \c@part=\count182
-\c@section=\count183
-\c@subsection=\count184
-\c@subsubsection=\count185
-\c@paragraph=\count186
-\c@subparagraph=\count187
-\c@figure=\count188
-\c@table=\count189
+\c@chapter=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \symmincho=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 615.
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 704.
 \toclineskip=\dimen154
 \@lnumwidth=\dimen155
 \bibindent=\dimen156
-\heisei=\count190
+\heisei=\count191
 ) (c:/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 ) (c:/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -65,13 +66,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count191
+\inf@bad=\count192
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count192
-\leftroot@=\count193
+\uproot@=\count193
+\leftroot@=\count194
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count194
-\DOTSCASE@=\count195
+\classnum@=\count195
+\DOTSCASE@=\count196
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -80,15 +81,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen161
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count196
-\c@MaxMatrixCols=\count197
+\macc@depth=\count197
+\c@MaxMatrixCols=\count198
 \dotsspace@=\muskip16
-\c@parentequation=\count198
-\dspbrk@lvl=\count199
+\c@parentequation=\count199
+\dspbrk@lvl=\count266
 \tag@help=\toks19
-\row@=\count266
-\column@=\count267
-\maxfields@=\count268
+\row@=\count267
+\column@=\count268
+\maxfields@=\count269
 \andhelp@=\toks20
 \eqnshift@=\dimen162
 \alignsep@=\dimen163
@@ -116,7 +117,7 @@ Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (c:/texlive/2021/texmf-dist/tex/latex/here/here.sty) (c:/texlive/2021/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count269
+\c@float@type=\count270
 \float@exts=\toks24
 \float@box=\box71
 \@float@everytoks=\toks25
@@ -151,8 +152,8 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen170
-\Hy@linkcounter=\count270
-\Hy@pagecounter=\count271
+\Hy@linkcounter=\count271
+\Hy@pagecounter=\count272
 (c:/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -164,7 +165,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (c:/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count272
+\Hy@SavedSpaceFactor=\count273
 (c:/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -177,7 +178,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count273
+\c@Hy@tempcnt=\count274
 LaTeX Info: Redefining \url on input line 4804.
 \XeTeXLinkMargin=\dimen171
 (c:/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
@@ -185,7 +186,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 (c:/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count274
+\Fld@menulength=\count275
 \Field@Width=\dimen172
 \Fld@charsize=\dimen173
 Package hyperref Info: Hyper figures OFF on input line 6076.
@@ -201,18 +202,18 @@ LaTeX Info: Redefining \pageref on input line 6150.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count275
-\c@Item=\count276
-\c@Hfootnote=\count277
+\Hy@abspage=\count276
+\c@Item=\count277
+\c@Hfootnote=\count278
 )
 Package hyperref Info: Driver: hdvipdfm.
 (c:/texlive/2021/texmf-dist/tex/latex/hyperref/hdvipdfm.def
 File: hdvipdfm.def 2021-06-07 v7.00m Hyperref driver for dvipdfm
 \pdfm@box=\box73
-\c@Hy@AnnotLevel=\count278
-\HyField@AnnotCount=\count279
-\Fld@listcount=\count280
-\c@bookmark@seq@number=\count281
+\c@Hy@AnnotLevel=\count279
+\HyField@AnnotCount=\count280
+\Fld@listcount=\count281
+\c@bookmark@seq@number=\count282
 (c:/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 (c:/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
@@ -228,13 +229,13 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 Package: pxjahyper 2021/06/06 v0.9c
 (c:/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count282
+\etb@tempcnta=\count283
 ) (c:/texlive/2021/texmf-dist/tex/platex/pxjahyper/pxjahyper-enc.sty
 Package: pxjahyper-enc 2021/06/06 v0.9c
 ) (c:/texlive/2021/texmf-dist/tex/latex/bxjatoucs/bxjatoucs.sty
 Package: bxjatoucs 2019/10/20 v0.2
 ))
-\c@fiscal_year=\count283
+\c@fiscal_year=\count284
 (c:/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 (c:/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
@@ -255,45 +256,45 @@ Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count284
-\c@continuedfloat=\count285
+\c@caption@flags=\count285
+\c@continuedfloat=\count286
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 ) (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 File: l3backend-dvips.def 2021-10-18 L3 backend support: dvips
 \l__pdf_internal_box=\box74
-\g__pdf_backend_object_int=\count286
+\g__pdf_backend_object_int=\count287
 \l__pdf_backend_content_box=\box75
 \l__pdf_backend_model_box=\box76
-\g__pdf_backend_annotation_int=\count287
-\g__pdf_backend_link_int=\count288
-\g__pdf_backend_link_sf_int=\count289
-) (out/homma_22.aux)
-\openout1 = `homma_22.aux'.
+\g__pdf_backend_annotation_int=\count288
+\g__pdf_backend_link_int=\count289
+\g__pdf_backend_link_sf_int=\count290
+) (out/homma22.aux)
+\openout1 = `homma22.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-Package hyperref Info: Link coloring OFF on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+Package hyperref Info: Link coloring OFF on input line 42.
 (c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (c:/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -301,125 +302,190 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count290
+\c@section@level=\count291
 )
-LaTeX Info: Redefining \ref on input line 39.
-LaTeX Info: Redefining \pageref on input line 39.
-LaTeX Info: Redefining \nameref on input line 39.
-(out/homma_22.out) (out/homma_22.out)
+LaTeX Info: Redefining \ref on input line 42.
+LaTeX Info: Redefining \pageref on input line 42.
+LaTeX Info: Redefining \nameref on input line 42.
+(out/homma22.out) (out/homma22.out)
 \@outlinefile=\write3
-\openout3 = `homma_22.out'.
+\openout3 = `homma22.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-Overfull \hbox (4.18864pt too wide) in paragraph at lines 65--84
+Overfull \hbox (4.18864pt too wide) in paragraph at lines 68--87
  [] 
  []
 
 [1
 
 ]
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 94.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 94.
-[2] (out/homma_22.toc
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 97.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 97.
+[2
+
+] [3
+
+] (out/homma22.toc
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
 )
 \tf@toc=\write4
-\openout4 = `homma_22.toc'.
+\openout4 = `homma22.toc'.
 
-[3] [1]
+[4
+
+]
+第 1 章
+[1
+
+]
+第 2 章
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 119.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 119.
+[2
+
+] [3]
+第 3 章
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 116.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 144.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 116.
-[2] [3]
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 144.
 
-LaTeX Warning: Reference `' on page 4 undefined on input line 142.
-
-
-LaTeX Warning: Reference `' on page 4 undefined on input line 146.
+LaTeX Warning: Reference `' on page 4 undefined on input line 145.
 
 
-LaTeX Warning: Reference `' on page 4 undefined on input line 148.
+LaTeX Warning: Reference `' on page 4 undefined on input line 149.
 
 
-LaTeX Warning: Reference `' on page 4 undefined on input line 150.
+LaTeX Warning: Reference `' on page 4 undefined on input line 151.
 
+
+LaTeX Warning: Reference `' on page 4 undefined on input line 153.
+
+[4
+
+]
 File: images/dr7_filters.png Graphic file (type bmp)
 <images/dr7_filters.png>
-[4]
 File: images/camera_filters-300x274.png Graphic file (type bmp)
 <images/camera_filters-300x274.png>
 
-LaTeX Warning: Reference `Lintott2008' on page 5 undefined on input line 170.
+LaTeX Warning: Reference `Lintott2008' on page 5 undefined on input line 173.
 
 [5]
 
-LaTeX Warning: Reference `Lintott2010' on page 6 undefined on input line 172.
+LaTeX Warning: Reference `Lintott2010' on page 6 undefined on input line 175.
 
 
-LaTeX Warning: Reference `Willett2013' on page 6 undefined on input line 172.
+LaTeX Warning: Reference `Willett2013' on page 6 undefined on input line 175.
 
 File: images/gz1_website.png Graphic file (type bmp)
 <images/gz1_website.png>
 
-LaTeX Warning: Reference `Lintott2010' on page 6 undefined on input line 180.
+LaTeX Warning: Reference `Lintott2010' on page 6 undefined on input line 183.
 
 
-LaTeX Warning: Reference `Lintott2010' on page 6 undefined on input line 180.
+LaTeX Warning: Reference `Lintott2010' on page 6 undefined on input line 183.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6]
 File: images/table2.png Graphic file (type bmp)
 <images/table2.png>
 
-Overfull \hbox (56.90552pt too wide) in paragraph at lines 202--203
+Overfull \hbox (56.90552pt too wide) in paragraph at lines 205--206
  [][] 
  []
 
 [7]
+第 4 章
 File: images/z_15000_4.png Graphic file (type bmp)
 <images/z_15000_4.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `Cheng2019' on page 8 undefined on input line 229.
+LaTeX Warning: Reference `Cheng2019' on page 8 undefined on input line 232.
 
+[8
+
+]
 File: images/model_shape.PNG Graphic file (type bmp)
 <images/model_shape.PNG>
+[9] [10]
+File: images/losses_ex4-1.png Graphic file (type bmp)
+<images/losses_ex4-1.png>
+File: images/losses_ex4-2.png Graphic file (type bmp)
+<images/losses_ex4-2.png>
+File: images/accs_ex4-1.png Graphic file (type bmp)
+<images/accs_ex4-1.png>
+File: images/accs_ex4-2.png Graphic file (type bmp)
+<images/accs_ex4-2.png>
+[11]
+File: images/cm_mean_std_ex4-1.png Graphic file (type bmp)
+<images/cm_mean_std_ex4-1.png>
+File: images/cm_mean_std_ex4-2.png Graphic file (type bmp)
+<images/cm_mean_std_ex4-2.png>
+[12] [13] [14]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `' on page 15 undefined on input line 395.
 
-[8] [9]
 
-LaTeX Warning: Reference `' on page 10 undefined on input line 273.
+LaTeX Warning: Reference `' on page 15 undefined on input line 395.
 
-[10]
+[15]
+File: images/losses_ex4-2.png Graphic file (type bmp)
+<images/losses_ex4-2.png>
+File: images/losses_ex4-3.png Graphic file (type bmp)
+<images/losses_ex4-3.png>
+File: images/accs_ex4-2.png Graphic file (type bmp)
+<images/accs_ex4-2.png>
+File: images/accs_ex4-2.png Graphic file (type bmp)
+<images/accs_ex4-2.png>
+[16]
+File: images/cm_mean_std_ex4-2.png Graphic file (type bmp)
+<images/cm_mean_std_ex4-2.png>
+File: images/cm_mean_std_ex4-3.png Graphic file (type bmp)
+<images/cm_mean_std_ex4-3.png>
+[17]
+第 5 章
+[18
 
-LaTeX Warning: Reference `' on page 11 undefined on input line 334.
+]
+第 6 章
+[19
 
-[11] [12] [13] [14]
-No file homma_22.bbl.
-[15] (out/homma_22.aux)
+]
+第 7 章
+[20
+
+]
+No file homma22.bbl.
+[21
+
+] (out/homma22.aux)
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `homma_22.out' has not changed.
-(rerunfilecheck)             Checksum: 9AA2267408B96F031747300F6A02D849;1397.
+Package rerunfilecheck Info: File `homma22.out' has not changed.
+(rerunfilecheck)             Checksum: 7DEB6BF03D25FA0EDEC1C2A788786B35;1588.
  ) 
 Here is how much of TeX's memory you used:
- 10567 strings out of 479042
- 158704 string characters out of 5869023
- 475807 words of memory out of 5000000
- 28557 multiletter control sequences out of 15000+600000
- 447695 words of font info for 81 fonts, out of 8000000 for 9000
+ 10633 strings out of 479042
+ 159958 string characters out of 5869023
+ 478202 words of memory out of 5000000
+ 28619 multiletter control sequences out of 15000+600000
+ 449227 words of font info for 87 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 60i,8n,66p,770b,630s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,9n,66p,814b,630s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/homma_22.dvi (18 pages, 40800 bytes).
+Output written on out/homma22.dvi (25 pages, 62100 bytes).

@@ -2,19 +2,19 @@ PWD c:/Users/homma/Documents/master_thesis
 INPUT c:/texlive/2021/texmf.cnf
 INPUT c:/texlive/2021/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2021/texmf-var/web2c/eptex/platex.fmt
-INPUT c:/Users/homma/Documents/master_thesis/homma_22.tex
-OUTPUT out/homma_22.log
-INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jarticle.cls
-INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jarticle.cls
-INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jarticle.cls
-INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jarticle.cls
-INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jarticle.cls
-INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jarticle.cls
-INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jarticle.cls
-INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jarticle.cls
-INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jarticle.cls
-INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jarticle.cls
-INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jarticle.cls
+INPUT c:/Users/homma/Documents/master_thesis/homma22.tex
+OUTPUT out/homma22.log
+INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jreport.cls
+INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jreport.cls
+INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jreport.cls
+INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jreport.cls
+INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jreport.cls
+INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jreport.cls
+INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jreport.cls
+INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jreport.cls
+INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jreport.cls
+INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jreport.cls
+INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jreport.cls
 INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jsize11.clo
 INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jsize11.clo
 INPUT c:/texlive/2021/texmf-dist/tex/platex/base/jsize11.clo
@@ -549,10 +549,10 @@ INPUT c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 INPUT c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 INPUT c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 INPUT c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-INPUT out/homma_22.aux
-INPUT out/homma_22.aux
-INPUT out/homma_22.aux
-OUTPUT out/homma_22.aux
+INPUT out/homma22.aux
+INPUT out/homma22.aux
+INPUT out/homma22.aux
+OUTPUT out/homma22.aux
 INPUT c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -590,17 +590,17 @@ INPUT c:/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT c:/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 INPUT c:/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-INPUT out/homma_22.out
-INPUT out/homma_22.out
-INPUT out/homma_22.out
-INPUT out/homma_22.out
-INPUT out/homma_22.out
-INPUT out/homma_22.out
-INPUT out/homma_22.out
-INPUT out/homma_22.out
-INPUT out/homma_22.out
-INPUT out/homma_22.out
-OUTPUT out/homma_22.out
+INPUT out/homma22.out
+INPUT out/homma22.out
+INPUT out/homma22.out
+INPUT out/homma22.out
+INPUT out/homma22.out
+INPUT out/homma22.out
+INPUT out/homma22.out
+INPUT out/homma22.out
+INPUT out/homma22.out
+INPUT out/homma22.out
+OUTPUT out/homma22.out
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
@@ -611,13 +611,16 @@ INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-OUTPUT out/homma_22.dvi
+OUTPUT out/homma22.dvi
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT out/homma_22.toc
-INPUT out/homma_22.toc
-INPUT out/homma_22.toc
+INPUT out/homma22.toc
+INPUT out/homma22.toc
+INPUT out/homma22.toc
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
@@ -634,13 +637,17 @@ INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/standard/min8.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/standard/min6.tfm
-OUTPUT out/homma_22.toc
+OUTPUT out/homma22.toc
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./images/dr7_filters.png
 INPUT ./images/dr7_filters.png
 INPUT images/dr7_filters.png
 INPUT extractbb -B cropbox -O images/dr7_filters.png
+INPUT ./images/camera_filters-300x274.png
 INPUT ./images/camera_filters-300x274.png
 INPUT images/camera_filters-300x274.png
 INPUT extractbb -B cropbox -O images/camera_filters-300x274.png
@@ -661,6 +668,50 @@ INPUT ./images/model_shape.png
 INPUT ./images/model_shape.png
 INPUT images/model_shape.png
 INPUT extractbb -B cropbox -O images/model_shape.PNG
-INPUT out/homma_22.aux
-INPUT out/homma_22.out
-INPUT out/homma_22.out
+INPUT ./images/losses_ex4-1.png
+INPUT ./images/losses_ex4-1.png
+INPUT images/losses_ex4-1.png
+INPUT extractbb -B cropbox -O images/losses_ex4-1.png
+INPUT ./images/losses_ex4-2.png
+INPUT ./images/losses_ex4-2.png
+INPUT images/losses_ex4-2.png
+INPUT extractbb -B cropbox -O images/losses_ex4-2.png
+INPUT ./images/accs_ex4-1.png
+INPUT ./images/accs_ex4-1.png
+INPUT images/accs_ex4-1.png
+INPUT extractbb -B cropbox -O images/accs_ex4-1.png
+INPUT ./images/accs_ex4-2.png
+INPUT ./images/accs_ex4-2.png
+INPUT images/accs_ex4-2.png
+INPUT extractbb -B cropbox -O images/accs_ex4-2.png
+INPUT ./images/cm_mean_std_ex4-1.png
+INPUT ./images/cm_mean_std_ex4-1.png
+INPUT images/cm_mean_std_ex4-1.png
+INPUT extractbb -B cropbox -O images/cm_mean_std_ex4-1.png
+INPUT ./images/cm_mean_std_ex4-2.png
+INPUT ./images/cm_mean_std_ex4-2.png
+INPUT images/cm_mean_std_ex4-2.png
+INPUT extractbb -B cropbox -O images/cm_mean_std_ex4-2.png
+INPUT ./images/losses_ex4-2.png
+INPUT ./images/losses_ex4-2.png
+INPUT images/losses_ex4-2.png
+INPUT ./images/losses_ex4-3.png
+INPUT ./images/losses_ex4-3.png
+INPUT images/losses_ex4-3.png
+INPUT extractbb -B cropbox -O images/losses_ex4-3.png
+INPUT ./images/accs_ex4-2.png
+INPUT ./images/accs_ex4-2.png
+INPUT images/accs_ex4-2.png
+INPUT ./images/accs_ex4-2.png
+INPUT ./images/accs_ex4-2.png
+INPUT images/accs_ex4-2.png
+INPUT ./images/cm_mean_std_ex4-2.png
+INPUT ./images/cm_mean_std_ex4-2.png
+INPUT images/cm_mean_std_ex4-2.png
+INPUT ./images/cm_mean_std_ex4-3.png
+INPUT ./images/cm_mean_std_ex4-3.png
+INPUT images/cm_mean_std_ex4-3.png
+INPUT extractbb -B cropbox -O images/cm_mean_std_ex4-3.png
+INPUT out/homma22.aux
+INPUT out/homma22.out
+INPUT out/homma22.out

@@ -1,0 +1,23 @@
+%このファイルは日本語文字を含みます.
+\BOOKMARK [0][-]{chapter.1}{はじめに}{}% 1
+\BOOKMARK [0][-]{chapter.2}{深層学習}{}% 2
+\BOOKMARK [1][-]{section.2.1}{パーセプトロン}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{ニューラルネットワーク}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{損失関数と重み更新}{chapter.2}% 5
+\BOOKMARK [0][-]{chapter.3}{使用するデータセット}{}% 6
+\BOOKMARK [1][-]{section.3.1}{Sloan Digital Sky Survey\(SDSS\)}{chapter.3}% 7
+\BOOKMARK [1][-]{section.3.2}{Galaxy Zoo \(GZ\)}{chapter.3}% 8
+\BOOKMARK [0][-]{chapter.4}{SDSS \046 Galaxy Zooを用いた分類モデル学習}{}% 9
+\BOOKMARK [1][-]{section.4.1}{実験概要}{chapter.4}% 10
+\BOOKMARK [1][-]{section.4.2}{不確かラベルが与える分類精度への影響}{chapter.4}% 11
+\BOOKMARK [2][-]{subsection.4.2.1}{実験条件}{section.4.2}% 12
+\BOOKMARK [2][-]{subsection.4.2.2}{実験結果}{section.4.2}% 13
+\BOOKMARK [1][-]{section.4.3}{不確かラベルが与える分類精度への影響}{chapter.4}% 14
+\BOOKMARK [2][-]{subsection.4.3.1}{実験条件}{section.4.3}% 15
+\BOOKMARK [2][-]{subsection.4.3.2}{実験結果}{section.4.3}% 16
+\BOOKMARK [0][-]{chapter.5}{空間解像度差のあるデータセットを用いた分類モデル学習}{}% 17
+\BOOKMARK [0][-]{chapter.6}{議論}{}% 18
+\BOOKMARK [1][-]{section.6.1}{今回の実験から得た結論}{chapter.6}% 19
+\BOOKMARK [1][-]{section.6.2}{将来課題}{chapter.6}% 20
+\BOOKMARK [1][-]{section.6.3}{将来展望}{chapter.6}% 21
+\BOOKMARK [0][-]{chapter.7}{おわりに}{}% 22
