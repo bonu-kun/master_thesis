@@ -11,21 +11,27 @@
 \contentsline {subsubsection}{学習データ}{8}{section*.13}%
 \contentsline {subsubsection}{モデル構造}{9}{section*.15}%
 \contentsline {subsubsection}{モデルの評価方法}{10}{section*.17}%
-\contentsline {section}{\numberline {4.2}不確かラベルが与える分類精度への影響}{10}{section.4.2}%
+\contentsline {section}{\numberline {4.2}不確かラベルが与える分類精度への影響}{11}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}実験条件}{11}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}実験結果}{11}{subsection.4.2.2}%
-\contentsline {subsubsection}{学習結果}{11}{section*.18}%
-\contentsline {subsubsection}{結果}{13}{section*.22}%
-\contentsline {paragraph}{モデル学習の進行}{13}{section*.23}%
-\contentsline {paragraph}{テストデータに対するaccuracyの評価}{13}{section*.24}%
-\contentsline {paragraph}{混同行列の導出方法，および両モデルにおける比較}{13}{section*.25}%
-\contentsline {section}{\numberline {4.3}不確かラベルが与える分類精度への影響}{14}{section.4.3}%
+\contentsline {subsubsection}{学習結果}{11}{section*.19}%
+\contentsline {subsubsection}{結果}{13}{section*.23}%
+\contentsline {paragraph}{モデル学習の進行}{13}{section*.24}%
+\contentsline {paragraph}{テストデータに対するaccuracyの評価}{13}{section*.25}%
+\contentsline {paragraph}{混同行列の導出方法，および両モデルにおける比較}{14}{section*.27}%
+\contentsline {section}{\numberline {4.3}データインバランスが与える分類精度への影響}{15}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}実験条件}{15}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}実験結果}{15}{subsection.4.3.2}%
-\contentsline {subsubsection}{学習結果}{15}{section*.27}%
-\contentsline {chapter}{\numberline {第5章}空間解像度差のあるデータセットを用いた分類モデル学習}{18}{chapter.5}%
-\contentsline {chapter}{\numberline {第6章}議論}{19}{chapter.6}%
-\contentsline {section}{\numberline {6.1}今回の実験から得た結論}{19}{section.6.1}%
-\contentsline {section}{\numberline {6.2}将来課題}{19}{section.6.2}%
-\contentsline {section}{\numberline {6.3}将来展望}{19}{section.6.3}%
-\contentsline {chapter}{\numberline {第7章}おわりに}{20}{chapter.7}%
+\contentsline {subsection}{\numberline {4.3.2}実験結果}{16}{subsection.4.3.2}%
+\contentsline {subsubsection}{学習結果}{16}{section*.28}%
+\contentsline {subsubsection}{結果}{17}{section*.32}%
+\contentsline {paragraph}{モデル学習の進行}{17}{section*.33}%
+\contentsline {paragraph}{テストデータに対するaccuracyの評価}{18}{section*.34}%
+\contentsline {paragraph}{TSSの導出方法，および両分類モデルの分類性能評価}{18}{section*.35}%
+\contentsline {paragraph}{混同行列によるモデルの評価}{18}{section*.36}%
+\contentsline {section}{\numberline {4.4}4章全体の議論・結論}{19}{section.4.4}%
+\contentsline {chapter}{\numberline {第5章}空間解像度差のあるデータセットを用いた分類モデル学習}{21}{chapter.5}%
+\contentsline {chapter}{\numberline {第6章}議論}{22}{chapter.6}%
+\contentsline {section}{\numberline {6.1}今回の実験から得た結論}{22}{section.6.1}%
+\contentsline {section}{\numberline {6.2}将来課題}{22}{section.6.2}%
+\contentsline {section}{\numberline {6.3}将来展望}{22}{section.6.3}%
+\contentsline {chapter}{\numberline {第7章}おわりに}{23}{chapter.7}%

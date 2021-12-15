@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex out/homma22"] 1639480255 "out/homma22.aux" "out/homma22.bbl" "out/homma22" 1639480255
+["bibtex out/homma22"] 1639562030 "out/homma22.aux" "out/homma22.bbl" "out/homma22" 1639562063
   "Master_thesis_bib.bib" 0 -1 0 ""
   "junsrt.bst" 0 -1 0 ""
-  "out/homma22.aux" 1639480200 11745 5d9e3ffc71a1df6cd158c939a51abd99 "latex"
+  "out/homma22.aux" 1639562053 13932 c693a6dd4dd204a08b25f8ca9244264c "latex"
   (generated)
-  "out/homma22.blg"
   "out/homma22.bbl"
-["dvipdf"] 1639480202 "out/homma22.dvi" "out/homma22.pdf" "out/homma22" 1639480255
-  "out/homma22.dvi" 1639480200 62100 caa467402be23e549899f03e150dc52e "latex"
+  "out/homma22.blg"
+["dvipdf"] 1639562056 "out/homma22.dvi" "out/homma22.pdf" "out/homma22" 1639562063
+  "out/homma22.dvi" 1639562053 78008 bcd14bcd7a92b2c88c1be9128a07c6e7 "latex"
   (generated)
   "out/homma22.pdf"
-["latex"] 1639480187 "c:/Users/homma/Documents/master_thesis/homma22.tex" "out/homma22.dvi" "homma22" 1639480255
-  "c:/Users/homma/Documents/master_thesis/homma22.tex" 1639480253 34732 93a9838b45ea73178f2bb86e79acacca ""
+["latex"] 1639562030 "c:/Users/homma/Documents/master_thesis/homma22.tex" "out/homma22.dvi" "homma22" 1639562063
+  "c:/Users/homma/Documents/master_thesis/homma22.tex" 1639562007 43578 97d4c162546b8e01fe9664429157d076 ""
   "c:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1634742705 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1634741924 1536 02c06700a42be0f5a28664c7273f82e7 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1634747306 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
@@ -97,10 +97,12 @@
   "c:/texlive/2021/texmf-dist/web2c/texmf.cnf" 1634744139 40042 fe981136cbb5f3715ab1b0e46e3d3892 ""
   "c:/texlive/2021/texmf-var/web2c/eptex/platex.fmt" 1634750636 2759443 2cd5a2378d73c5d385b1cb7c08ab4618 ""
   "c:/texlive/2021/texmf.cnf" 1634750390 713 e69b156964470283e0530f5060668171 ""
-  "homma22.tex" 1639480253 34732 93a9838b45ea73178f2bb86e79acacca ""
+  "homma22.tex" 1639562007 43578 97d4c162546b8e01fe9664429157d076 ""
   "images/accs_ex4-1.png" 1639357590 54737 9182f47cba93936b5f82fbfe34988a06 ""
   "images/accs_ex4-2.png" 1639357594 51711 e93ed198b92a4076b65bb8d16d52e2be ""
+  "images/accs_ex4-3.png" 1639357592 62824 32b2a470ec49f4e4b324f9417cdc22cb ""
   "images/camera_filters-300x274.png" 1638957998 17390 4cd1c1cac67604491e9362057f4fb478 ""
+  "images/cm.png" 1639540177 45804 7d88c4a5ad4da1c4fdd8c08691699c8b ""
   "images/cm_mean_std_ex4-1.png" 1637871358 56498 1718b1003bbd9a9e6f81f9a006802bd9 ""
   "images/cm_mean_std_ex4-2.png" 1637871406 39124 d6a981192aec1eebe002eb85331be875 ""
   "images/cm_mean_std_ex4-3.png" 1637871414 41107 7528abd5141b66698575c0270dbfd552 ""
@@ -113,13 +115,13 @@
   "images/model_shape.png" 1639127916 33823 fd39c365e0b9f698f5b6bd7662a856c2 ""
   "images/table2.png" 1639010436 10244 b33618c89a7b6043a83d6f953f16c0ad ""
   "images/z_15000_4.png" 1623835576 13543 af126e4525083dd5d15cb290eee40ad9 ""
-  "out/homma22.aux" 1639480200 11745 5d9e3ffc71a1df6cd158c939a51abd99 "latex"
+  "out/homma22.aux" 1639562053 13932 c693a6dd4dd204a08b25f8ca9244264c "latex"
   "out/homma22.bbl" 0 -1 0 "bibtex out/homma22"
-  "out/homma22.out" 1639480200 1588 7deb6bf03d25fa0edec1c2a788786b35 "latex"
-  "out/homma22.toc" 1639480200 2598 c49adbf192fab1e871b22b73725ba09a "latex"
+  "out/homma22.out" 1639562053 1672 adc0dcb57908788a90dbce7265073a62 "latex"
+  "out/homma22.toc" 1639562053 3115 3bba3a7f259e204618762d5aa4f52ca2 "latex"
   (generated)
+  "out/homma22.log"
+  "out/homma22.out"
   "out/homma22.aux"
   "out/homma22.dvi"
-  "out/homma22.out"
   "out/homma22.toc"
-  "out/homma22.log"

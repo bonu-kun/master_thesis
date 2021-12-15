@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.21)  14 DEC 2021 20:09
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.21)  15 DEC 2021 18:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -421,7 +421,10 @@ LaTeX Warning: Reference `Cheng2019' on page 8 undefined on input line 232.
 ]
 File: images/model_shape.PNG Graphic file (type bmp)
 <images/model_shape.PNG>
-[9] [10]
+[9]
+File: images/cm.png Graphic file (type bmp)
+<images/cm.png>
+[10] [11]
 File: images/losses_ex4-1.png Graphic file (type bmp)
 <images/losses_ex4-1.png>
 File: images/losses_ex4-2.png Graphic file (type bmp)
@@ -430,62 +433,55 @@ File: images/accs_ex4-1.png Graphic file (type bmp)
 <images/accs_ex4-1.png>
 File: images/accs_ex4-2.png Graphic file (type bmp)
 <images/accs_ex4-2.png>
-[11]
+[12]
 File: images/cm_mean_std_ex4-1.png Graphic file (type bmp)
 <images/cm_mean_std_ex4-1.png>
 File: images/cm_mean_std_ex4-2.png Graphic file (type bmp)
 <images/cm_mean_std_ex4-2.png>
-[12] [13] [14]
-
-LaTeX Warning: Reference `' on page 15 undefined on input line 395.
-
-
-LaTeX Warning: Reference `' on page 15 undefined on input line 395.
-
-[15]
+[13] [14] [15]
 File: images/losses_ex4-2.png Graphic file (type bmp)
 <images/losses_ex4-2.png>
 File: images/losses_ex4-3.png Graphic file (type bmp)
 <images/losses_ex4-3.png>
 File: images/accs_ex4-2.png Graphic file (type bmp)
 <images/accs_ex4-2.png>
-File: images/accs_ex4-2.png Graphic file (type bmp)
-<images/accs_ex4-2.png>
+File: images/accs_ex4-3.png Graphic file (type bmp)
+<images/accs_ex4-3.png>
 [16]
 File: images/cm_mean_std_ex4-2.png Graphic file (type bmp)
 <images/cm_mean_std_ex4-2.png>
 File: images/cm_mean_std_ex4-3.png Graphic file (type bmp)
 <images/cm_mean_std_ex4-3.png>
-[17]
+[17] [18] [19] [20]
 第 5 章
-[18
+[21
 
 ]
 第 6 章
-[19
+[22
 
 ]
 第 7 章
-[20
+[23
 
 ]
 No file homma22.bbl.
-[21
+[24
 
 ] (out/homma22.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `homma22.out' has not changed.
-(rerunfilecheck)             Checksum: 7DEB6BF03D25FA0EDEC1C2A788786B35;1588.
+(rerunfilecheck)             Checksum: ADC0DCB57908788A90DBCE7265073A62;1672.
  ) 
 Here is how much of TeX's memory you used:
- 10633 strings out of 479042
- 159958 string characters out of 5869023
- 478202 words of memory out of 5000000
- 28619 multiletter control sequences out of 15000+600000
+ 10645 strings out of 479042
+ 160195 string characters out of 5869023
+ 479523 words of memory out of 5000000
+ 28630 multiletter control sequences out of 15000+600000
  449227 words of font info for 87 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 60i,9n,66p,814b,630s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,9n,66p,769b,624s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/homma22.dvi (25 pages, 62100 bytes).
+Output written on out/homma22.dvi (28 pages, 78008 bytes).
