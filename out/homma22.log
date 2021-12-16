@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.21)  15 DEC 2021 18:53
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.21)  16 DEC 2021 18:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -408,13 +408,19 @@ Overfull \hbox (56.90552pt too wide) in paragraph at lines 205--206
 
 [7]
 第 4 章
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 219.
+
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 219.
+
 File: images/z_15000_4.png Graphic file (type bmp)
 <images/z_15000_4.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `Cheng2019' on page 8 undefined on input line 232.
+LaTeX Warning: Reference `Cheng2019' on page 8 undefined on input line 246.
 
 [8
 
@@ -484,4 +490,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  60i,9n,66p,769b,624s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/homma22.dvi (28 pages, 78008 bytes).
+Output written on out/homma22.dvi (28 pages, 78912 bytes).
