@@ -17,8 +17,11 @@
 \BOOKMARK [2][-]{subsection.4.3.2}{実験結果}{section.4.3}% 16
 \BOOKMARK [1][-]{section.4.4}{4章全体の議論・結論}{chapter.4}% 17
 \BOOKMARK [0][-]{chapter.5}{空間解像度差のあるデータセットを用いた分類モデル学習}{}% 18
-\BOOKMARK [0][-]{chapter.6}{議論}{}% 19
-\BOOKMARK [1][-]{section.6.1}{今回の実験から得た結論}{chapter.6}% 20
-\BOOKMARK [1][-]{section.6.2}{将来課題}{chapter.6}% 21
-\BOOKMARK [1][-]{section.6.3}{将来展望}{chapter.6}% 22
-\BOOKMARK [0][-]{chapter.7}{おわりに}{}% 23
+\BOOKMARK [1][-]{section.5.1}{実験概要}{chapter.5}% 19
+\BOOKMARK [1][-]{section.5.2}{分類精度のデータセット内解像度差依存性}{chapter.5}% 20
+\BOOKMARK [2][-]{subsection.5.2.1}{実験条件}{section.5.2}% 21
+\BOOKMARK [0][-]{chapter.6}{議論}{}% 22
+\BOOKMARK [1][-]{section.6.1}{今回の実験から得た結論}{chapter.6}% 23
+\BOOKMARK [1][-]{section.6.2}{将来課題}{chapter.6}% 24
+\BOOKMARK [1][-]{section.6.3}{将来展望}{chapter.6}% 25
+\BOOKMARK [0][-]{chapter.7}{おわりに}{}% 26
