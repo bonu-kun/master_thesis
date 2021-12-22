@@ -38,8 +38,15 @@
 \contentsline {subsubsection}{モデルの評価方法}{23}{section*.47}%
 \contentsline {section}{\numberline {5.2}分類精度のデータセット内解像度差依存性}{25}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}実験条件}{25}{subsection.5.2.1}%
-\contentsline {chapter}{\numberline {第6章}議論}{26}{chapter.6}%
-\contentsline {section}{\numberline {6.1}今回の実験から得た結論}{26}{section.6.1}%
-\contentsline {section}{\numberline {6.2}将来課題}{26}{section.6.2}%
-\contentsline {section}{\numberline {6.3}将来展望}{26}{section.6.3}%
-\contentsline {chapter}{\numberline {第7章}おわりに}{27}{chapter.7}%
+\contentsline {subsection}{\numberline {5.2.2}実験結果}{26}{subsection.5.2.2}%
+\contentsline {subsubsection}{縮小データに対する予測結果}{26}{section*.48}%
+\contentsline {subsubsection}{結果}{29}{section*.53}%
+\contentsline {paragraph}{縮小データの縮小倍率における結果}{29}{section*.54}%
+\contentsline {paragraph}{標準誤差(1std)における予測結果}{29}{section*.55}%
+\contentsline {section}{\numberline {5.3}分類精度の使用画像枚数依存性}{32}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}実験条件}{32}{subsection.5.3.1}%
+\contentsline {chapter}{\numberline {第6章}議論}{33}{chapter.6}%
+\contentsline {section}{\numberline {6.1}今回の実験から得た結論}{33}{section.6.1}%
+\contentsline {section}{\numberline {6.2}将来課題}{33}{section.6.2}%
+\contentsline {section}{\numberline {6.3}将来展望}{33}{section.6.3}%
+\contentsline {chapter}{\numberline {第7章}おわりに}{34}{chapter.7}%
