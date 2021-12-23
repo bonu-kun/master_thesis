@@ -1,10 +1,10 @@
 # Fdb version 3
-["dvipdf"] 1640165159 "out/homma22.dvi" "out/homma22.pdf" "out/homma22" 1640165255
-  "out/homma22.dvi" 1640165159 110420 44d5b85daab3657b45792f0d5dfa5cf6 "latex"
+["dvipdf"] 1640260531 "out/homma22.dvi" "out/homma22.pdf" "out/homma22" 1640260547
+  "out/homma22.dvi" 1640260531 129160 dcfd761eafa184e42e20755080c647d4 "latex"
   (generated)
   "out/homma22.pdf"
-["latex"] 1640165135 "c:/Users/homma/Documents/master_thesis/homma22.tex" "out/homma22.dvi" "homma22" 1640165255
-  "c:/Users/homma/Documents/master_thesis/homma22.tex" 1640165132 61872 63cfda788b645ed76a14cd9fa2158b1a ""
+["latex"] 1640260503 "c:/Users/homma/Documents/master_thesis/homma22.tex" "out/homma22.dvi" "homma22" 1640260547
+  "c:/Users/homma/Documents/master_thesis/homma22.tex" 1640260473 73420 44a92e087c08fcc3a743c77bfe4f2736 ""
   "c:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1634742705 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1634741924 1536 02c06700a42be0f5a28664c7273f82e7 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1634747306 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
@@ -91,13 +91,16 @@
   "c:/texlive/2021/texmf-dist/web2c/texmf.cnf" 1634744139 40042 fe981136cbb5f3715ab1b0e46e3d3892 ""
   "c:/texlive/2021/texmf-var/web2c/eptex/platex.fmt" 1634750636 2759443 2cd5a2378d73c5d385b1cb7c08ab4618 ""
   "c:/texlive/2021/texmf.cnf" 1634750390 713 e69b156964470283e0530f5060668171 ""
-  "homma22.tex" 1640165132 61872 63cfda788b645ed76a14cd9fa2158b1a ""
+  "homma22.tex" 1640260473 73420 44a92e087c08fcc3a743c77bfe4f2736 ""
   "images/5syou/print_errorbar/cubic/acc_with_errorbar_syuron5_cubic_900epoch_30run_300_acc_max_std1sigma.png" 1639791242 127856 1c945ce6effe861cb10f2192013e2dca ""
   "images/5syou/print_errorbar/cubic/acc_with_errorbar_syuron5_cubic_900epoch_30run_300_acc_max_ste1sigma.png" 1639791242 127496 63e4394b1f29c6fe0ca68756dc8857d1 ""
+  "images/5syou/print_errorbar/cubic/acc_with_errorbar_syuron5_cubic_900epoch_30run_num_of_gal_comparison_acc_max_std1sigma.png" 1640126872 65852 d59de51f08c6868c92271dc3cb805f8f ""
   "images/5syou/print_errorbar/linear/acc_with_errorbar_syuron5_linear_900epoch_30run_300_acc_max_std1sigma.png" 1639791214 130568 a0c982fa2669cfb406605fc27fb88c95 ""
   "images/5syou/print_errorbar/linear/acc_with_errorbar_syuron5_linear_900epoch_30run_300_acc_max_ste1sigma.png" 1639791214 129192 db9a0b56e3ce140f7bea3a938e3dc510 ""
+  "images/5syou/print_errorbar/linear/acc_with_errorbar_syuron5_linear_900epoch_30run_num_of_gal_comparison_acc_max_std1sigma.png" 1640126862 65598 d1e2b94cc0f24ccf11dc9b97e386f301 ""
   "images/5syou/print_errorbar/nearest/acc_with_errorbar_syuron5_nearest_900epoch_30run_300_acc_max_std1sigma.png" 1639791090 129863 49ec0c61f4844f8c22cadbeea4a81277 ""
   "images/5syou/print_errorbar/nearest/acc_with_errorbar_syuron5_nearest_900epoch_30run_300_acc_max_ste1sigma.png" 1639791090 130123 f08c16d9a49fd870b680a7c9abdf3acc ""
+  "images/5syou/print_errorbar/nearest/acc_with_errorbar_syuron5_nearest_900epoch_30run_num_of_gal_comparison_acc_max_std1sigma.png" 1640126852 66048 a9f26fbc240e9088af946ea7c22eff14 ""
   "images/5syou/print_errorbar/print_errorbar_inter_comparison/acc_with_errorbar_syuron5_inter_comparison_900epoch_30run_300_acc_max_std1sigma.png" 1640126766 60085 7597b7e98e6ecd84655ce7b519cde0dc ""
   "images/5syou/syuron_5syou_kakudai/ver1/5syou_kakudai_ver1.png" 1640072476 377836 fd6c5b21d23fe1c05787a433713aca24 ""
   "images/5syou/syuron_5syou_kakudai/ver1/5syou_shrink_ver1.png" 1640035824 202615 fbd872dbbe9d7258e24196e1067133e9 ""
@@ -118,12 +121,12 @@
   "images/model_shape.png" 1639127916 33823 fd39c365e0b9f698f5b6bd7662a856c2 ""
   "images/table2.png" 1639010436 10244 b33618c89a7b6043a83d6f953f16c0ad ""
   "images/z_15000_4.png" 1623835576 13543 af126e4525083dd5d15cb290eee40ad9 ""
-  "out/homma22.aux" 1640165159 19881 7ecde32c5da4c009fbefd5c2fd1c6aaa "latex"
-  "out/homma22.out" 1640165159 2122 487d3ecd72db84f96a600712e878779c "latex"
-  "out/homma22.toc" 1640165159 4399 b650d429292fd9f273d472b9f38734fe "latex"
+  "out/homma22.aux" 1640260531 22194 a404c935a169dac6dc5f55889a88de7b "latex"
+  "out/homma22.out" 1640260531 2263 10c12046be402c21eb2b0887824832cf "latex"
+  "out/homma22.toc" 1640260531 5064 7fa163cf7f8647ad0a93010223d4c9ce "latex"
   (generated)
-  "out/homma22.out"
   "out/homma22.log"
-  "out/homma22.aux"
   "out/homma22.toc"
   "out/homma22.dvi"
+  "out/homma22.aux"
+  "out/homma22.out"
