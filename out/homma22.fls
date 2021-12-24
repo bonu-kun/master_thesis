@@ -782,6 +782,10 @@ INPUT ./images/5syou/print_errorbar/cubic/acc_with_errorbar_syuron5_cubic_900epo
 INPUT ./images/5syou/print_errorbar/cubic/acc_with_errorbar_syuron5_cubic_900epoch_30run_num_of_gal_comparison_acc_max_std1sigma.png
 INPUT images/5syou/print_errorbar/cubic/acc_with_errorbar_syuron5_cubic_900epoch_30run_num_of_gal_comparison_acc_max_std1sigma.png
 INPUT extractbb -B cropbox -O images/5syou/print_errorbar/cubic/acc_with_errorbar_syuron5_cubic_900epoch_30run_num_of_gal_comparison_acc_max_std1sigma.png
+INPUT ./images/5syou/syuron_5syou_kakudai/ver1/5syou_giron_1_6and1_7.png
+INPUT ./images/5syou/syuron_5syou_kakudai/ver1/5syou_giron_1_6and1_7.png
+INPUT images/5syou/syuron_5syou_kakudai/ver1/5syou_giron_1_6and1_7.png
+INPUT extractbb -B cropbox -O images/5syou/syuron_5syou_kakudai/ver1/5syou_giron_1_6and1_7.png
 INPUT out/homma22.aux
 INPUT out/homma22.out
 INPUT out/homma22.out

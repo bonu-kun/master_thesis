@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.21)  23 DEC 2021 20:55
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.21)  24 DEC 2021 18:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -515,7 +515,10 @@ File: images/5syou/print_errorbar/linear/acc_with_errorbar_syuron5_linear_900epo
 <images/5syou/print_errorbar/linear/acc_with_errorbar_syuron5_linear_900epoch_30run_num_of_gal_comparison_acc_max_std1sigma.png>
 File: images/5syou/print_errorbar/cubic/acc_with_errorbar_syuron5_cubic_900epoch_30run_num_of_gal_comparison_acc_max_std1sigma.png Graphic file (type bmp)
 <images/5syou/print_errorbar/cubic/acc_with_errorbar_syuron5_cubic_900epoch_30run_num_of_gal_comparison_acc_max_std1sigma.png>
-[34] [35] [36] [37]
+[34] [35] [36]
+File: images/5syou/syuron_5syou_kakudai/ver1/5syou_giron_1_6and1_7.png Graphic file (type bmp)
+<images/5syou/syuron_5syou_kakudai/ver1/5syou_giron_1_6and1_7.png>
+[37]
 第 6 章
 [38
 
@@ -533,12 +536,12 @@ Package rerunfilecheck Info: File `homma22.out' has not changed.
 (rerunfilecheck)             Checksum: 10C12046BE402C21EB2B0887824832CF;2263.
  ) 
 Here is how much of TeX's memory you used:
- 10863 strings out of 479042
- 169299 string characters out of 5869023
- 483931 words of memory out of 5000000
- 28823 multiletter control sequences out of 15000+600000
+ 10870 strings out of 479042
+ 169651 string characters out of 5869023
+ 484069 words of memory out of 5000000
+ 28829 multiletter control sequences out of 15000+600000
  449227 words of font info for 87 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  60i,9n,66p,769b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/homma22.dvi (45 pages, 129160 bytes).
+Output written on out/homma22.dvi (45 pages, 129400 bytes).
