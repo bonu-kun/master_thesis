@@ -675,6 +675,14 @@ INPUT ./images/z_15000_4.png
 INPUT ./images/z_15000_4.png
 INPUT images/z_15000_4.png
 INPUT extractbb -B cropbox -O images/z_15000_4.png
+INPUT ./images/syuron_4syou_sdss_imgs/spiral.png
+INPUT ./images/syuron_4syou_sdss_imgs/spiral.png
+INPUT images/syuron_4syou_sdss_imgs/spiral.png
+INPUT extractbb -B cropbox -O images/syuron_4syou_sdss_imgs/spiral.png
+INPUT ./images/syuron_4syou_sdss_imgs/elliptical.png
+INPUT ./images/syuron_4syou_sdss_imgs/elliptical.png
+INPUT images/syuron_4syou_sdss_imgs/elliptical.png
+INPUT extractbb -B cropbox -O images/syuron_4syou_sdss_imgs/elliptical.png
 INPUT ./images/model_shape.png
 INPUT ./images/model_shape.png
 INPUT images/model_shape.png
@@ -786,6 +794,13 @@ INPUT ./images/5syou/syuron_5syou_kakudai/ver1/5syou_giron_1_6and1_7.png
 INPUT ./images/5syou/syuron_5syou_kakudai/ver1/5syou_giron_1_6and1_7.png
 INPUT images/5syou/syuron_5syou_kakudai/ver1/5syou_giron_1_6and1_7.png
 INPUT extractbb -B cropbox -O images/5syou/syuron_5syou_kakudai/ver1/5syou_giron_1_6and1_7.png
+INPUT ./images/model_shape.png
+INPUT ./images/model_shape.png
+INPUT images/model_shape.png
+INPUT ./images/6syou/acc_with_errorbar_auto_epoch.png
+INPUT ./images/6syou/acc_with_errorbar_auto_epoch.png
+INPUT images/6syou/acc_with_errorbar_auto_epoch.png
+INPUT extractbb -B cropbox -O images/6syou/acc_with_errorbar_auto_epoch.png
 INPUT out/homma22.aux
 INPUT out/homma22.out
 INPUT out/homma22.out
