@@ -117,15 +117,80 @@ English Abstract Here
 \chapter{はじめに}
 
 \newpage
-\chapter{深層学習}
-\section{パーセプトロン}
-深層学習の説明を行う前に，
+\chapter{ディープラーニング}
+ディープラーニングは機械学習手法の一種であり，人間が学習の指標を決めずとも自ら学習データ内の特徴を捉えながら学習を行っていくアルゴリズムである．この「自ら特徴を見つけ出し学ぶ」という特徴から，膨大な量のデータセットであるビッグデータを学習に用いることで，近年様々なタスクを解決に導ける手法として注目されている．ディープラーニングが近年台頭してきた理由として，Tensorflow, Kerasなどディープラーニングモデルが簡単に構築可能になるライブラリが開発された点，またディープラーニングの学習に用いられるビッグデータが蓄積されてきた点，そして計算機が発達し，これら膨大な容量をもつビッグデータを処理できるほどの処理能力を会得した点などが挙げられる．
 
-\section{ニューラルネットワーク}
-ニューラルネットワークとは，
+第2章では，本論文における銀河形態分類モデルの開発に用いられている，ディープラーニングについて説明を行う．
+\section{ディープニューラルネットワーク (ディープラーニング)}
+ディープラーニングでは，様々な層で構築された\textbf{モデル}と呼ばれるものを扱う．答えの分かっている学習データを用いてモデルを学習させ，テストデータを用いてモデルの性能検証を行い，そしてモデルを用いて答えの分かっていないデータに対し予測を適用する．
+この節では，ディープラーニングの中で最も基本的なモデルであるディープニューラルネットワークの歴史，構成および学習について述べる．
+
+\subsection{パーセプトロン}
+パーセプトロンとは複数の信号を入力とし，1つの信号を出力するアルゴリズムであり，またニューラルネットワークの起源となったアルゴリズムである．例として2入力のパーセプトロンの概略図を図\ref{fig:pa-septoron}に示す．また，パーセプトロンの動作を数式で表したものを式\ref{eq:pa-septoron}に示す．
+
+\begin{equation}
+y= \left \{
+\begin{array}{l}
+0　(w_1x_1 + w_2x_2 \leq \theta)\\
+1　(w_1x_1 + w_2x_2 > \theta)
+\end{array}
+\right.
+\label{eq:pa-septoron}
+\end{equation}
+
+2入力パーセプトロンにて$x_1, x_2$は入力信号，$y$は出力信号，$w_1, w_2$は重みである．重みは入力信号に対する''重要度''であり，この値によって入力信号の値が上下する．入力に重みを乗算したものの総和（ここでは$w_1x_1 + w_2x_2$）がしきい値である$\theta$を超えると，パーセプトロンは''発火''し，1を出力する．
+
+パーセプトロンを説明するために，例としてANDゲートをパーセプトロンで表現する．ANDゲートの真理値表を表\ref{tb:and_gate}に示す．このANDゲートをパーセプトロンで表現するためには，適切な重みとしきい値を定めればよい．ANDゲートを表現する$(w_1, w_2, \theta)$の組み合わせとして，例えば$(w_1, w_2, \theta) = (0.3, 0.3, 0.5)$や$(1.0, 1.0, 1.0)$などが考えられる．
+
+$(w_1, w_2, \theta) = (1.0, 1.0, 1.0)$とした場合のANDゲートパーセプトロンを，$x_1$および$x_2$のグラフで表したものを図\ref{}に示す．図\ref{}より，一つのパーセプトロンでは線形の表現しか行えないことがわかる．このため，パーセプトロンは複雑な真理値表のゲートを表現することができない．しかしながら，パーセプトロンの出力を次のパーセプトロンの入力にし，最終的な出力までに複数のパーセプトロンを重ねることで，非線形な表現を行うことが出来る．この方法はニューラルネットワークにおける中間層にあたる．
+
+\begin{table}[htbp]
+  \centering
+	\caption{ANDゲートの真理値表}
+  \begin{tabular}{cc|c}
+    $x_1$ & $x_2$ & $y$ \\ \hline
+    0 & 0 & 0 \\ 
+    1 & 0 & 0 \\
+    0 & 1 & 0 \\
+    1 & 1 & 1 \\
+  \end{tabular}
+  \label{tb:and_gate}
+\end{table}
+
+
+
+\begin{figure}
+ \centering
+ \includegraphics[width=0.50\hsize, keepaspectratio]{images/drawio/pa-seputoron.png}
+ \caption{2入力パーセプトロン}
+ \label{fig:pa-septoron}
+\end{figure}
+
+\subsection{ニューラルネットワーク}
+
+\subsection{DNN (Deep Neural Networks)}
+
+\subsection{CNN (Convolutional Neural Networks)}
+
+\subsection{モデルの過学習}
+
+
 
 \newpage
+\section{層の説明}
+\subsection{全結合層}
+\subsection{畳み込み層}
+\subsection{プーリング層}
+\subsection{ドロップアウト層}
+
+\section{活性化関数}
+\subsubsection{sigmoid関数}
+\subsubsection{ReLu関数}
+\subsubsection{softmax関数}
+
+
 \section{損失関数と重み更新}
+\subsection{損失関数}
 深層学習の学習で用いられる指標を，損失関数と呼ぶ．損失関数には様々な種類が存在し，解く問題の種類によって使い分ける．
 一般的な損失関数として，式(\ref{eq:mse})の2乗平均誤差(主に回帰問題に使用) や，式(\ref{eq:ce})のクロスエントロピー誤差(主に分類問題に使用)が挙げられる．
 
@@ -138,6 +203,8 @@ English Abstract Here
 	E = sans
 	\label{eq:ce}
 \end{equation}
+
+\subsection{最適化手法}
 
 
 \newpage
@@ -250,7 +317,7 @@ GZ1では，ウェブサイト(www.galaxyzoo.org)を通じて有志の一般人�
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=14cm]{images/model_shape.PNG}
+	\includegraphics[width=14cm]{images/model_shape.png}
 	\caption{用いた分類モデルの構造図}
 	\label{fig:model_shape}
 \end{figure}
@@ -610,7 +677,7 @@ TSS導出に用いた「モデルが学習しきった地点と思われる，�
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=14cm]{images/model_shape.PNG}
+	\includegraphics[width=14cm]{images/model_shape.png}
 	\caption{用いた分類モデルの構造図}
 	\label{fig:model_shape_2}
 \end{figure}
@@ -960,9 +1027,9 @@ hsc$\to$hscの予測精度より，sdss$\to$sdssの予測精度の方が高い�
 
 %% bibtexを使用する場合
 \newpage
-% \bibliography{Master_thesis_bib}         % .bibファイルから拡張子を外した名前 ex)ref.bib
-% \bibliographystyle{junsrt} % 参考文献出力スタイル
-% \nocite{*}                 % 参照していない項目も出力する
+\bibliography{Master_thesis_bib}         % .bibファイルから拡張子を外した名前 ex)ref.bib
+\bibliographystyle{junsrt} % 参考文献出力スタイル
+\nocite{*}                 % 参照していない項目も出力する
 % END:参考文献------------------------------------
 
 
