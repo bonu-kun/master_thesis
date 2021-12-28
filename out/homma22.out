@@ -4,14 +4,14 @@
 \BOOKMARK [1][-]{section.2.1}{ディープニューラルネットワーク \(ディープラーニング\)}{chapter.2}% 3
 \BOOKMARK [2][-]{subsection.2.1.1}{パーセプトロン}{section.2.1}% 4
 \BOOKMARK [2][-]{subsection.2.1.2}{ニューラルネットワーク}{section.2.1}% 5
-\BOOKMARK [2][-]{subsection.2.1.3}{DNN \(Deep Neural Networks\)}{section.2.1}% 6
-\BOOKMARK [2][-]{subsection.2.1.4}{CNN \(Convolutional Neural Networks\)}{section.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.1.3}{DNN \(Deep Neural Network\)}{section.2.1}% 6
+\BOOKMARK [2][-]{subsection.2.1.4}{CNN \(Convolutional Neural Network\)}{section.2.1}% 7
 \BOOKMARK [2][-]{subsection.2.1.5}{モデルの過学習}{section.2.1}% 8
 \BOOKMARK [1][-]{section.2.2}{層の説明}{chapter.2}% 9
 \BOOKMARK [2][-]{subsection.2.2.1}{全結合層}{section.2.2}% 10
 \BOOKMARK [2][-]{subsection.2.2.2}{畳み込み層}{section.2.2}% 11
 \BOOKMARK [2][-]{subsection.2.2.3}{プーリング層}{section.2.2}% 12
-\BOOKMARK [2][-]{subsection.2.2.4}{ドロップアウト層}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.4}{Dropout層}{section.2.2}% 13
 \BOOKMARK [1][-]{section.2.3}{活性化関数}{chapter.2}% 14
 \BOOKMARK [1][-]{section.2.4}{損失関数と重み更新}{chapter.2}% 15
 \BOOKMARK [2][-]{subsection.2.4.1}{損失関数}{section.2.4}% 16

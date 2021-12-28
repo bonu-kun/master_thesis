@@ -132,6 +132,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT images/drawio/pa-seputoron.png
 INPUT extractbb -B cropbox -O images/drawio/pa-seputoron.png
+INPUT images/drawio/pa-seputoron_graph.png
+INPUT extractbb -B cropbox -O images/drawio/pa-seputoron_graph.png
+INPUT images/drawio/3nn.png
+INPUT extractbb -B cropbox -O images/drawio/3nn.png
 INPUT images/dr7_filters.png
 INPUT extractbb -B cropbox -O images/dr7_filters.png
 INPUT images/camera_filters-300x274.png

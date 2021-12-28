@@ -1,19 +1,19 @@
 # Fdb version 3
-["bibtex out/homma22"] 1640594678 "out/homma22.aux" "out/homma22.bbl" "out/homma22" 1640597069
-  "/usr/share/texlive/texmf-dist/bibtex/bib/Bibliography/Master_thesis_bib.bib" 1640591182 28242 c576f4e020e6774253d09a33ae5d3bdd ""
+["bibtex out/homma22"] 1640685314 "out/homma22.aux" "out/homma22.bbl" "out/homma22" 1640685407
+  "/usr/share/texlive/texmf-dist/bibtex/bib/Bibliography/Master_thesis_bib.bib" 1640671679 28242 888003fcd48d9c499bfdbd9dd1ce9308 ""
   "junsrt.bst" 0 -1 0 ""
-  "out/homma22.aux" 1640597064 25202 0aac8365e5a672a2809c2170ac154a00 ""
+  "out/homma22.aux" 1640685317 26121 253475c9e04b66267c29f0e41ab2431f ""
   "out/homma22.bcf" 0 -1 0 ""
   (generated)
-  "out/homma22.bbl"
   "out/homma22.blg"
-["dvipdf"] 1640597064 "out/homma22.dvi" "out/homma22.pdf" "out/homma22" 1640597069
-  "out/homma22.dvi" 1640597064 180124 ca1e587174a6f00576ed6ffcdd215323 "latex"
+  "out/homma22.bbl"
+["dvipdf"] 1640685317 "out/homma22.dvi" "out/homma22.pdf" "out/homma22" 1640685407
+  "out/homma22.dvi" 1640685317 189700 5bbf4fb319763f120f8a38c67852da98 "latex"
   (generated)
   "out/homma22.pdf"
-["latex"] 1640597062 "/home/homma/iida/master_thesis/homma22.tex" "out/homma22.dvi" "homma22" 1640597069
+["latex"] 1640685315 "/home/homma/iida/master_thesis/homma22.tex" "out/homma22.dvi" "homma22" 1640685407
   "/etc/texmf/web2c/texmf.cnf" 1631088293 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/homma/iida/master_thesis/homma22.tex" 1640597061 93752 331b8f5773a875d3c6b859b33c12cac9 ""
+  "/home/homma/iida/master_thesis/homma22.tex" 1640685407 99914 eba4337c1a309b76342a743201fb6b04 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1480098698 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm" 1480098698 1196 1be730212205a270378fba11a44765dc ""
@@ -100,7 +100,9 @@
   "extractbb -B cropbox -O images/cm_mean_std_ex4-2.png" 0 -1 0 ""
   "extractbb -B cropbox -O images/cm_mean_std_ex4-3.png" 0 -1 0 ""
   "extractbb -B cropbox -O images/dr7_filters.png" 0 -1 0 ""
+  "extractbb -B cropbox -O images/drawio/3nn.png" 0 -1 0 ""
   "extractbb -B cropbox -O images/drawio/pa-seputoron.png" 0 -1 0 ""
+  "extractbb -B cropbox -O images/drawio/pa-seputoron_graph.png" 0 -1 0 ""
   "extractbb -B cropbox -O images/gz1_website.png" 0 -1 0 ""
   "extractbb -B cropbox -O images/losses_ex4-1.png" 0 -1 0 ""
   "extractbb -B cropbox -O images/losses_ex4-2.png" 0 -1 0 ""
@@ -110,7 +112,7 @@
   "extractbb -B cropbox -O images/syuron_4syou_sdss_imgs/spiral.png" 0 -1 0 ""
   "extractbb -B cropbox -O images/table2.png" 0 -1 0 ""
   "extractbb -B cropbox -O images/z_15000_4.png" 0 -1 0 ""
-  "homma22.tex" 1640597061 93752 331b8f5773a875d3c6b859b33c12cac9 ""
+  "homma22.tex" 1640685407 99914 eba4337c1a309b76342a743201fb6b04 ""
   "images/5syou/print_errorbar/cubic/acc_with_errorbar_syuron5_cubic_900epoch_30run_300_acc_max_std1sigma.png" 1640582224 127856 c111f8565e7740438f9b7c52893cf9b6 ""
   "images/5syou/print_errorbar/cubic/acc_with_errorbar_syuron5_cubic_900epoch_30run_300_acc_max_ste1sigma.png" 1640582224 127496 31aa75522be6af104266838ae33af23b ""
   "images/5syou/print_errorbar/cubic/acc_with_errorbar_syuron5_cubic_900epoch_30run_num_of_gal_comparison_acc_max_std1sigma.png" 1640582224 65852 f8da5953223a257f17678a6c29194231 ""
@@ -134,7 +136,9 @@
   "images/cm_mean_std_ex4-2.png" 1640582224 39124 bb0674253be178a3b03c707d8142e063 ""
   "images/cm_mean_std_ex4-3.png" 1640582224 41107 8cd9f9072d7f5f70757089bac5a4afba ""
   "images/dr7_filters.png" 1640582224 7516 daeae12dae36f8bb75dcda56ebdc187e ""
+  "images/drawio/3nn.png" 1640675918 40178 24f4d22f61bcc18d83b1f6c3d35c4171 ""
   "images/drawio/pa-seputoron.png" 1640591869 16282 8fab62d948b632ab904d81410e664781 ""
+  "images/drawio/pa-seputoron_graph.png" 1640674015 18481 e62538cd5d2f74c36d58cb0a781dba24 ""
   "images/gz1_website.png" 1640582224 524121 f6196a42e8ce41997f3006913e03987b ""
   "images/losses_ex4-1.png" 1640582224 55174 919527215789ce9ad7499b087b022cb6 ""
   "images/losses_ex4-2.png" 1640582224 79083 e5695edffd442ef67577bb4a82f2688c ""
@@ -144,13 +148,13 @@
   "images/syuron_4syou_sdss_imgs/spiral.png" 1640582224 362682 8189566ddbff31b2cd0fdcd7ef3781a0 ""
   "images/table2.png" 1640582224 10244 b53c19610bc97d5cf99c0451d18adb3e ""
   "images/z_15000_4.png" 1640582224 13543 cbf953f6e9c55edf25fe26d4bd015a6d ""
-  "out/homma22.aux" 1640597064 25202 0aac8365e5a672a2809c2170ac154a00 ""
-  "out/homma22.bbl" 1640594678 7258 6a666834177bfa83ef993a04dd7aa637 "bibtex out/homma22"
-  "out/homma22.out" 1640597064 3397 6046ba044c4214e9da7bd6963a4f5c20 ""
-  "out/homma22.toc" 1640597064 7310 cc9c424aa105512142d54fe4a85834c3 ""
+  "out/homma22.aux" 1640685317 26121 253475c9e04b66267c29f0e41ab2431f ""
+  "out/homma22.bbl" 1640685315 7258 e27f4089b75bf29b7aa8c3b3e74de0dd "bibtex out/homma22"
+  "out/homma22.out" 1640685317 3381 78f3e9c8c8f887a49892e354beb8b010 ""
+  "out/homma22.toc" 1640685317 7425 b6cc12e79b2d033387ba6f5ad323349d ""
   (generated)
-  "out/homma22.out"
-  "out/homma22.toc"
-  "out/homma22.dvi"
   "out/homma22.log"
+  "out/homma22.toc"
+  "out/homma22.out"
   "out/homma22.aux"
+  "out/homma22.dvi"
