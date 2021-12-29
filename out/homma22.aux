@@ -41,179 +41,185 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.5}モデルの過学習}{6}{subsection.2.1.5}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.2}層の説明}{7}{section.2.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}全結合層}{7}{subsection.2.2.1}}
-\newlabel{eq:affine}{{2.2}{7}{全結合層}{equation.2.2.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}畳み込み層}{7}{subsection.2.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.3}プーリング層}{7}{subsection.2.2.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.4}Dropout層}{7}{subsection.2.2.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.3}活性化関数}{7}{section.2.3}}
-\@writefile{toc}{\contentsline {subsubsection}{sigmoid関数}{7}{section*.8}}
-\@writefile{toc}{\contentsline {subsubsection}{ReLu関数}{7}{section*.9}}
-\@writefile{toc}{\contentsline {subsubsection}{softmax関数}{7}{section*.10}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.4}損失関数と重み更新}{7}{section.2.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.1}損失関数}{7}{subsection.2.4.1}}
-\newlabel{eq:mse}{{2.3}{8}{損失関数}{equation.2.4.3}{}}
-\newlabel{eq:ce}{{2.4}{8}{損失関数}{equation.2.4.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.2}最適化手法}{8}{subsection.2.4.2}}
-\@writefile{toc}{\contentsline {subsubsection}{勾配降下法}{8}{section*.11}}
-\@writefile{toc}{\contentsline {subsubsection}{誤差逆伝搬法}{8}{section*.12}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第3章}使用するデータセット}{9}{chapter.3}}
+\@writefile{toc}{\contentsline {subsubsection}{全結合層の概要・演算}{7}{section*.8}}
+\newlabel{eq:affine}{{2.2}{7}{全結合層の概要・演算}{equation.2.2.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{活性化関数}{7}{section*.9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}畳み込み層(Conv)}{7}{subsection.2.2.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces 畳み込み演算の概略図\relax }}{8}{figure.caption.10}}
+\newlabel{fig:conv2d}{{2.4}{8}{畳み込み演算の概略図\relax }{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.3}プーリング層}{8}{subsection.2.2.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.4}Dropout層}{8}{subsection.2.2.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}活性化関数}{8}{section.2.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.5}{\ignorespaces 2x2最大プーリングの概略図\relax }}{9}{figure.caption.11}}
+\newlabel{fig:maxpooling}{{2.5}{9}{2x2最大プーリングの概略図\relax }{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {subsubsection}{sigmoid関数}{9}{section*.12}}
+\@writefile{toc}{\contentsline {subsubsection}{ReLu関数}{9}{section*.13}}
+\@writefile{toc}{\contentsline {subsubsection}{softmax関数}{9}{section*.14}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}損失関数と重み更新}{9}{section.2.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.1}損失関数}{9}{subsection.2.4.1}}
+\newlabel{eq:mse}{{2.3}{9}{損失関数}{equation.2.4.3}{}}
+\newlabel{eq:ce}{{2.4}{9}{損失関数}{equation.2.4.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.2}最適化手法}{9}{subsection.2.4.2}}
+\@writefile{toc}{\contentsline {subsubsection}{勾配降下法}{9}{section*.15}}
+\@writefile{toc}{\contentsline {subsubsection}{誤差逆伝搬法}{9}{section*.16}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第3章}使用するデータセット}{10}{chapter.3}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Sloan Digital Sky Survey(SDSS)}{9}{section.3.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces SDSS Data Release 7 における，銀河撮像に用いられた測光フィルタ一覧 (フィルタ名，各フィルタによって撮影された画像の波長平均値)\relax }}{10}{figure.caption.15}}
-\newlabel{fig:dr7_filters}{{3.1}{10}{SDSS Data Release 7 における，銀河撮像に用いられた測光フィルタ一覧\\(フィルタ名，各フィルタによって撮影された画像の波長平均値)\relax }{figure.caption.15}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces SDSSにおける測光フィルタのスループット曲線 (https://www.sdss.org/instruments/camera/ より引用)\relax }}{10}{figure.caption.16}}
-\newlabel{fig:filter_responces}{{3.2}{10}{SDSSにおける測光フィルタのスループット曲線\\(https://www.sdss.org/instruments/camera/ より引用)\relax }{figure.caption.16}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Galaxy Zoo (GZ)}{11}{section.3.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces GZ1における形態分類の投票ウェブページ (\ref  {Lintott2010}より引用)\relax }}{12}{figure.caption.19}}
-\newlabel{fig:gz1_website}{{3.3}{12}{GZ1における形態分類の投票ウェブページ\\(\ref {Lintott2010}より引用)\relax }{figure.caption.19}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Table2\relax }}{12}{figure.caption.21}}
-\newlabel{fig:table2}{{3.4}{12}{Table2\relax }{figure.caption.21}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第4章}SDSS \& Galaxy Zooを用いた分類モデル学習}{13}{chapter.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Sloan Digital Sky Survey(SDSS)}{10}{section.3.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces SDSS Data Release 7 における，銀河撮像に用いられた測光フィルタ一覧 (フィルタ名，各フィルタによって撮影された画像の波長平均値)\relax }}{11}{figure.caption.19}}
+\newlabel{fig:dr7_filters}{{3.1}{11}{SDSS Data Release 7 における，銀河撮像に用いられた測光フィルタ一覧\\(フィルタ名，各フィルタによって撮影された画像の波長平均値)\relax }{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces SDSSにおける測光フィルタのスループット曲線 (https://www.sdss.org/instruments/camera/ より引用)\relax }}{11}{figure.caption.20}}
+\newlabel{fig:filter_responces}{{3.2}{11}{SDSSにおける測光フィルタのスループット曲線\\(https://www.sdss.org/instruments/camera/ より引用)\relax }{figure.caption.20}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Galaxy Zoo (GZ)}{12}{section.3.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces GZ1における形態分類の投票ウェブページ (\ref  {Lintott2010}より引用)\relax }}{13}{figure.caption.23}}
+\newlabel{fig:gz1_website}{{3.3}{13}{GZ1における形態分類の投票ウェブページ\\(\ref {Lintott2010}より引用)\relax }{figure.caption.23}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Table2\relax }}{13}{figure.caption.25}}
+\newlabel{fig:table2}{{3.4}{13}{Table2\relax }{figure.caption.25}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第4章}SDSS \& Galaxy Zooを用いた分類モデル学習}{14}{chapter.4}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}実験概要}{13}{section.4.1}}
-\@writefile{toc}{\contentsline {subsubsection}{学習データ}{13}{section*.22}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces 実験に用いる15,000天体の赤方偏移別の個数グラフ\relax }}{14}{figure.caption.23}}
-\newlabel{fig:z_15000}{{4.1}{14}{実験に用いる15,000天体の赤方偏移別の個数グラフ\relax }{figure.caption.23}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces 渦巻銀河の切り出し画像の例\relax }}{14}{figure.caption.24}}
-\newlabel{fig:sdss_images_spiral}{{4.2}{14}{渦巻銀河の切り出し画像の例\relax }{figure.caption.24}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces 楕円銀河の切り出し画像の例\relax }}{15}{figure.caption.25}}
-\newlabel{fig:sdss_images_elliptical}{{4.3}{15}{楕円銀河の切り出し画像の例\relax }{figure.caption.25}{}}
-\@writefile{toc}{\contentsline {subsubsection}{モデル構造}{16}{section*.26}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces 用いた分類モデルの構造図\relax }}{16}{figure.caption.27}}
-\newlabel{fig:model_shape}{{4.4}{16}{用いた分類モデルの構造図\relax }{figure.caption.27}{}}
-\@writefile{toc}{\contentsline {subsubsection}{モデルの評価方法}{16}{section*.28}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces 2値分類問題における混同行列\relax }}{17}{figure.caption.29}}
-\newlabel{fig:cm}{{4.5}{17}{2値分類問題における混同行列\relax }{figure.caption.29}{}}
-\newlabel{equ:accuracy}{{4.1}{17}{モデルの評価方法}{equation.4.1.1}{}}
-\newlabel{equ:tss}{{4.3}{17}{モデルの評価方法}{equation.4.1.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}不確かラベルが与える分類精度への影響}{17}{section.4.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}実験条件}{18}{subsection.4.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}実験結果}{18}{subsection.4.2.2}}
-\@writefile{toc}{\contentsline {subsubsection}{学習結果}{18}{section*.30}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces 3値分類 : loss関数の学習遷移\relax }}{19}{figure.caption.31}}
-\newlabel{fig:losses_ex4-1}{{4.6}{19}{3値分類 : loss関数の学習遷移\relax }{figure.caption.31}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces 2値分類 : loss関数の学習遷移\relax }}{19}{figure.caption.31}}
-\newlabel{fig:losses_ex4-2}{{4.7}{19}{2値分類 : loss関数の学習遷移\relax }{figure.caption.31}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces 3値分類 : accuracyの学習遷移\relax }}{19}{figure.caption.32}}
-\newlabel{fig:accs_ex4-1}{{4.8}{19}{3値分類 : accuracyの学習遷移\relax }{figure.caption.32}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces 2値分類 : accuracyの学習遷移\relax }}{19}{figure.caption.32}}
-\newlabel{fig:accs_ex4-2}{{4.9}{19}{2値分類 : accuracyの学習遷移\relax }{figure.caption.32}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces 3値分類 : 混同行列 (平均$\pm $標準偏差(1$\sigma $))\relax }}{20}{figure.caption.33}}
-\newlabel{fig:cm_ex4-1}{{4.10}{20}{3値分類 : 混同行列\\(平均$\pm $標準偏差(1$\sigma $))\relax }{figure.caption.33}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces 2値分類 : 混同行列 (平均$\pm $標準偏差(1$\sigma $))\relax }}{20}{figure.caption.33}}
-\newlabel{fig:cm_ex4-2}{{4.11}{20}{2値分類 : 混同行列\\(平均$\pm $標準偏差(1$\sigma $))\relax }{figure.caption.33}{}}
-\@writefile{toc}{\contentsline {subsubsection}{結果}{20}{section*.34}}
-\@writefile{toc}{\contentsline {paragraph}{モデル学習の進行}{20}{section*.35}}
-\@writefile{toc}{\contentsline {paragraph}{テストデータに対するaccuracyの評価}{20}{section*.36}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces 不確か天体を含めた3値分類，および不確か天体を除いた2値分類モデルのテストデータに対する予測のaccuracy\relax }}{21}{table.caption.37}}
-\newlabel{tb:accs_4.2}{{4.1}{21}{不確か天体を含めた3値分類，および不確か天体を除いた2値分類モデルのテストデータに対する予測のaccuracy\relax }{table.caption.37}{}}
-\@writefile{toc}{\contentsline {paragraph}{混同行列の導出方法，および両モデルにおける比較}{21}{section*.38}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}データインバランスが与える分類精度への影響}{22}{section.4.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}実験条件}{22}{subsection.4.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}実験結果}{23}{subsection.4.3.2}}
-\@writefile{toc}{\contentsline {subsubsection}{学習結果}{23}{section*.39}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces インバランスドデータ : loss関数の学習遷移\relax }}{24}{figure.caption.40}}
-\newlabel{fig:losses_ex4-2-2}{{4.12}{24}{インバランスドデータ : loss関数の学習遷移\relax }{figure.caption.40}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces バランスドデータ : loss関数の学習遷移\relax }}{24}{figure.caption.40}}
-\newlabel{fig:losses_ex4-3}{{4.13}{24}{バランスドデータ : loss関数の学習遷移\relax }{figure.caption.40}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces インバランスドデータ : accuracyの学習遷移\relax }}{24}{figure.caption.41}}
-\newlabel{fig:accs_ex4-2-2}{{4.14}{24}{インバランスドデータ : accuracyの学習遷移\relax }{figure.caption.41}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.15}{\ignorespaces バランスドデータ : accuracyの学習遷移\relax }}{24}{figure.caption.41}}
-\newlabel{fig:accs_ex4-3}{{4.15}{24}{バランスドデータ : accuracyの学習遷移\relax }{figure.caption.41}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.16}{\ignorespaces インバランスドデータ : 混同行列 (平均$\pm $標準偏差(1$\sigma $))\relax }}{25}{figure.caption.42}}
-\newlabel{fig:cm_ex4-2-2}{{4.16}{25}{インバランスドデータ : 混同行列\\(平均$\pm $標準偏差(1$\sigma $))\relax }{figure.caption.42}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.17}{\ignorespaces バランスドデータ : 混同行列 (平均$\pm $標準偏差(1$\sigma $))\relax }}{25}{figure.caption.42}}
-\newlabel{fig:cm_ex4-3}{{4.17}{25}{バランスドデータ : 混同行列\\(平均$\pm $標準偏差(1$\sigma $))\relax }{figure.caption.42}{}}
-\@writefile{toc}{\contentsline {subsubsection}{結果}{25}{section*.43}}
-\@writefile{toc}{\contentsline {paragraph}{モデル学習の進行}{25}{section*.44}}
-\@writefile{toc}{\contentsline {paragraph}{テストデータに対するaccuracyの評価}{25}{section*.45}}
-\@writefile{toc}{\contentsline {paragraph}{TSSの導出方法，および両分類モデルの分類性能評価}{26}{section*.46}}
-\@writefile{toc}{\contentsline {paragraph}{混同行列によるモデルの評価}{26}{section*.47}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}4章全体の議論・結論}{26}{section.4.4}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces インバランスドデータで学習を行ったモデル，およびバランスドデータで学習を行ったモデルのテストデータに対する予測のaccuracy\relax }}{27}{table.caption.48}}
-\newlabel{tb:accs_4.3}{{4.2}{27}{インバランスドデータで学習を行ったモデル，およびバランスドデータで学習を行ったモデルのテストデータに対する予測のaccuracy\relax }{table.caption.48}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces インバランスドデータで学習を行ったモデル，およびバランスドデータで学習を行ったモデルのテストデータに対する予測のTSS\relax }}{27}{table.caption.49}}
-\newlabel{tb:TSS_4.3}{{4.3}{27}{インバランスドデータで学習を行ったモデル，およびバランスドデータで学習を行ったモデルのテストデータに対する予測のTSS\relax }{table.caption.49}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第5章}空間解像度差のあるデータセットを用いた分類モデル学習}{28}{chapter.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}実験概要}{14}{section.4.1}}
+\@writefile{toc}{\contentsline {subsubsection}{学習データ}{14}{section*.26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces 実験に用いる15,000天体の赤方偏移別の個数グラフ\relax }}{15}{figure.caption.27}}
+\newlabel{fig:z_15000}{{4.1}{15}{実験に用いる15,000天体の赤方偏移別の個数グラフ\relax }{figure.caption.27}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces 渦巻銀河の切り出し画像の例\relax }}{15}{figure.caption.28}}
+\newlabel{fig:sdss_images_spiral}{{4.2}{15}{渦巻銀河の切り出し画像の例\relax }{figure.caption.28}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces 楕円銀河の切り出し画像の例\relax }}{16}{figure.caption.29}}
+\newlabel{fig:sdss_images_elliptical}{{4.3}{16}{楕円銀河の切り出し画像の例\relax }{figure.caption.29}{}}
+\@writefile{toc}{\contentsline {subsubsection}{モデル構造}{17}{section*.30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces 用いた分類モデルの構造図\relax }}{17}{figure.caption.31}}
+\newlabel{fig:model_shape}{{4.4}{17}{用いた分類モデルの構造図\relax }{figure.caption.31}{}}
+\@writefile{toc}{\contentsline {subsubsection}{モデルの評価方法}{17}{section*.32}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces 2値分類問題における混同行列\relax }}{18}{figure.caption.33}}
+\newlabel{fig:cm}{{4.5}{18}{2値分類問題における混同行列\relax }{figure.caption.33}{}}
+\newlabel{equ:accuracy}{{4.1}{18}{モデルの評価方法}{equation.4.1.1}{}}
+\newlabel{equ:tss}{{4.3}{18}{モデルの評価方法}{equation.4.1.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}不確かラベルが与える分類精度への影響}{18}{section.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}実験条件}{19}{subsection.4.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}実験結果}{19}{subsection.4.2.2}}
+\@writefile{toc}{\contentsline {subsubsection}{学習結果}{19}{section*.34}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces 3値分類 : loss関数の学習遷移\relax }}{20}{figure.caption.35}}
+\newlabel{fig:losses_ex4-1}{{4.6}{20}{3値分類 : loss関数の学習遷移\relax }{figure.caption.35}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces 2値分類 : loss関数の学習遷移\relax }}{20}{figure.caption.35}}
+\newlabel{fig:losses_ex4-2}{{4.7}{20}{2値分類 : loss関数の学習遷移\relax }{figure.caption.35}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces 3値分類 : accuracyの学習遷移\relax }}{20}{figure.caption.36}}
+\newlabel{fig:accs_ex4-1}{{4.8}{20}{3値分類 : accuracyの学習遷移\relax }{figure.caption.36}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces 2値分類 : accuracyの学習遷移\relax }}{20}{figure.caption.36}}
+\newlabel{fig:accs_ex4-2}{{4.9}{20}{2値分類 : accuracyの学習遷移\relax }{figure.caption.36}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces 3値分類 : 混同行列 (平均$\pm $標準偏差(1$\sigma $))\relax }}{21}{figure.caption.37}}
+\newlabel{fig:cm_ex4-1}{{4.10}{21}{3値分類 : 混同行列\\(平均$\pm $標準偏差(1$\sigma $))\relax }{figure.caption.37}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces 2値分類 : 混同行列 (平均$\pm $標準偏差(1$\sigma $))\relax }}{21}{figure.caption.37}}
+\newlabel{fig:cm_ex4-2}{{4.11}{21}{2値分類 : 混同行列\\(平均$\pm $標準偏差(1$\sigma $))\relax }{figure.caption.37}{}}
+\@writefile{toc}{\contentsline {subsubsection}{結果}{21}{section*.38}}
+\@writefile{toc}{\contentsline {paragraph}{モデル学習の進行}{21}{section*.39}}
+\@writefile{toc}{\contentsline {paragraph}{テストデータに対するaccuracyの評価}{21}{section*.40}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces 不確か天体を含めた3値分類，および不確か天体を除いた2値分類モデルのテストデータに対する予測のaccuracy\relax }}{22}{table.caption.41}}
+\newlabel{tb:accs_4.2}{{4.1}{22}{不確か天体を含めた3値分類，および不確か天体を除いた2値分類モデルのテストデータに対する予測のaccuracy\relax }{table.caption.41}{}}
+\@writefile{toc}{\contentsline {paragraph}{混同行列の導出方法，および両モデルにおける比較}{22}{section*.42}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}データインバランスが与える分類精度への影響}{23}{section.4.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}実験条件}{23}{subsection.4.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}実験結果}{24}{subsection.4.3.2}}
+\@writefile{toc}{\contentsline {subsubsection}{学習結果}{24}{section*.43}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces インバランスドデータ : loss関数の学習遷移\relax }}{25}{figure.caption.44}}
+\newlabel{fig:losses_ex4-2-2}{{4.12}{25}{インバランスドデータ : loss関数の学習遷移\relax }{figure.caption.44}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces バランスドデータ : loss関数の学習遷移\relax }}{25}{figure.caption.44}}
+\newlabel{fig:losses_ex4-3}{{4.13}{25}{バランスドデータ : loss関数の学習遷移\relax }{figure.caption.44}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces インバランスドデータ : accuracyの学習遷移\relax }}{25}{figure.caption.45}}
+\newlabel{fig:accs_ex4-2-2}{{4.14}{25}{インバランスドデータ : accuracyの学習遷移\relax }{figure.caption.45}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.15}{\ignorespaces バランスドデータ : accuracyの学習遷移\relax }}{25}{figure.caption.45}}
+\newlabel{fig:accs_ex4-3}{{4.15}{25}{バランスドデータ : accuracyの学習遷移\relax }{figure.caption.45}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.16}{\ignorespaces インバランスドデータ : 混同行列 (平均$\pm $標準偏差(1$\sigma $))\relax }}{26}{figure.caption.46}}
+\newlabel{fig:cm_ex4-2-2}{{4.16}{26}{インバランスドデータ : 混同行列\\(平均$\pm $標準偏差(1$\sigma $))\relax }{figure.caption.46}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.17}{\ignorespaces バランスドデータ : 混同行列 (平均$\pm $標準偏差(1$\sigma $))\relax }}{26}{figure.caption.46}}
+\newlabel{fig:cm_ex4-3}{{4.17}{26}{バランスドデータ : 混同行列\\(平均$\pm $標準偏差(1$\sigma $))\relax }{figure.caption.46}{}}
+\@writefile{toc}{\contentsline {subsubsection}{結果}{26}{section*.47}}
+\@writefile{toc}{\contentsline {paragraph}{モデル学習の進行}{26}{section*.48}}
+\@writefile{toc}{\contentsline {paragraph}{テストデータに対するaccuracyの評価}{26}{section*.49}}
+\@writefile{toc}{\contentsline {paragraph}{TSSの導出方法，および両分類モデルの分類性能評価}{27}{section*.50}}
+\@writefile{toc}{\contentsline {paragraph}{混同行列によるモデルの評価}{27}{section*.51}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}4章全体の議論・結論}{27}{section.4.4}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces インバランスドデータで学習を行ったモデル，およびバランスドデータで学習を行ったモデルのテストデータに対する予測のaccuracy\relax }}{28}{table.caption.52}}
+\newlabel{tb:accs_4.3}{{4.2}{28}{インバランスドデータで学習を行ったモデル，およびバランスドデータで学習を行ったモデルのテストデータに対する予測のaccuracy\relax }{table.caption.52}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces インバランスドデータで学習を行ったモデル，およびバランスドデータで学習を行ったモデルのテストデータに対する予測のTSS\relax }}{28}{table.caption.53}}
+\newlabel{tb:TSS_4.3}{{4.3}{28}{インバランスドデータで学習を行ったモデル，およびバランスドデータで学習を行ったモデルのテストデータに対する予測のTSS\relax }{table.caption.53}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第5章}空間解像度差のあるデータセットを用いた分類モデル学習}{29}{chapter.5}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}実験概要}{28}{section.5.1}}
-\@writefile{toc}{\contentsline {subsubsection}{学習データ}{28}{section*.50}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces 実験に用いる15,000天体の赤方偏移別の個数グラフ\relax }}{29}{figure.caption.51}}
-\newlabel{fig:z_15000_2}{{5.1}{29}{実験に用いる15,000天体の赤方偏移別の個数グラフ\relax }{figure.caption.51}{}}
-\@writefile{toc}{\contentsline {subsubsection}{縮小画像データセット(テストデータ)の作成方法}{29}{section*.52}}
-\@writefile{toc}{\contentsline {subsubsection}{縮小画像データセットの内挿方法}{29}{section*.54}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces 銀河切り出し画像の縮小例(1/4倍)\relax }}{30}{figure.caption.53}}
-\newlabel{fig:shrink_1_4}{{5.2}{30}{銀河切り出し画像の縮小例(1/4倍)\relax }{figure.caption.53}{}}
-\@writefile{toc}{\contentsline {subsubsection}{モデル構造}{30}{section*.56}}
-\@writefile{toc}{\contentsline {subsubsection}{モデルの評価方法}{30}{section*.58}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces 1/4倍縮小画像の画像拡大例//(最近傍補間・バイリニア補間・バイキュービック補間)\relax }}{31}{figure.caption.55}}
-\newlabel{fig:kakudai_1_4}{{5.3}{31}{1/4倍縮小画像の画像拡大例//(最近傍補間・バイリニア補間・バイキュービック補間)\relax }{figure.caption.55}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces 用いた分類モデルの構造図\relax }}{32}{figure.caption.57}}
-\newlabel{fig:model_shape_2}{{5.4}{32}{用いた分類モデルの構造図\relax }{figure.caption.57}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}分類精度のデータセット内解像度差依存性}{32}{section.5.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}実験条件}{32}{subsection.5.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}実験結果}{33}{subsection.5.2.2}}
-\@writefile{toc}{\contentsline {subsubsection}{縮小データに対する予測結果}{33}{section*.59}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces 最近傍補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }}{34}{figure.caption.60}}
-\newlabel{fig:nearest_300_1std}{{5.5}{34}{最近傍補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }{figure.caption.60}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces バイリニア補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }}{34}{figure.caption.61}}
-\newlabel{fig:linear_300_1std}{{5.6}{34}{バイリニア補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }{figure.caption.61}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces バイキュービック補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }}{35}{figure.caption.62}}
-\newlabel{fig:cubic_300_1std}{{5.7}{35}{バイキュービック補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }{figure.caption.62}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces 内挿方法間での比較(1std)\relax }}{35}{figure.caption.63}}
-\newlabel{fig:inter_comparison_300_1std}{{5.8}{35}{内挿方法間での比較(1std)\relax }{figure.caption.63}{}}
-\@writefile{toc}{\contentsline {subsubsection}{結果}{36}{section*.64}}
-\@writefile{toc}{\contentsline {paragraph}{縮小データの縮小倍率における結果}{36}{section*.65}}
-\@writefile{toc}{\contentsline {paragraph}{内挿方法間での比較}{36}{section*.66}}
-\@writefile{toc}{\contentsline {paragraph}{標準誤差(1std)における予測結果}{36}{section*.67}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces 最近傍補間によって内挿された，縮小データに対するモデルの予測結果(1ste)\relax }}{37}{figure.caption.68}}
-\newlabel{fig:nearest_300_1ste}{{5.9}{37}{最近傍補間によって内挿された，縮小データに対するモデルの予測結果(1ste)\relax }{figure.caption.68}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.10}{\ignorespaces バイリニア補間によって内挿された，縮小データに対するモデルの予測結果(1ste)\relax }}{37}{figure.caption.69}}
-\newlabel{fig:linear_300_1ste}{{5.10}{37}{バイリニア補間によって内挿された，縮小データに対するモデルの予測結果(1ste)\relax }{figure.caption.69}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.11}{\ignorespaces バイキュービック補間によって内挿された，縮小データに対するモデルの予測結果(1ste)\relax }}{38}{figure.caption.70}}
-\newlabel{fig:cubic_300_1ste}{{5.11}{38}{バイキュービック補間によって内挿された，縮小データに対するモデルの予測結果(1ste)\relax }{figure.caption.70}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}分類精度の使用画像枚数依存性}{39}{section.5.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}実験条件}{39}{subsection.5.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}実験結果}{40}{subsection.5.3.2}}
-\@writefile{toc}{\contentsline {subsubsection}{縮小データに対する予測結果}{40}{section*.71}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.12}{\ignorespaces 最近傍補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }}{41}{figure.caption.72}}
-\newlabel{fig:nearest_num_of_gal_comparison_1std}{{5.12}{41}{最近傍補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }{figure.caption.72}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.13}{\ignorespaces バイリニア補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }}{41}{figure.caption.73}}
-\newlabel{fig:linear_num_of_gal_comparison_1std}{{5.13}{41}{バイリニア補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }{figure.caption.73}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.14}{\ignorespaces バイキュービック補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }}{42}{figure.caption.74}}
-\newlabel{fig:cubic_num_of_gal_comparison_1std}{{5.14}{42}{バイキュービック補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }{figure.caption.74}{}}
-\@writefile{toc}{\contentsline {subsubsection}{結果}{42}{section*.75}}
-\@writefile{toc}{\contentsline {paragraph}{使用天体数増加によるaccuracyの変化}{42}{section*.76}}
-\@writefile{toc}{\contentsline {paragraph}{内挿方法間での比較}{42}{section*.77}}
-\@writefile{toc}{\contentsline {paragraph}{使用可能なデータセット間の解像度差について}{43}{section*.78}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}5章全体の議論・結論}{44}{section.5.4}}
-\@writefile{toc}{\contentsline {subsubsection}{どの補間フィルタを用いるべきか}{44}{section*.79}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces 各補間フィルタによる拡大の計算コスト(平均値(1標準偏差))\relax }}{45}{table.caption.80}}
-\newlabel{tb:calc_cost_by_interpolation}{{5.1}{45}{各補間フィルタによる拡大の計算コスト(平均値(1標準偏差))\relax }{table.caption.80}{}}
-\@writefile{toc}{\contentsline {subsubsection}{学習データとテストデータとの間の解像度差が1/6および1/7の際の，テストデータに対する予測accuracyの挙動}{45}{section*.81}}
-\@writefile{toc}{\contentsline {subsubsection}{使用枚数が何枚までならば高精度を保てるか}{45}{section*.83}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.15}{\ignorespaces 1/6倍, 1/7倍の縮小画像に対する画像拡大例(最近傍補間・バイリニア補間)\relax }}{46}{figure.caption.82}}
-\newlabel{fig:1_6and1_7}{{5.15}{46}{1/6倍, 1/7倍の縮小画像に対する画像拡大例(最近傍補間・バイリニア補間)\relax }{figure.caption.82}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第6章}議論}{48}{chapter.6}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}実験概要}{29}{section.5.1}}
+\@writefile{toc}{\contentsline {subsubsection}{学習データ}{29}{section*.54}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces 実験に用いる15,000天体の赤方偏移別の個数グラフ\relax }}{30}{figure.caption.55}}
+\newlabel{fig:z_15000_2}{{5.1}{30}{実験に用いる15,000天体の赤方偏移別の個数グラフ\relax }{figure.caption.55}{}}
+\@writefile{toc}{\contentsline {subsubsection}{縮小画像データセット(テストデータ)の作成方法}{30}{section*.56}}
+\@writefile{toc}{\contentsline {subsubsection}{縮小画像データセットの内挿方法}{30}{section*.58}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces 銀河切り出し画像の縮小例(1/4倍)\relax }}{31}{figure.caption.57}}
+\newlabel{fig:shrink_1_4}{{5.2}{31}{銀河切り出し画像の縮小例(1/4倍)\relax }{figure.caption.57}{}}
+\@writefile{toc}{\contentsline {subsubsection}{モデル構造}{31}{section*.60}}
+\@writefile{toc}{\contentsline {subsubsection}{モデルの評価方法}{31}{section*.62}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces 1/4倍縮小画像の画像拡大例//(最近傍補間・バイリニア補間・バイキュービック補間)\relax }}{32}{figure.caption.59}}
+\newlabel{fig:kakudai_1_4}{{5.3}{32}{1/4倍縮小画像の画像拡大例//(最近傍補間・バイリニア補間・バイキュービック補間)\relax }{figure.caption.59}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces 用いた分類モデルの構造図\relax }}{33}{figure.caption.61}}
+\newlabel{fig:model_shape_2}{{5.4}{33}{用いた分類モデルの構造図\relax }{figure.caption.61}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}分類精度のデータセット内解像度差依存性}{33}{section.5.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}実験条件}{33}{subsection.5.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}実験結果}{34}{subsection.5.2.2}}
+\@writefile{toc}{\contentsline {subsubsection}{縮小データに対する予測結果}{34}{section*.63}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces 最近傍補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }}{35}{figure.caption.64}}
+\newlabel{fig:nearest_300_1std}{{5.5}{35}{最近傍補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }{figure.caption.64}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces バイリニア補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }}{35}{figure.caption.65}}
+\newlabel{fig:linear_300_1std}{{5.6}{35}{バイリニア補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }{figure.caption.65}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces バイキュービック補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }}{36}{figure.caption.66}}
+\newlabel{fig:cubic_300_1std}{{5.7}{36}{バイキュービック補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }{figure.caption.66}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces 内挿方法間での比較(1std)\relax }}{36}{figure.caption.67}}
+\newlabel{fig:inter_comparison_300_1std}{{5.8}{36}{内挿方法間での比較(1std)\relax }{figure.caption.67}{}}
+\@writefile{toc}{\contentsline {subsubsection}{結果}{37}{section*.68}}
+\@writefile{toc}{\contentsline {paragraph}{縮小データの縮小倍率における結果}{37}{section*.69}}
+\@writefile{toc}{\contentsline {paragraph}{内挿方法間での比較}{37}{section*.70}}
+\@writefile{toc}{\contentsline {paragraph}{標準誤差(1std)における予測結果}{37}{section*.71}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces 最近傍補間によって内挿された，縮小データに対するモデルの予測結果(1ste)\relax }}{38}{figure.caption.72}}
+\newlabel{fig:nearest_300_1ste}{{5.9}{38}{最近傍補間によって内挿された，縮小データに対するモデルの予測結果(1ste)\relax }{figure.caption.72}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.10}{\ignorespaces バイリニア補間によって内挿された，縮小データに対するモデルの予測結果(1ste)\relax }}{38}{figure.caption.73}}
+\newlabel{fig:linear_300_1ste}{{5.10}{38}{バイリニア補間によって内挿された，縮小データに対するモデルの予測結果(1ste)\relax }{figure.caption.73}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.11}{\ignorespaces バイキュービック補間によって内挿された，縮小データに対するモデルの予測結果(1ste)\relax }}{39}{figure.caption.74}}
+\newlabel{fig:cubic_300_1ste}{{5.11}{39}{バイキュービック補間によって内挿された，縮小データに対するモデルの予測結果(1ste)\relax }{figure.caption.74}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}分類精度の使用画像枚数依存性}{40}{section.5.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}実験条件}{40}{subsection.5.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}実験結果}{41}{subsection.5.3.2}}
+\@writefile{toc}{\contentsline {subsubsection}{縮小データに対する予測結果}{41}{section*.75}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.12}{\ignorespaces 最近傍補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }}{42}{figure.caption.76}}
+\newlabel{fig:nearest_num_of_gal_comparison_1std}{{5.12}{42}{最近傍補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }{figure.caption.76}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.13}{\ignorespaces バイリニア補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }}{42}{figure.caption.77}}
+\newlabel{fig:linear_num_of_gal_comparison_1std}{{5.13}{42}{バイリニア補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }{figure.caption.77}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.14}{\ignorespaces バイキュービック補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }}{43}{figure.caption.78}}
+\newlabel{fig:cubic_num_of_gal_comparison_1std}{{5.14}{43}{バイキュービック補間によって内挿された，縮小データに対するモデルの予測結果(1std)\relax }{figure.caption.78}{}}
+\@writefile{toc}{\contentsline {subsubsection}{結果}{43}{section*.79}}
+\@writefile{toc}{\contentsline {paragraph}{使用天体数増加によるaccuracyの変化}{43}{section*.80}}
+\@writefile{toc}{\contentsline {paragraph}{内挿方法間での比較}{43}{section*.81}}
+\@writefile{toc}{\contentsline {paragraph}{使用可能なデータセット間の解像度差について}{44}{section*.82}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}5章全体の議論・結論}{45}{section.5.4}}
+\@writefile{toc}{\contentsline {subsubsection}{どの補間フィルタを用いるべきか}{45}{section*.83}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces 各補間フィルタによる拡大の計算コスト(平均値(1標準偏差))\relax }}{46}{table.caption.84}}
+\newlabel{tb:calc_cost_by_interpolation}{{5.1}{46}{各補間フィルタによる拡大の計算コスト(平均値(1標準偏差))\relax }{table.caption.84}{}}
+\@writefile{toc}{\contentsline {subsubsection}{学習データとテストデータとの間の解像度差が1/6および1/7の際の，テストデータに対する予測accuracyの挙動}{46}{section*.85}}
+\@writefile{toc}{\contentsline {subsubsection}{使用枚数が何枚までならば高精度を保てるか}{46}{section*.87}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.15}{\ignorespaces 1/6倍, 1/7倍の縮小画像に対する画像拡大例(最近傍補間・バイリニア補間)\relax }}{47}{figure.caption.86}}
+\newlabel{fig:1_6and1_7}{{5.15}{47}{1/6倍, 1/7倍の縮小画像に対する画像拡大例(最近傍補間・バイリニア補間)\relax }{figure.caption.86}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第6章}議論}{49}{chapter.6}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}今回の実験から得た結論}{48}{section.6.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}将来課題}{48}{section.6.2}}
-\@writefile{toc}{\contentsline {subsubsection}{学習した分類モデルの精度のよさについて}{48}{section*.84}}
-\@writefile{toc}{\contentsline {subsubsection}{実際に未知天体データセット(ラベル付けが為されていないデータセット)に用いる時の方法}{49}{section*.85}}
-\@writefile{toc}{\contentsline {subsubsection}{GZ1の不確かを，深層学習でどう扱うか}{49}{section*.86}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}将来展望}{49}{section.6.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.1}実験概要}{49}{subsection.6.3.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces 用いた分類モデルの構造図\relax }}{50}{figure.caption.87}}
-\newlabel{fig:model_shape_3}{{6.1}{50}{用いた分類モデルの構造図\relax }{figure.caption.87}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.2}実験結果}{51}{subsection.6.3.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces HSCで学習，SDSSに対しテストを行った結果(accuracyの平均値(1標準偏差))\relax }}{51}{figure.caption.88}}
-\newlabel{fig:6syou_zikkenn}{{6.2}{51}{HSCで学習，SDSSに対しテストを行った結果(accuracyの平均値(1標準偏差))\relax }{figure.caption.88}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.3}結果}{51}{subsection.6.3.3}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第7章}おわりに}{52}{chapter.7}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}今回の実験から得た結論}{49}{section.6.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}将来課題}{49}{section.6.2}}
+\@writefile{toc}{\contentsline {subsubsection}{学習した分類モデルの精度のよさについて}{49}{section*.88}}
+\@writefile{toc}{\contentsline {subsubsection}{実際に未知天体データセット(ラベル付けが為されていないデータセット)に用いる時の方法}{50}{section*.89}}
+\@writefile{toc}{\contentsline {subsubsection}{GZ1の不確かを，深層学習でどう扱うか}{50}{section*.90}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}将来展望}{50}{section.6.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.1}実験概要}{50}{subsection.6.3.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces 用いた分類モデルの構造図\relax }}{51}{figure.caption.91}}
+\newlabel{fig:model_shape_3}{{6.1}{51}{用いた分類モデルの構造図\relax }{figure.caption.91}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.2}実験結果}{52}{subsection.6.3.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces HSCで学習，SDSSに対しテストを行った結果(accuracyの平均値(1標準偏差))\relax }}{52}{figure.caption.92}}
+\newlabel{fig:6syou_zikkenn}{{6.2}{52}{HSCで学習，SDSSに対しテストを行った結果(accuracyの平均値(1標準偏差))\relax }{figure.caption.92}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.3}結果}{52}{subsection.6.3.3}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第7章}おわりに}{53}{chapter.7}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \bibdata{Master_thesis_bib}

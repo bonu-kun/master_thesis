@@ -136,6 +136,10 @@ INPUT images/drawio/pa-seputoron_graph.png
 INPUT extractbb -B cropbox -O images/drawio/pa-seputoron_graph.png
 INPUT images/drawio/3nn.png
 INPUT extractbb -B cropbox -O images/drawio/3nn.png
+INPUT images/drawio/conv2d.png
+INPUT extractbb -B cropbox -O images/drawio/conv2d.png
+INPUT images/drawio/maxpooling.png
+INPUT extractbb -B cropbox -O images/drawio/maxpooling.png
 INPUT images/dr7_filters.png
 INPUT extractbb -B cropbox -O images/dr7_filters.png
 INPUT images/camera_filters-300x274.png

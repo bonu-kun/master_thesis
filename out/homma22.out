@@ -9,7 +9,7 @@
 \BOOKMARK [2][-]{subsection.2.1.5}{モデルの過学習}{section.2.1}% 8
 \BOOKMARK [1][-]{section.2.2}{層の説明}{chapter.2}% 9
 \BOOKMARK [2][-]{subsection.2.2.1}{全結合層}{section.2.2}% 10
-\BOOKMARK [2][-]{subsection.2.2.2}{畳み込み層}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.2}{畳み込み層\(Conv\)}{section.2.2}% 11
 \BOOKMARK [2][-]{subsection.2.2.3}{プーリング層}{section.2.2}% 12
 \BOOKMARK [2][-]{subsection.2.2.4}{Dropout層}{section.2.2}% 13
 \BOOKMARK [1][-]{section.2.3}{活性化関数}{chapter.2}% 14
