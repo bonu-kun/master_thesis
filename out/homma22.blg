@@ -2,46 +2,48 @@ This is pBibTeX, Version 0.99d-j0.33 (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: homma22.aux
 The style file: junsrt.bst
+I found no \citation commands---while reading file homma22.aux
 Database file #1: Master_thesis_bib.bib
-You've used 8 entries,
+You've used 0 entries,
             2270 wiz_defined-function locations,
-            596 strings with 11547 characters,
-and the built_in function-call counts, 8004 in all, are:
-= -- 326
-> -- 902
-< -- 24
-+ -- 306
-- -- 298
-* -- 774
-:= -- 1225
-add.period$ -- 24
-call.type$ -- 8
-change.case$ -- 8
+            538 strings with 4064 characters,
+and the built_in function-call counts, 18 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 7
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 8
-duplicate$ -- 220
-empty$ -- 315
-format.name$ -- 596
-if$ -- 1723
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
 int.to.chr$ -- 0
-int.to.str$ -- 8
-missing$ -- 8
-newline$ -- 43
-num.names$ -- 8
-pop$ -- 32
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 202
+skip$ -- 1
 stack$ -- 0
-substring$ -- 304
-swap$ -- 108
-text.length$ -- 24
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 32
-width$ -- 9
-write$ -- 90
-is.kanji.str$ -- 378
+while$ -- 0
+width$ -- 0
+write$ -- 2
+is.kanji.str$ -- 0
+(There was 1 error message)

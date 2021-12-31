@@ -15,7 +15,7 @@
 \BOOKMARK [1][-]{section.2.3}{活性化関数}{chapter.2}% 14
 \BOOKMARK [1][-]{section.2.4}{損失関数と重み更新}{chapter.2}% 15
 \BOOKMARK [2][-]{subsection.2.4.1}{損失関数}{section.2.4}% 16
-\BOOKMARK [2][-]{subsection.2.4.2}{最適化手法}{section.2.4}% 17
+\BOOKMARK [2][-]{subsection.2.4.2}{重み更新}{section.2.4}% 17
 \BOOKMARK [0][-]{chapter.3}{使用するデータセット}{}% 18
 \BOOKMARK [1][-]{section.3.1}{Sloan Digital Sky Survey\(SDSS\)}{chapter.3}% 19
 \BOOKMARK [1][-]{section.3.2}{Galaxy Zoo \(GZ\)}{chapter.3}% 20

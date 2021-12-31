@@ -140,6 +140,12 @@ INPUT images/drawio/conv2d.png
 INPUT extractbb -B cropbox -O images/drawio/conv2d.png
 INPUT images/drawio/maxpooling.png
 INPUT extractbb -B cropbox -O images/drawio/maxpooling.png
+INPUT images/dropout.png
+INPUT extractbb -B cropbox -O images/dropout.png
+INPUT images/sigmoid.png
+INPUT extractbb -B cropbox -O images/sigmoid.png
+INPUT images/relu.png
+INPUT extractbb -B cropbox -O images/relu.png
 INPUT images/dr7_filters.png
 INPUT extractbb -B cropbox -O images/dr7_filters.png
 INPUT images/camera_filters-300x274.png
@@ -214,7 +220,6 @@ INPUT images/6syou/acc_with_errorbar_auto_epoch.png
 INPUT extractbb -B cropbox -O images/6syou/acc_with_errorbar_auto_epoch.png
 INPUT out/homma22.bbl
 INPUT out/homma22.bbl
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT out/homma22.aux
 INPUT out/homma22.out
 INPUT out/homma22.out
