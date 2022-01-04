@@ -146,6 +146,8 @@ INPUT images/sigmoid.png
 INPUT extractbb -B cropbox -O images/sigmoid.png
 INPUT images/relu.png
 INPUT extractbb -B cropbox -O images/relu.png
+INPUT images/drawio/gradient.png
+INPUT extractbb -B cropbox -O images/drawio/gradient.png
 INPUT images/dr7_filters.png
 INPUT extractbb -B cropbox -O images/dr7_filters.png
 INPUT images/camera_filters-300x274.png
