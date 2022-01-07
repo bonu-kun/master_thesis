@@ -222,6 +222,7 @@ INPUT images/6syou/acc_with_errorbar_auto_epoch.png
 INPUT extractbb -B cropbox -O images/6syou/acc_with_errorbar_auto_epoch.png
 INPUT out/homma22.bbl
 INPUT out/homma22.bbl
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT out/homma22.aux
 INPUT out/homma22.out
 INPUT out/homma22.out

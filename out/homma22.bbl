@@ -1,3 +1,57 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{Banerji2010}
+Manda Banerji, Ofer Lahav, Chris~J. Lintott, Filipe~B. Abdalla, Kevin
+  Schawinski, Steven~P. Bamford, Dan Andreescu, Phil Murray, M.~Jordan Raddick,
+  Anze Slosar, Alex Szalay, Daniel Thomas, and Jan Vandenberg.
+\newblock {Galaxy Zoo: Reproducing galaxy morphologies via machine learning}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 406,
+  No.~1, pp. 342--353, 2010.
+
+\bibitem{Dieleman2015}
+Sander Dieleman, Kyle~W. Willett, and Joni Dambre.
+\newblock {Rotation-invariant convolutional neural networks for galaxy
+  morphology prediction}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 450,
+  No.~2, pp. 1441--1459, 2015.
+
+\bibitem{Lintott2008}
+Chris~J. Lintott, Kevin Schawinski, An{\v{z}}e Slosar, Kate Land, Steven
+  Bamford, Daniel Thomas, M.~Jordan Raddick, Robert~C. Nichol, Alex Szalay, Dan
+  Andreescu, Phil Murray, and Jan Vandenberg.
+\newblock {Galaxy Zoo: Morphologies derived from visual inspection of galaxies
+  from the Sloan Digital Sky Survey}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 389,
+  No.~3, pp. 1179--1189, 2008.
+
+\bibitem{Lintott2010}
+Chris Lintott, Kevin Schawinski, Steven Bamford, Anze Slosar, Kate Land, Daniel
+  Thomas, Edd Edmondson, Karen Masters, Robert Nichol, Jordan Raddick, Alex
+  Szalay, Dan Andreescu, Phil Murray, and Jan Vandenberg.
+\newblock {Galaxy Zoo 1 : Data Release of Morphological Classifications for
+  nearly 900,000 galaxies}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 410,
+  No.~1, pp. 166--178, jul 2010.
+
+\bibitem{Willett2013}
+Kyle~W. Willett, Chris~J. Lintott, Steven~P. Bamford, Karen~L. Masters,
+  Brooke~D. Simmons, Kevin~R.V. Casteels, Edward~M. Edmondson, Lucy~F. Fortson,
+  Sugata Kaviraj, William~C. Keel, Thomas Melvin, Robert~C. Nichol, M.~{Jordan
+  Raddick}, Kevin Schawinski, Robert~J. Simpson, Ramin~A. Skibba, Arfon~M.
+  Smith, and Daniel Thomas.
+\newblock {Galaxy zoo 2: Detailed morphological classifications for 304 122
+  galaxies from the sloan digital sky survey}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 435,
+  No.~4, pp. 2835--2860, 2013.
+
+\bibitem{Cheng2019}
+Ting-Yun Cheng, Christopher~J. Conselice, Alfonso Arag{\'{o}}n-Salamanca, Nan
+  Li, Asa F~L Bluck, Will~G. Hartley, James Annis, David Brooks, Peter Doel,
+  Juan Garc{\'{i}}a-Bellido, David~J. James, Kyler Kuehn, Nikolay Kuropatkin,
+  Mathew Smith, Flavia Sobreira, and Gregory Tarle.
+\newblock {Optimising Automatic Morphological Classification of Galaxies with
+  Machine Learning and Deep Learning using Dark Energy Survey Imaging}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 493,
+  No.~3, pp. 4209--4228, aug 2019.
 
 \end{thebibliography}

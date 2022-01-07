@@ -1,88 +1,88 @@
 \contentsline {chapter}{\numberline {第1章}はじめに}{1}{chapter.1}
-\contentsline {chapter}{\numberline {第2章}ディープラーニング}{2}{chapter.2}
-\contentsline {section}{\numberline {2.1}ディープニューラルネットワーク (ディープラーニング)}{2}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}パーセプトロン}{2}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}ニューラルネットワーク}{4}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}DNN (Deep Neural Network)}{5}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}CNN (Convolutional Neural Network)}{5}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}モデルの過学習}{6}{subsection.2.1.5}
-\contentsline {section}{\numberline {2.2}層の説明}{7}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}全結合層}{7}{subsection.2.2.1}
-\contentsline {subsubsection}{全結合層の概要・演算}{7}{section*.8}
-\contentsline {subsubsection}{活性化関数}{7}{section*.9}
-\contentsline {subsection}{\numberline {2.2.2}畳み込み層(Conv)}{7}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}プーリング層}{8}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Dropout層}{9}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}活性化関数}{10}{section.2.3}
-\contentsline {subsubsection}{sigmoid関数}{10}{section*.13}
-\contentsline {subsubsection}{ReLu関数}{11}{section*.15}
-\contentsline {subsubsection}{softmax関数}{12}{section*.17}
-\contentsline {section}{\numberline {2.4}損失関数と重み更新}{12}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}損失関数}{12}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}重み更新}{12}{subsection.2.4.2}
-\contentsline {subsubsection}{誤差逆伝搬法}{12}{section*.18}
-\contentsline {subsubsection}{最適化手法(勾配降下法)}{13}{section*.19}
-\contentsline {chapter}{\numberline {第3章}使用するデータセット}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}Sloan Digital Sky Survey(SDSS)}{15}{section.3.1}
-\contentsline {section}{\numberline {3.2}Galaxy Zoo (GZ)}{17}{section.3.2}
-\contentsline {chapter}{\numberline {第4章}SDSS \& Galaxy Zooを用いた分類モデル学習}{19}{chapter.4}
-\contentsline {section}{\numberline {4.1}実験概要}{19}{section.4.1}
-\contentsline {subsubsection}{学習データ}{19}{section*.30}
-\contentsline {subsubsection}{モデル構造}{22}{section*.34}
-\contentsline {subsubsection}{モデルの評価方法}{22}{section*.36}
-\contentsline {section}{\numberline {4.2}不確かラベルが与える分類精度への影響}{23}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}実験条件}{24}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}実験結果}{24}{subsection.4.2.2}
-\contentsline {subsubsection}{学習結果}{24}{section*.38}
-\contentsline {subsubsection}{結果}{26}{section*.42}
-\contentsline {paragraph}{モデル学習の進行}{26}{section*.43}
-\contentsline {paragraph}{テストデータに対するaccuracyの評価}{26}{section*.44}
-\contentsline {paragraph}{混同行列の導出方法，および両モデルにおける比較}{27}{section*.46}
-\contentsline {section}{\numberline {4.3}データインバランスが与える分類精度への影響}{28}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}実験条件}{28}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}実験結果}{29}{subsection.4.3.2}
-\contentsline {subsubsection}{学習結果}{29}{section*.47}
-\contentsline {subsubsection}{結果}{31}{section*.51}
-\contentsline {paragraph}{モデル学習の進行}{31}{section*.52}
-\contentsline {paragraph}{テストデータに対するaccuracyの評価}{31}{section*.53}
-\contentsline {paragraph}{TSSの導出方法，および両分類モデルの分類性能評価}{32}{section*.54}
-\contentsline {paragraph}{混同行列によるモデルの評価}{32}{section*.55}
-\contentsline {section}{\numberline {4.4}4章全体の議論・結論}{32}{section.4.4}
-\contentsline {chapter}{\numberline {第5章}空間解像度差のあるデータセットを用いた分類モデル学習}{34}{chapter.5}
-\contentsline {section}{\numberline {5.1}実験概要}{34}{section.5.1}
-\contentsline {subsubsection}{学習データ}{34}{section*.58}
-\contentsline {subsubsection}{縮小画像データセット(テストデータ)の作成方法}{35}{section*.60}
-\contentsline {subsubsection}{縮小画像データセットの内挿方法}{35}{section*.62}
-\contentsline {subsubsection}{モデル構造}{36}{section*.64}
-\contentsline {subsubsection}{モデルの評価方法}{36}{section*.66}
-\contentsline {section}{\numberline {5.2}分類精度のデータセット内解像度差依存性}{38}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}実験条件}{38}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}実験結果}{39}{subsection.5.2.2}
-\contentsline {subsubsection}{縮小データに対する予測結果}{39}{section*.67}
-\contentsline {subsubsection}{結果}{42}{section*.72}
-\contentsline {paragraph}{縮小データの縮小倍率における結果}{42}{section*.73}
-\contentsline {paragraph}{内挿方法間での比較}{42}{section*.74}
-\contentsline {paragraph}{標準誤差(1std)における予測結果}{42}{section*.75}
-\contentsline {section}{\numberline {5.3}分類精度の使用画像枚数依存性}{45}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}実験条件}{45}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}実験結果}{46}{subsection.5.3.2}
-\contentsline {subsubsection}{縮小データに対する予測結果}{46}{section*.79}
-\contentsline {subsubsection}{結果}{48}{section*.83}
-\contentsline {paragraph}{使用天体数増加によるaccuracyの変化}{48}{section*.84}
-\contentsline {paragraph}{内挿方法間での比較}{48}{section*.85}
-\contentsline {paragraph}{使用可能なデータセット間の解像度差について}{49}{section*.86}
-\contentsline {section}{\numberline {5.4}5章全体の議論・結論}{50}{section.5.4}
-\contentsline {subsubsection}{どの補間フィルタを用いるべきか}{50}{section*.87}
-\contentsline {subsubsection}{学習データとテストデータとの間の解像度差が1/6および1/7の際の，テストデータに対する予測accuracyの挙動}{51}{section*.89}
-\contentsline {subsubsection}{使用枚数が何枚までならば高精度を保てるか}{51}{section*.91}
-\contentsline {chapter}{\numberline {第6章}議論}{54}{chapter.6}
-\contentsline {section}{\numberline {6.1}今回の実験から得た結論}{54}{section.6.1}
-\contentsline {section}{\numberline {6.2}将来課題}{54}{section.6.2}
-\contentsline {subsubsection}{学習した分類モデルの精度のよさについて}{54}{section*.92}
-\contentsline {subsubsection}{実際に未知天体データセット(ラベル付けが為されていないデータセット)に用いる時の方法}{55}{section*.93}
-\contentsline {subsubsection}{GZ1の不確かを，深層学習でどう扱うか}{55}{section*.94}
-\contentsline {section}{\numberline {6.3}将来展望}{55}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}実験概要}{55}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}実験結果}{57}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}結果}{57}{subsection.6.3.3}
-\contentsline {chapter}{\numberline {第7章}おわりに}{58}{chapter.7}
+\contentsline {chapter}{\numberline {第2章}ディープラーニング}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}ディープニューラルネットワーク (ディープラーニング)}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}パーセプトロン}{3}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}ニューラルネットワーク}{5}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}DNN (Deep Neural Network)}{6}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}CNN (Convolutional Neural Network)}{6}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}モデルの過学習}{7}{subsection.2.1.5}
+\contentsline {section}{\numberline {2.2}層の説明}{8}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}全結合層}{8}{subsection.2.2.1}
+\contentsline {subsubsection}{全結合層の概要・演算}{8}{section*.8}
+\contentsline {subsubsection}{活性化関数}{8}{section*.9}
+\contentsline {subsection}{\numberline {2.2.2}畳み込み層(Conv)}{8}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}プーリング層}{9}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Dropout層}{10}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}活性化関数}{11}{section.2.3}
+\contentsline {subsubsection}{sigmoid関数}{11}{section*.13}
+\contentsline {subsubsection}{ReLu関数}{12}{section*.15}
+\contentsline {subsubsection}{softmax関数}{13}{section*.17}
+\contentsline {section}{\numberline {2.4}損失関数と重み更新}{13}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}損失関数}{13}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}重み更新}{13}{subsection.2.4.2}
+\contentsline {subsubsection}{誤差逆伝搬法}{13}{section*.18}
+\contentsline {subsubsection}{最適化手法(勾配降下法)}{14}{section*.19}
+\contentsline {chapter}{\numberline {第3章}使用するデータセット}{16}{chapter.3}
+\contentsline {section}{\numberline {3.1}Sloan Digital Sky Survey(SDSS)}{16}{section.3.1}
+\contentsline {section}{\numberline {3.2}Galaxy Zoo (GZ)}{18}{section.3.2}
+\contentsline {chapter}{\numberline {第4章}SDSS \& Galaxy Zooを用いた分類モデル学習}{20}{chapter.4}
+\contentsline {section}{\numberline {4.1}実験概要}{20}{section.4.1}
+\contentsline {subsubsection}{学習データ}{20}{section*.30}
+\contentsline {subsubsection}{モデル構造}{23}{section*.34}
+\contentsline {subsubsection}{モデルの評価方法}{23}{section*.36}
+\contentsline {section}{\numberline {4.2}不確かラベルが与える分類精度への影響}{24}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}実験条件}{25}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}実験結果}{25}{subsection.4.2.2}
+\contentsline {subsubsection}{学習結果}{25}{section*.38}
+\contentsline {subsubsection}{結果}{27}{section*.42}
+\contentsline {paragraph}{モデル学習の進行}{27}{section*.43}
+\contentsline {paragraph}{テストデータに対するaccuracyの評価}{27}{section*.44}
+\contentsline {paragraph}{混同行列の導出方法，および両モデルにおける比較}{28}{section*.46}
+\contentsline {section}{\numberline {4.3}データインバランスが与える分類精度への影響}{29}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}実験条件}{29}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}実験結果}{30}{subsection.4.3.2}
+\contentsline {subsubsection}{学習結果}{30}{section*.47}
+\contentsline {subsubsection}{結果}{32}{section*.51}
+\contentsline {paragraph}{モデル学習の進行}{32}{section*.52}
+\contentsline {paragraph}{テストデータに対するaccuracyの評価}{32}{section*.53}
+\contentsline {paragraph}{TSSの導出方法，および両分類モデルの分類性能評価}{33}{section*.54}
+\contentsline {paragraph}{混同行列によるモデルの評価}{33}{section*.55}
+\contentsline {section}{\numberline {4.4}4章全体の議論・結論}{33}{section.4.4}
+\contentsline {chapter}{\numberline {第5章}空間解像度差のあるデータセットを用いた分類モデル学習}{35}{chapter.5}
+\contentsline {section}{\numberline {5.1}実験概要}{35}{section.5.1}
+\contentsline {subsubsection}{学習データ}{35}{section*.58}
+\contentsline {subsubsection}{縮小画像データセット(テストデータ)の作成方法}{36}{section*.60}
+\contentsline {subsubsection}{縮小画像データセットの内挿方法}{36}{section*.62}
+\contentsline {subsubsection}{モデル構造}{37}{section*.64}
+\contentsline {subsubsection}{モデルの評価方法}{37}{section*.66}
+\contentsline {section}{\numberline {5.2}分類精度のデータセット内解像度差依存性}{39}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}実験条件}{39}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}実験結果}{40}{subsection.5.2.2}
+\contentsline {subsubsection}{縮小データに対する予測結果}{40}{section*.67}
+\contentsline {subsubsection}{結果}{43}{section*.72}
+\contentsline {paragraph}{縮小データの縮小倍率における結果}{43}{section*.73}
+\contentsline {paragraph}{内挿方法間での比較}{43}{section*.74}
+\contentsline {paragraph}{標準誤差(1std)における予測結果}{43}{section*.75}
+\contentsline {section}{\numberline {5.3}分類精度の使用画像枚数依存性}{46}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}実験条件}{46}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}実験結果}{47}{subsection.5.3.2}
+\contentsline {subsubsection}{縮小データに対する予測結果}{47}{section*.79}
+\contentsline {subsubsection}{結果}{49}{section*.83}
+\contentsline {paragraph}{使用天体数増加によるaccuracyの変化}{49}{section*.84}
+\contentsline {paragraph}{内挿方法間での比較}{49}{section*.85}
+\contentsline {paragraph}{使用可能なデータセット間の解像度差について}{50}{section*.86}
+\contentsline {section}{\numberline {5.4}5章全体の議論・結論}{51}{section.5.4}
+\contentsline {subsubsection}{どの補間フィルタを用いるべきか}{51}{section*.87}
+\contentsline {subsubsection}{学習データとテストデータとの間の解像度差が1/6および1/7の際の，テストデータに対する予測accuracyの挙動}{52}{section*.89}
+\contentsline {subsubsection}{使用枚数が何枚までならば高精度を保てるか}{52}{section*.91}
+\contentsline {chapter}{\numberline {第6章}議論}{55}{chapter.6}
+\contentsline {section}{\numberline {6.1}本研究のまとめ}{55}{section.6.1}
+\contentsline {section}{\numberline {6.2}将来課題}{55}{section.6.2}
+\contentsline {subsubsection}{学習した分類モデルの精度のよさについて}{55}{section*.92}
+\contentsline {subsubsection}{実際に未知天体データセット(ラベル付けが為されていないデータセット)に用いる時の方法}{56}{section*.93}
+\contentsline {subsubsection}{GZ1の不確かを，深層学習でどう扱うか}{56}{section*.94}
+\contentsline {section}{\numberline {6.3}将来展望}{56}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}実験概要}{56}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}実験結果}{58}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}結果}{58}{subsection.6.3.3}
+\contentsline {chapter}{\numberline {第7章}おわりに}{59}{chapter.7}
