@@ -8,12 +8,37 @@ Manda Banerji, Ofer Lahav, Chris~J. Lintott, Filipe~B. Abdalla, Kevin
 \newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 406,
   No.~1, pp. 342--353, 2010.
 
+\bibitem{Krizhevsky2012}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
+\newblock {ImageNet Classification with Deep Convolutional Neural Networks}.
+\newblock {\em Advances in Neural Information Processing Systems}, Vol.~25, ,
+  2012.
+
 \bibitem{Dieleman2015}
 Sander Dieleman, Kyle~W. Willett, and Joni Dambre.
 \newblock {Rotation-invariant convolutional neural networks for galaxy
   morphology prediction}.
 \newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 450,
   No.~2, pp. 1441--1459, 2015.
+
+\bibitem{Cheng2019}
+Ting-Yun Cheng, Christopher~J. Conselice, Alfonso Arag{\'{o}}n-Salamanca, Nan
+  Li, Asa F~L Bluck, Will~G. Hartley, James Annis, David Brooks, Peter Doel,
+  Juan Garc{\'{i}}a-Bellido, David~J. James, Kyler Kuehn, Nikolay Kuropatkin,
+  Mathew Smith, Flavia Sobreira, and Gregory Tarle.
+\newblock {Optimising Automatic Morphological Classification of Galaxies with
+  Machine Learning and Deep Learning using Dark Energy Survey Imaging}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 493,
+  No.~3, pp. 4209--4228, aug 2019.
+
+\bibitem{Tadaki2020}
+Ken~Ichi Tadaki, Masanori Iye, Hideya Fukumoto, Masao Hayashi, Cristian~E.
+  Rusu, Rhythm Shimakawa, and Tomoka Tosaki.
+\newblock {Spin parity of spiral galaxies II: A catalogue of 80 k spiral
+  galaxies using big data from the Subaru Hyper Suprime-Cam survey and deep
+  learning}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 496,
+  No.~4, pp. 4276--4286, 2020.
 
 \bibitem{Lintott2008}
 Chris~J. Lintott, Kevin Schawinski, An{\v{z}}e Slosar, Kate Land, Steven
@@ -43,15 +68,5 @@ Kyle~W. Willett, Chris~J. Lintott, Steven~P. Bamford, Karen~L. Masters,
   galaxies from the sloan digital sky survey}.
 \newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 435,
   No.~4, pp. 2835--2860, 2013.
-
-\bibitem{Cheng2019}
-Ting-Yun Cheng, Christopher~J. Conselice, Alfonso Arag{\'{o}}n-Salamanca, Nan
-  Li, Asa F~L Bluck, Will~G. Hartley, James Annis, David Brooks, Peter Doel,
-  Juan Garc{\'{i}}a-Bellido, David~J. James, Kyler Kuehn, Nikolay Kuropatkin,
-  Mathew Smith, Flavia Sobreira, and Gregory Tarle.
-\newblock {Optimising Automatic Morphological Classification of Galaxies with
-  Machine Learning and Deep Learning using Dark Energy Survey Imaging}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 493,
-  No.~3, pp. 4209--4228, aug 2019.
 
 \end{thebibliography}

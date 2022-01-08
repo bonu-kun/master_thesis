@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017/Debian) (preloaded format=platex 2021.10.7)  7 JAN 2022 18:23
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017/Debian) (preloaded format=platex 2021.10.7)  8 JAN 2022 18:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -319,121 +319,121 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
 第 1 章
 [1
 
-] [2]
+] [2] [3]
 第 2 章
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 134.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 143.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 134.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 143.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 138.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 147.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 138.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 147.
 File: images/drawio/pa-seputoron.png Graphic file (type bmp)
 <images/drawio/pa-seputoron.png>
-[3
+[4
 
-] [4]
+] [5]
 File: images/drawio/pa-seputoron_graph.png Graphic file (type bmp)
 <images/drawio/pa-seputoron_graph.png>
 
-LaTeX Warning: Reference `' on page 5 undefined on input line 185.
+LaTeX Warning: Reference `' on page 6 undefined on input line 194.
 
-[5]
+[6]
 File: images/drawio/3nn.png Graphic file (type bmp)
 <images/drawio/3nn.png>
 
-LaTeX Warning: Reference `' on page 6 undefined on input line 200.
+LaTeX Warning: Reference `' on page 7 undefined on input line 209.
 
 
-LaTeX Warning: Reference `' on page 6 undefined on input line 200.
-
-[6]
-
-LaTeX Warning: Reference `Mele199' on page 7 undefined on input line 209.
+LaTeX Warning: Reference `' on page 7 undefined on input line 209.
 
 [7]
+
+LaTeX Warning: Reference `Mele199' on page 8 undefined on input line 218.
+
+[8]
 File: images/drawio/conv2d.png Graphic file (type bmp)
 <images/drawio/conv2d.png>
-[8]
+[9]
 File: images/drawio/maxpooling.png Graphic file (type bmp)
 <images/drawio/maxpooling.png>
-[9]
+[10]
 File: images/dropout.png Graphic file (type bmp)
 <images/dropout.png>
 
-LaTeX Warning: Reference `Mele1993' on page 10 undefined on input line 269.
+LaTeX Warning: Reference `Mele1993' on page 11 undefined on input line 278.
 
 
-LaTeX Warning: Reference `Mele1993' on page 10 undefined on input line 269.
+LaTeX Warning: Reference `Mele1993' on page 11 undefined on input line 278.
 
-[10]
+[11]
 File: images/sigmoid.png Graphic file (type bmp)
 <images/sigmoid.png>
-[11]
+[12]
 
-LaTeX Warning: Reference `Agarap2018' on page 12 undefined on input line 294.
+LaTeX Warning: Reference `Agarap2018' on page 13 undefined on input line 303.
 
 File: images/relu.png Graphic file (type bmp)
 <images/relu.png>
-[12] [13]
+[13] [14]
 File: images/drawio/gradient.png Graphic file (type bmp)
 <images/drawio/gradient.png>
-[14] [15]
+[15] [16]
 第 3 章
 
-LaTeX Warning: Reference `' on page 16 undefined on input line 372.
+LaTeX Warning: Reference `' on page 17 undefined on input line 381.
 
 
-LaTeX Warning: Reference `' on page 16 undefined on input line 374.
+LaTeX Warning: Reference `' on page 17 undefined on input line 383.
 
-[16
+[17
 
 ]
 File: images/dr7_filters.png Graphic file (type bmp)
 <images/dr7_filters.png>
 File: images/camera_filters-300x274.png Graphic file (type bmp)
 <images/camera_filters-300x274.png>
-[17]
+[18]
 File: images/gz1_website.png Graphic file (type bmp)
 <images/gz1_website.png>
 
-LaTeX Warning: Reference `Lintott2010' on page 18 undefined on input line 404.
+LaTeX Warning: Reference `Lintott2010' on page 19 undefined on input line 413.
 
 
-LaTeX Warning: Reference `Lintott2010' on page 18 undefined on input line 404.
+LaTeX Warning: Reference `Lintott2010' on page 19 undefined on input line 413.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 413.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 422.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 413.
-[18]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 422.
+[19]
 File: images/table2.png Graphic file (type bmp)
 <images/table2.png>
 
-Overfull \hbox (56.90552pt too wide) in paragraph at lines 426--427
+Overfull \hbox (56.90552pt too wide) in paragraph at lines 435--436
  [][] 
  []
 
-[19]
+[20]
 第 4 章
 
-LaTeX Warning: Reference `' on page 20 undefined on input line 440.
+LaTeX Warning: Reference `' on page 21 undefined on input line 449.
 
 
-LaTeX Warning: Reference `' on page 20 undefined on input line 440.
+LaTeX Warning: Reference `' on page 21 undefined on input line 449.
 
 File: images/z_15000_4.png Graphic file (type bmp)
 <images/z_15000_4.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[20
+[21
 
 ]
 File: images/syuron_4syou_sdss_imgs/spiral.png Graphic file (type bmp)
@@ -441,18 +441,18 @@ File: images/syuron_4syou_sdss_imgs/spiral.png Graphic file (type bmp)
 
 Overfull \vbox (173.94118pt too high) has occurred while \output is active []
 
-[21]
+[22]
 File: images/syuron_4syou_sdss_imgs/elliptical.png Graphic file (type bmp)
 <images/syuron_4syou_sdss_imgs/elliptical.png>
 
 Overfull \vbox (304.88063pt too high) has occurred while \output is active []
 
-[22]
+[23]
 File: images/model_shape.png Graphic file (type bmp)
 <images/model_shape.png>
 File: images/cm.png Graphic file (type bmp)
 <images/cm.png>
-[23] [24] [25]
+[24] [25] [26]
 File: images/losses_ex4-1.png Graphic file (type bmp)
 <images/losses_ex4-1.png>
 File: images/losses_ex4-2.png Graphic file (type bmp)
@@ -461,12 +461,12 @@ File: images/accs_ex4-1.png Graphic file (type bmp)
 <images/accs_ex4-1.png>
 File: images/accs_ex4-2.png Graphic file (type bmp)
 <images/accs_ex4-2.png>
-[26]
+[27]
 File: images/cm_mean_std_ex4-1.png Graphic file (type bmp)
 <images/cm_mean_std_ex4-1.png>
 File: images/cm_mean_std_ex4-2.png Graphic file (type bmp)
 <images/cm_mean_std_ex4-2.png>
-[27] [28] [29]
+[28] [29] [30]
 File: images/losses_ex4-2.png Graphic file (type bmp)
 <images/losses_ex4-2.png>
 File: images/losses_ex4-3.png Graphic file (type bmp)
@@ -475,21 +475,21 @@ File: images/accs_ex4-2.png Graphic file (type bmp)
 <images/accs_ex4-2.png>
 File: images/accs_ex4-3.png Graphic file (type bmp)
 <images/accs_ex4-3.png>
-[30] [31]
+[31] [32]
 File: images/cm_mean_std_ex4-2.png Graphic file (type bmp)
 <images/cm_mean_std_ex4-2.png>
 File: images/cm_mean_std_ex4-3.png Graphic file (type bmp)
 <images/cm_mean_std_ex4-3.png>
-[32] [33] [34]
+[33] [34] [35]
 第 5 章
-[35
+[36
 
 ]
 File: images/z_15000_4.png Graphic file (type bmp)
 <images/z_15000_4.png>
 File: images/5syou/syuron_5syou_kakudai/ver1/5syou_shrink_ver1.png Graphic file (type bmp)
 <images/5syou/syuron_5syou_kakudai/ver1/5syou_shrink_ver1.png>
-[36]
+[37]
 File: images/5syou/syuron_5syou_kakudai/ver1/5syou_kakudai_ver1.png Graphic file (type bmp)
 <images/5syou/syuron_5syou_kakudai/ver1/5syou_kakudai_ver1.png>
 File: images/model_shape.png Graphic file (type bmp)
@@ -497,51 +497,51 @@ File: images/model_shape.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[37] [38] [39]
+[38] [39] [40]
 File: images/5syou/print_errorbar/nearest/acc_with_errorbar_syuron5_nearest_900epoch_30run_300_acc_max_std1sigma.png Graphic file (type bmp)
 <images/5syou/print_errorbar/nearest/acc_with_errorbar_syuron5_nearest_900epoch_30run_300_acc_max_std1sigma.png>
-[40]
+[41]
 File: images/5syou/print_errorbar/linear/acc_with_errorbar_syuron5_linear_900epoch_30run_300_acc_max_std1sigma.png Graphic file (type bmp)
 <images/5syou/print_errorbar/linear/acc_with_errorbar_syuron5_linear_900epoch_30run_300_acc_max_std1sigma.png>
 File: images/5syou/print_errorbar/cubic/acc_with_errorbar_syuron5_cubic_900epoch_30run_300_acc_max_std1sigma.png Graphic file (type bmp)
 <images/5syou/print_errorbar/cubic/acc_with_errorbar_syuron5_cubic_900epoch_30run_300_acc_max_std1sigma.png>
-[41]
+[42]
 File: images/5syou/print_errorbar/print_errorbar_inter_comparison/acc_with_errorbar_syuron5_inter_comparison_900epoch_30run_300_acc_max_std1sigma.png Graphic file (type bmp)
 <images/5syou/print_errorbar/print_errorbar_inter_comparison/acc_with_errorbar_syuron5_inter_comparison_900epoch_30run_300_acc_max_std1sigma.png>
-[42]
+[43]
 File: images/5syou/print_errorbar/nearest/acc_with_errorbar_syuron5_nearest_900epoch_30run_300_acc_max_ste1sigma.png Graphic file (type bmp)
 <images/5syou/print_errorbar/nearest/acc_with_errorbar_syuron5_nearest_900epoch_30run_300_acc_max_ste1sigma.png>
-[43]
+[44]
 File: images/5syou/print_errorbar/linear/acc_with_errorbar_syuron5_linear_900epoch_30run_300_acc_max_ste1sigma.png Graphic file (type bmp)
 <images/5syou/print_errorbar/linear/acc_with_errorbar_syuron5_linear_900epoch_30run_300_acc_max_ste1sigma.png>
 File: images/5syou/print_errorbar/cubic/acc_with_errorbar_syuron5_cubic_900epoch_30run_300_acc_max_ste1sigma.png Graphic file (type bmp)
 <images/5syou/print_errorbar/cubic/acc_with_errorbar_syuron5_cubic_900epoch_30run_300_acc_max_ste1sigma.png>
-[44] [45] [46]
+[45] [46] [47]
 File: images/5syou/print_errorbar/nearest/acc_with_errorbar_syuron5_nearest_900epoch_30run_num_of_gal_comparison_acc_max_std1sigma.png Graphic file (type bmp)
 <images/5syou/print_errorbar/nearest/acc_with_errorbar_syuron5_nearest_900epoch_30run_num_of_gal_comparison_acc_max_std1sigma.png>
-[47]
+[48]
 File: images/5syou/print_errorbar/linear/acc_with_errorbar_syuron5_linear_900epoch_30run_num_of_gal_comparison_acc_max_std1sigma.png Graphic file (type bmp)
 <images/5syou/print_errorbar/linear/acc_with_errorbar_syuron5_linear_900epoch_30run_num_of_gal_comparison_acc_max_std1sigma.png>
 File: images/5syou/print_errorbar/cubic/acc_with_errorbar_syuron5_cubic_900epoch_30run_num_of_gal_comparison_acc_max_std1sigma.png Graphic file (type bmp)
 <images/5syou/print_errorbar/cubic/acc_with_errorbar_syuron5_cubic_900epoch_30run_num_of_gal_comparison_acc_max_std1sigma.png>
-[48] [49] [50] [51]
+[49] [50] [51] [52]
 File: images/5syou/syuron_5syou_kakudai/ver1/5syou_giron_1_6and1_7.png Graphic file (type bmp)
 <images/5syou/syuron_5syou_kakudai/ver1/5syou_giron_1_6and1_7.png>
-[52] [53] [54]
+[53] [54] [55]
 第 6 章
-[55
+[56
 
-] [56]
+] [57]
 
-LaTeX Warning: Reference `Cheng2019' on page 57 undefined on input line 1136.
+LaTeX Warning: Reference `Cheng2019' on page 58 undefined on input line 1145.
 
 File: images/model_shape.png Graphic file (type bmp)
 <images/model_shape.png>
 File: images/6syou/acc_with_errorbar_auto_epoch.png Graphic file (type bmp)
 <images/6syou/acc_with_errorbar_auto_epoch.png>
-[57] [58]
+[58] [59]
 第 7 章
-[59
+[60
 
 ] (out/homma22.bbl
 
@@ -552,17 +552,17 @@ LaTeX Font Warning: Font shape `JT1/gt/m/it' undefined
 LaTeX Font Warning: Font shape `JY1/gt/m/it' undefined
 (Font)              using `JY1/gt/m/n' instead on input line 8.
 
-[60
+[61
 
-]) [61]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1203.
-[62
+]) [62]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1212.
+[63
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1203.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1212.
 (out/homma22.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1203.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1203.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1212.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1212.
 Package rerunfilecheck Info: File `homma22.out' has not changed.
 (rerunfilecheck)             Checksum: 1A6C5FEE944CB72096129448CB3EE6F6;3374.
 
@@ -571,15 +571,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1203.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1212.
  ) 
 Here is how much of TeX's memory you used:
- 7212 strings out of 493640
- 111397 string characters out of 6150528
- 203442 words of memory out of 5000000
- 10698 multiletter control sequences out of 15000+600000
+ 7214 strings out of 493640
+ 111425 string characters out of 6150528
+ 202519 words of memory out of 5000000
+ 10700 multiletter control sequences out of 15000+600000
  18548 words of font info for 72 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 36i,12n,39p,952b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,39p,1108b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/homma22.dvi (67 pages, 209140 bytes).
+Output written on out/homma22.dvi (68 pages, 217372 bytes).
