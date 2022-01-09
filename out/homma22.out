@@ -19,7 +19,7 @@
 \BOOKMARK [0][-]{chapter.3}{使用するデータセット}{}% 18
 \BOOKMARK [1][-]{section.3.1}{Sloan Digital Sky Survey\(SDSS\)}{chapter.3}% 19
 \BOOKMARK [1][-]{section.3.2}{Galaxy Zoo \(GZ\)}{chapter.3}% 20
-\BOOKMARK [0][-]{chapter.4}{SDSS \046 Galaxy Zooを用いた分類モデル学習}{}% 21
+\BOOKMARK [0][-]{chapter.4}{SDSSとGalaxy Zooを用いた分類モデル学習}{}% 21
 \BOOKMARK [1][-]{section.4.1}{実験概要}{chapter.4}% 22
 \BOOKMARK [1][-]{section.4.2}{不確かラベルが与える分類精度への影響}{chapter.4}% 23
 \BOOKMARK [2][-]{subsection.4.2.1}{実験条件}{section.4.2}% 24

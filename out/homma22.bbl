@@ -1,4 +1,13 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{Lintott2008}
+Chris~J. Lintott, Kevin Schawinski, An{\v{z}}e Slosar, Kate Land, Steven
+  Bamford, Daniel Thomas, M.~Jordan Raddick, Robert~C. Nichol, Alex Szalay, Dan
+  Andreescu, Phil Murray, and Jan Vandenberg.
+\newblock {Galaxy Zoo: Morphologies derived from visual inspection of galaxies
+  from the Sloan Digital Sky Survey}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 389,
+  No.~3, pp. 1179--1189, 2008.
 
 \bibitem{Banerji2010}
 Manda Banerji, Ofer Lahav, Chris~J. Lintott, Filipe~B. Abdalla, Kevin
@@ -13,6 +22,19 @@ Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
 \newblock {ImageNet Classification with Deep Convolutional Neural Networks}.
 \newblock {\em Advances in Neural Information Processing Systems}, Vol.~25, ,
   2012.
+
+\bibitem{Srivastava2014}
+Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan
+  Salakhutdinov.
+\newblock {Dropout: A Simple Way to Prevent Neural Networks from Overfitting}.
+\newblock {\em Journal of Machine Learning Research}, Vol.~15, No.~56, pp.
+  1929--1958, 2014.
+
+\bibitem{Glorot2011}
+Xavier Glorot, Antoine Bordes, and Yoshua Bengio.
+\newblock {Deep Sparse Rectifier Neural Networks}.
+\newblock {\em Proceedings of the Fourteenth International Conference on
+  Artificial Intelligence and Statistics}, Vol.~15, pp. 315----323, 2011.
 
 \bibitem{Dieleman2015}
 Sander Dieleman, Kyle~W. Willett, and Joni Dambre.
@@ -32,22 +54,13 @@ Ting-Yun Cheng, Christopher~J. Conselice, Alfonso Arag{\'{o}}n-Salamanca, Nan
   No.~3, pp. 4209--4228, aug 2019.
 
 \bibitem{Tadaki2020}
-Ken~Ichi Tadaki, Masanori Iye, Hideya Fukumoto, Masao Hayashi, Cristian~E.
-  Rusu, Rhythm Shimakawa, and Tomoka Tosaki.
+KenIchi Tadaki, Masanori Iye, Hideya Fukumoto, Masao Hayashi, Cristian~E. Rusu,
+  Rhythm Shimakawa, and Tomoka Tosaki.
 \newblock {Spin parity of spiral galaxies II: A catalogue of 80 k spiral
   galaxies using big data from the Subaru Hyper Suprime-Cam survey and deep
   learning}.
 \newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 496,
   No.~4, pp. 4276--4286, 2020.
-
-\bibitem{Lintott2008}
-Chris~J. Lintott, Kevin Schawinski, An{\v{z}}e Slosar, Kate Land, Steven
-  Bamford, Daniel Thomas, M.~Jordan Raddick, Robert~C. Nichol, Alex Szalay, Dan
-  Andreescu, Phil Murray, and Jan Vandenberg.
-\newblock {Galaxy Zoo: Morphologies derived from visual inspection of galaxies
-  from the Sloan Digital Sky Survey}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 389,
-  No.~3, pp. 1179--1189, 2008.
 
 \bibitem{Lintott2010}
 Chris Lintott, Kevin Schawinski, Steven Bamford, Anze Slosar, Kate Land, Daniel
