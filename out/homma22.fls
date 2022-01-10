@@ -157,22 +157,20 @@ INPUT images/relu.png
 INPUT extractbb -B cropbox -O images/relu.png
 INPUT images/drawio/gradient.png
 INPUT extractbb -B cropbox -O images/drawio/gradient.png
-INPUT images/dr7_filters.png
-INPUT extractbb -B cropbox -O images/dr7_filters.png
-INPUT images/camera_filters-300x274.png
-INPUT extractbb -B cropbox -O images/camera_filters-300x274.png
-INPUT images/gz1_website.png
-INPUT extractbb -B cropbox -O images/gz1_website.png
+INPUT images/drawio/filter_responces.png
+INPUT extractbb -B cropbox -O images/drawio/filter_responces.png
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 INPUT images/table2.png
 INPUT extractbb -B cropbox -O images/table2.png
 INPUT images/z_15000_4.png
 INPUT extractbb -B cropbox -O images/z_15000_4.png
-INPUT images/syuron_4syou_sdss_imgs/spiral.png
-INPUT extractbb -B cropbox -O images/syuron_4syou_sdss_imgs/spiral.png
-INPUT images/syuron_4syou_sdss_imgs/elliptical.png
-INPUT extractbb -B cropbox -O images/syuron_4syou_sdss_imgs/elliptical.png
+INPUT images/syuron_4syou_sdss_imgs/spiral_mini.png
+INPUT extractbb -B cropbox -O images/syuron_4syou_sdss_imgs/spiral_mini.png
+INPUT images/syuron_4syou_sdss_imgs/elliptical_mini.png
+INPUT extractbb -B cropbox -O images/syuron_4syou_sdss_imgs/elliptical_mini.png
+INPUT images/syuron_4syou_sdss_imgs/uncertain_mini.png
+INPUT extractbb -B cropbox -O images/syuron_4syou_sdss_imgs/uncertain_mini.png
 INPUT images/model_shape.png
 INPUT extractbb -B cropbox -O images/model_shape.png
 INPUT images/cm.png
