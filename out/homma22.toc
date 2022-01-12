@@ -38,54 +38,51 @@
 \contentsline {subsection}{\numberline {4.2.2}実験結果}{28}{subsection.4.2.2}
 \contentsline {subsubsection}{学習結果}{28}{section*.33}
 \contentsline {subsubsection}{結果}{30}{section*.37}
-\contentsline {paragraph}{モデル学習の進行}{30}{section*.38}
-\contentsline {paragraph}{テストデータに対するaccuracyの評価}{30}{section*.39}
-\contentsline {paragraph}{混同行列の導出方法，および両モデルにおける比較}{31}{section*.41}
+\contentsline {subsubsection}{モデル学習の進行}{30}{section*.38}
+\contentsline {subsubsection}{テストデータに対するaccuracyの評価}{30}{section*.39}
+\contentsline {subsubsection}{混同行列の導出方法，および両モデルにおける比較}{31}{section*.41}
 \contentsline {section}{\numberline {4.3}データインバランスが与える分類精度への影響}{32}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}実験条件}{32}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}実験結果}{33}{subsection.4.3.2}
 \contentsline {subsubsection}{学習結果}{33}{section*.42}
 \contentsline {subsubsection}{結果}{35}{section*.46}
-\contentsline {paragraph}{モデル学習の進行}{35}{section*.47}
-\contentsline {paragraph}{テストデータに対するaccuracyの評価}{35}{section*.48}
-\contentsline {paragraph}{TSSの導出方法，および両分類モデルの分類性能評価}{36}{section*.49}
-\contentsline {paragraph}{混同行列によるモデルの評価}{36}{section*.50}
-\contentsline {section}{\numberline {4.4}4章全体の議論・結論}{36}{section.4.4}
-\contentsline {chapter}{\numberline {第5章}空間解像度差のあるデータセットを用いた分類モデル学習}{38}{chapter.5}
-\contentsline {section}{\numberline {5.1}実験概要}{38}{section.5.1}
-\contentsline {subsubsection}{学習データ}{38}{section*.53}
-\contentsline {subsubsection}{縮小画像データセット(テストデータ)の作成方法}{39}{section*.55}
-\contentsline {subsubsection}{縮小画像データセットの内挿方法}{39}{section*.57}
-\contentsline {subsubsection}{モデル構造}{40}{section*.59}
-\contentsline {subsubsection}{モデルの評価方法}{40}{section*.61}
-\contentsline {section}{\numberline {5.2}分類精度のデータセット内解像度差依存性}{42}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}実験条件}{42}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}実験結果}{43}{subsection.5.2.2}
-\contentsline {subsubsection}{縮小データに対する予測結果}{43}{section*.62}
-\contentsline {subsubsection}{結果}{46}{section*.67}
-\contentsline {paragraph}{縮小データの縮小倍率における結果}{46}{section*.68}
-\contentsline {paragraph}{内挿方法間での比較}{46}{section*.69}
-\contentsline {paragraph}{標準誤差(1std)における予測結果}{46}{section*.70}
-\contentsline {section}{\numberline {5.3}分類精度の使用画像枚数依存性}{49}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}実験条件}{49}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}実験結果}{50}{subsection.5.3.2}
-\contentsline {subsubsection}{縮小データに対する予測結果}{50}{section*.74}
-\contentsline {subsubsection}{結果}{52}{section*.78}
-\contentsline {paragraph}{使用天体数増加によるaccuracyの変化}{52}{section*.79}
-\contentsline {paragraph}{内挿方法間での比較}{52}{section*.80}
-\contentsline {paragraph}{使用可能なデータセット間の解像度差について}{53}{section*.81}
-\contentsline {section}{\numberline {5.4}5章全体の議論・結論}{54}{section.5.4}
-\contentsline {subsubsection}{どの補間フィルタを用いるべきか}{54}{section*.82}
-\contentsline {subsubsection}{学習データとテストデータとの間の解像度差が1/6および1/7の際の，テストデータに対する予測accuracyの挙動}{55}{section*.84}
-\contentsline {subsubsection}{使用枚数が何枚までならば高精度を保てるか}{55}{section*.86}
-\contentsline {chapter}{\numberline {第6章}議論}{58}{chapter.6}
-\contentsline {section}{\numberline {6.1}本研究のまとめ}{58}{section.6.1}
-\contentsline {section}{\numberline {6.2}将来課題}{58}{section.6.2}
-\contentsline {subsubsection}{深層学習モデルの分類精度向上}{58}{section*.87}
-\contentsline {subsubsection}{実際に未知天体データセット(ラベル付けが為されていないデータセット)に用いる時の方法}{59}{section*.88}
-\contentsline {subsubsection}{GZ1の不確かを，深層学習でどう扱うか}{59}{section*.89}
-\contentsline {section}{\numberline {6.3}将来展望}{59}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}実験概要}{60}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}実験結果}{61}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}結果}{61}{subsection.6.3.3}
-\contentsline {chapter}{\numberline {第7章}おわりに}{62}{chapter.7}
+\contentsline {subsubsection}{モデル学習の進行}{35}{section*.47}
+\contentsline {subsubsection}{テストデータに対するaccuracyの評価}{35}{section*.48}
+\contentsline {subsubsection}{TSSの導出方法，および両分類モデルの分類性能評価}{36}{section*.49}
+\contentsline {subsubsection}{混同行列によるモデルの評価}{36}{section*.50}
+\contentsline {section}{\numberline {4.4}4章全体の議論・結論}{37}{section.4.4}
+\contentsline {chapter}{\numberline {第5章}空間解像度差のあるデータセットを用いた分類モデル学習}{39}{chapter.5}
+\contentsline {section}{\numberline {5.1}実験概要}{39}{section.5.1}
+\contentsline {subsubsection}{学習データ}{39}{section*.53}
+\contentsline {subsubsection}{縮小画像データセット(テストデータ)の作成方法}{40}{section*.55}
+\contentsline {subsubsection}{縮小画像データセットの内挿方法}{40}{section*.57}
+\contentsline {subsubsection}{モデル構造}{41}{section*.59}
+\contentsline {subsubsection}{モデルの評価方法}{41}{section*.61}
+\contentsline {section}{\numberline {5.2}分類精度のデータセット内解像度差依存性}{43}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}実験条件}{43}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}実験結果}{44}{subsection.5.2.2}
+\contentsline {subsubsection}{縮小データに対する予測結果}{44}{section*.62}
+\contentsline {subsubsection}{結果}{47}{section*.67}
+\contentsline {subsubsection}{縮小データの縮小倍率における結果}{47}{section*.68}
+\contentsline {subsubsection}{内挿方法間での比較}{47}{section*.69}
+\contentsline {subsubsection}{標準誤差(1std)における予測結果}{47}{section*.70}
+\contentsline {section}{\numberline {5.3}分類精度の使用画像枚数依存性}{50}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}実験条件}{50}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}実験結果}{51}{subsection.5.3.2}
+\contentsline {subsubsection}{縮小データに対する予測結果}{51}{section*.74}
+\contentsline {subsubsection}{結果}{53}{section*.78}
+\contentsline {subsubsection}{使用天体数増加によるaccuracyの変化}{53}{section*.79}
+\contentsline {subsubsection}{内挿方法間での比較}{53}{section*.80}
+\contentsline {subsubsection}{使用可能なデータセット間の解像度差について}{54}{section*.81}
+\contentsline {section}{\numberline {5.4}5章全体の議論・結論}{55}{section.5.4}
+\contentsline {subsubsection}{どの補間フィルタを用いるべきか}{55}{section*.82}
+\contentsline {subsubsection}{学習データとテストデータとの間の解像度差が1/6および1/7の際の，テストデータに対する予測accuracyの挙動}{56}{section*.84}
+\contentsline {subsubsection}{使用枚数が何枚までならば高精度を保てるか}{57}{section*.86}
+\contentsline {chapter}{\numberline {第6章}議論}{59}{chapter.6}
+\contentsline {section}{\numberline {6.1}本研究のまとめ}{59}{section.6.1}
+\contentsline {section}{\numberline {6.2}将来課題}{59}{section.6.2}
+\contentsline {subsubsection}{深層学習モデルの分類精度向上}{59}{section*.87}
+\contentsline {subsubsection}{未知天体データセットへの予測適用方法}{60}{section*.88}
+\contentsline {subsubsection}{GZ1の不確かを，深層学習でどう扱うか}{60}{section*.89}
+\contentsline {section}{\numberline {6.3}将来展望}{61}{section.6.3}
+\contentsline {chapter}{\numberline {第7章}おわりに}{64}{chapter.7}
