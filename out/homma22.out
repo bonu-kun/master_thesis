@@ -25,13 +25,13 @@
 \BOOKMARK [0][-]{chapter.4}{SDSSとGalaxy Zooを用いた分類モデル学習}{}% 24
 \BOOKMARK [1][-]{section.4.1}{実験概要}{chapter.4}% 25
 \BOOKMARK [1][-]{section.4.2}{不確かラベルが与える分類精度への影響}{chapter.4}% 26
-\BOOKMARK [2][-]{subsection.4.2.1}{実験条件}{section.4.2}% 27
+\BOOKMARK [2][-]{subsection.4.2.1}{実験条件\(飯田先生へ，実験を行う際の条件なので実験条件が最適だと思うのですが，他にこの節を言い表す言葉はありますでしょうか？\)}{section.4.2}% 27
 \BOOKMARK [2][-]{subsection.4.2.2}{実験結果}{section.4.2}% 28
-\BOOKMARK [1][-]{section.4.3}{データインバランスが与える分類精度への影響}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.3}{クラスインバランスの影響}{chapter.4}% 29
 \BOOKMARK [2][-]{subsection.4.3.1}{実験条件}{section.4.3}% 30
 \BOOKMARK [2][-]{subsection.4.3.2}{実験結果}{section.4.3}% 31
-\BOOKMARK [1][-]{section.4.4}{4章全体の議論・結論}{chapter.4}% 32
-\BOOKMARK [0][-]{chapter.5}{空間解像度差のあるデータセットを用いた分類モデル学習}{}% 33
+\BOOKMARK [1][-]{section.4.4}{議論}{chapter.4}% 32
+\BOOKMARK [0][-]{chapter.5}{空間解像度差のあるデータセットを用いた分類モデル作成}{}% 33
 \BOOKMARK [1][-]{section.5.1}{実験概要}{chapter.5}% 34
 \BOOKMARK [1][-]{section.5.2}{分類精度のデータセット内解像度差依存性}{chapter.5}% 35
 \BOOKMARK [2][-]{subsection.5.2.1}{実験条件}{section.5.2}% 36
