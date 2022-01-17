@@ -1,0 +1,356 @@
+\begin{thebibliography}{10}
+
+\bibitem{Lintott2008}
+Chris~J. Lintott, Kevin Schawinski, An{\v{z}}e Slosar, Kate Land, Steven
+  Bamford, Daniel Thomas, M.~Jordan Raddick, Robert~C. Nichol, Alex Szalay, Dan
+  Andreescu, Phil Murray, and Jan Vandenberg.
+\newblock {Galaxy Zoo: Morphologies derived from visual inspection of galaxies
+  from the Sloan Digital Sky Survey}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 389,
+  No.~3, pp. 1179--1189, 2008.
+
+\bibitem{Banerji2010}
+Manda Banerji, Ofer Lahav, Chris~J. Lintott, Filipe~B. Abdalla, Kevin
+  Schawinski, Steven~P. Bamford, Dan Andreescu, Phil Murray, M.~Jordan Raddick,
+  Anze Slosar, Alex Szalay, Daniel Thomas, and Jan Vandenberg.
+\newblock {Galaxy Zoo: Reproducing galaxy morphologies via machine learning}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 406,
+  No.~1, pp. 342--353, 2010.
+
+\bibitem{Krizhevsky2012}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
+\newblock {ImageNet Classification with Deep Convolutional Neural Networks}.
+\newblock {\em Advances in Neural Information Processing Systems}, Vol.~25, ,
+  2012.
+
+\bibitem{Srivastava2014}
+Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan
+  Salakhutdinov.
+\newblock {Dropout: A Simple Way to Prevent Neural Networks from Overfitting}.
+\newblock {\em Journal of Machine Learning Research}, Vol.~15, No.~56, pp.
+  1929--1958, 2014.
+
+\bibitem{Glorot2011}
+Xavier Glorot, Antoine Bordes, and Yoshua Bengio.
+\newblock {Deep Sparse Rectifier Neural Networks}.
+\newblock {\em Proceedings of the Fourteenth International Conference on
+  Artificial Intelligence and Statistics}, Vol.~15, pp. 315----323, 2011.
+
+\bibitem{Dieleman2015}
+Sander Dieleman, Kyle~W. Willett, and Joni Dambre.
+\newblock {Rotation-invariant convolutional neural networks for galaxy
+  morphology prediction}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 450,
+  No.~2, pp. 1441--1459, 2015.
+
+\bibitem{Cheng2019}
+Ting-Yun Cheng, Christopher~J. Conselice, Alfonso Arag{\'{o}}n-Salamanca, Nan
+  Li, Asa F~L Bluck, Will~G. Hartley, James Annis, David Brooks, Peter Doel,
+  Juan Garc{\'{i}}a-Bellido, David~J. James, Kyler Kuehn, Nikolay Kuropatkin,
+  Mathew Smith, Flavia Sobreira, and Gregory Tarle.
+\newblock {Optimising Automatic Morphological Classification of Galaxies with
+  Machine Learning and Deep Learning using Dark Energy Survey Imaging}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 493,
+  No.~3, pp. 4209--4228, aug 2019.
+
+\bibitem{Tadaki2020}
+KenIchi Tadaki, Masanori Iye, Hideya Fukumoto, Masao Hayashi, Cristian~E. Rusu,
+  Rhythm Shimakawa, and Tomoka Tosaki.
+\newblock {Spin parity of spiral galaxies II: A catalogue of 80 k spiral
+  galaxies using big data from the Subaru Hyper Suprime-Cam survey and deep
+  learning}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 496,
+  No.~4, pp. 4276--4286, 2020.
+
+\bibitem{York2000}
+Donald~G. York, J.~Adelman, John~E. {Anderson, Jr.}, Scott~F. Anderson, James
+  Annis, Neta~A. Bahcall, J.~A. Bakken, Robert Barkhouser, Steven Bastian,
+  Eileen Berman, William~N. Boroski, Steve Bracker, Charlie Briegel, John~W.
+  Briggs, J.~Brinkmann, Robert Brunner, Scott Burles, Larry Carey, Michael~A.
+  Carr, Francisco~J. Castander, Bing Chen, Patrick~L. Colestock, A.~J.
+  Connolly, J.~H. Crocker, Istv{\'{a}}n Csabai, Paul~C. Czarapata, John~Eric
+  Davis, Mamoru Doi, Tom Dombeck, Daniel Eisenstein, Nancy Ellman, Brian~R.
+  Elms, Michael~L. Evans, Xiaohui Fan, Glenn~R. Federwitz, Larry Fiscelli,
+  Scott Friedman, Joshua~A. Frieman, Masataka Fukugita, Bruce Gillespie,
+  James~E. Gunn, Vijay~K. Gurbani, Ernst de~Haas, Merle Haldeman, Frederick~H.
+  Harris, J.~Hayes, Timothy~M. Heckman, G.~S. Hennessy, Robert~B. Hindsley,
+  Scott Holm, Donald~J. Holmgren, Chi-hao Huang, Charles Hull, Don Husby,
+  Shin-Ichi Ichikawa, Takashi Ichikawa, {\v{Z}}eljko Ivezi{\'{c}}, Stephen
+  Kent, Rita S.~J. Kim, E.~Kinney, Mark Klaene, A.~N. Kleinman, S.~Kleinman,
+  G.~R. Knapp, John Korienek, Richard~G. Kron, Peter~Z. Kunszt, D.~Q. Lamb,
+  B.~Lee, R.~French Leger, Siriluk Limmongkol, Carl Lindenmeyer, Daniel~C.
+  Long, Craig Loomis, Jon Loveday, Rich Lucinio, Robert~H. Lupton, Bryan
+  MacKinnon, Edward~J. Mannery, P.~M. Mantsch, Bruce Margon, Peregrine McGehee,
+  Timothy~A. McKay, Avery Meiksin, Aronne Merelli, David~G. Monet, Jeffrey~A.
+  Munn, Vijay~K. Narayanan, Thomas Nash, Eric Neilsen, Rich Neswold, Heidi~Jo
+  Newberg, R.~C. Nichol, Tom Nicinski, Mario Nonino, Norio Okada, Sadanori
+  Okamura, Jeremiah~P. Ostriker, Russell Owen, A.~George Pauls, John Peoples,
+  R.~L. Peterson, Donald Petravick, Jeffrey~R. Pier, Adrian Pope, Ruth Pordes,
+  Angela Prosapio, Ron Rechenmacher, Thomas~R. Quinn, Gordon~T. Richards,
+  Michael~W. Richmond, Claudio~H. Rivetta, Constance~M. Rockosi, Kurt
+  Ruthmansdorfer, Dale Sandford, David~J. Schlegel, Donald~P. Schneider, Maki
+  Sekiguchi, Gary Sergey, Kazuhiro Shimasaku, Walter~A. Siegmund, Stephen Smee,
+  J.~Allyn Smith, S.~Snedden, R.~Stone, Chris Stoughton, Michael~A. Strauss,
+  Christopher Stubbs, Mark SubbaRao, Alexander~S. Szalay, Istvan Szapudi,
+  Gyula~P. Szokoly, Anirudda~R. Thakar, Christy Tremonti, Douglas~L. Tucker,
+  Alan Uomoto, Dan {Vanden Berk}, Michael~S. Vogeley, Patrick Waddell, Shu-i
+  Wang, Masaru Watanabe, David~H. Weinberg, Brian Yanny, and Naoki Yasuda.
+\newblock {The Sloan Digital Sky Survey: Technical Summary}.
+\newblock {\em The Astronomical Journal}, Vol. 120, No.~3, pp. 1579--1587,
+  2000.
+
+\bibitem{Eisenstein2011}
+Daniel~J. Eisenstein, David~H. Weinberg, Eric Agol, Hiroaki Aihara, Carlos
+  {Allende Prieto}, Scott~F. Anderson, James~A. Arns, Eric Aubourg, Stephen
+  Bailey, Eduardo Balbinot, Robert Barkhouser, Timothy~C. Beers, Andreas~A.
+  Berlind, Steven~J. Bickerton, Dmitry Bizyaev, Michael~R. Blanton, John~J.
+  Bochanski, Adam~S. Bolton, Casey~T. Bosman, Jo~Bovy, W.~N. Brandt, Ben
+  Breslauer, Howard~J. Brewington, J.~Brinkmann, Peter~J. Brown, Joel~R.
+  Brownstein, Dan Burger, Nicolas~G. Busca, Heather Campbell, Phillip~A.
+  Cargile, William~C. Carithers, Joleen~K. Carlberg, Michael~A. Carr, Liang
+  Chang, Yanmei Chen, Cristina Chiappini, Johan Comparat, Natalia Connolly,
+  Marina Cortes, Rupert~A.C. Croft, Katia Cunha, Luiz~N. {Da Costa}, James~R.A.
+  Davenport, Kyle Dawson, Nathan {De Lee}, Gustavo~F. {Porto De Mello},
+  Fernando {De Simoni}, Janice Dean, Saurav Dhital, Anne Ealet, Garrett~L.
+  Ebelke, Edward~M. Edmondson, Jacob~M. Eiting, Stephanie Escoffier,
+  Massimiliano Esposito, Michael~L. Evans, Xiaohui Fan, Bruno {Femen{\'{i}}a
+  Castell}, Leticia {Dutra Ferreira}, Greg Fitzgerald, Scott~W. Fleming, Andreu
+  Font-Ribera, Eric~B. Ford, Peter~M. Frinchaboy, Ana~Elia {Garc{\'{i}}a
+  P{\'{e}}rez}, B.~Scott Gaudi, Jian Ge, Luan Ghezzi, Bruce~A. Gillespie,
+  G.~Gilmore, L{\'{e}}o Girardi, J.~Richard Gott, Andrew Gould, Eva~K. Grebel,
+  James~E. Gunn, Jean~Christophe Hamilton, Paul Harding, David~W. Harris,
+  Suzanne~L. Hawley, Frederick~R. Hearty, Joseph~F. Hennawi, Jonay~I. {Gonzlez
+  Hernndez}, Shirley Ho, David~W. Hogg, Jon~A. Holtzman, Klaus Honscheid,
+  Naohisa Inada, Inese~I. Ivans, Linhua Jiang, Peng Jiang, Jennifer~A. Johnson,
+  Cathy Jordan, Wendell~P. Jordan, Guinevere Kauffmann, Eyal Kazin, David
+  Kirkby, Mark~A. Klaene, G.~R. Knapp, Jean~Paul Kneib, C.~S. Kochanek, Lars
+  Koesterke, Juna~A. Kollmeier, Richard~G. Kron, Hubert Lampeitl, Dustin Lang,
+  James~E. Lawler, Jean~Marc {Le Goff}, Brian~L. Lee, Young~Sun Lee, Jarron~M.
+  Leisenring, Yen~Ting Lin, Jian Liu, Daniel~C. Long, Craig~P. Loomis, Sara
+  Lucatello, Britt Lundgren, Robert~H. Lupton, Bo~Ma, Zhibo Ma, Nicholas
+  MacDonald, Claude MacK, Suvrath Mahadevan, Marcio~A.G. Maia, Steven~R.
+  Majewski, Martin Makler, Elena Malanushenko, Viktor Malanushenko, Rachel
+  Mandelbaum, Claudia Maraston, Daniel Margala, Paul Maseman, Karen~L. Masters,
+  Cameron~K. McBride, Patrick McDonald, Ian~D. McGreer, Richard~G. McMahon,
+  Olga {Mena Requejo}, Brice M{\'{e}}nard, Jordi Miralda-Escud{\'{e}},
+  Heather~L. Morrison, Fergal Mullally, Demitri Muna, Hitoshi Murayama, Adam~D.
+  Myers, Tracy Naugle, Angelo~Fausti Neto, Duy~Cuong Nguyen, Robert~C. Nichol,
+  David~L. Nidever, Robert~W. O'Connell, Ricardo~L.C. Ogando, Matthew~D.
+  Olmstead, Daniel~J. Oravetz, Nikhil Padmanabhan, Martin Paegert, Nathalie
+  Palanque-Delabrouille, Kaike Pan, Parul Pandey, John~K. Parejko, Isabelle
+  P{\^{a}}ris, Paulo Pellegrini, Joshua Pepper, Will~J. Percival, Patrick
+  Petitjean, Robert Pfaffenberger, Janine Pforr, Stefanie Phleps, Christophe
+  Pichon, Matthew~M. Pieri, Francisco Prada, Adrian~M. Price-Whelan, M.~Jordan
+  Raddick, Beatriz~H.F. Ramos, I.~Neill Reid, Celine Reyle, James Rich,
+  Gordon~T. Richards, George~H. Rieke, Marcia~J. Rieke, Hans~Walter Rix,
+  Annie~C. Robin, Helio~J. Rocha-Pinto, Constance~M. Rockosi, Natalie~A. Roe,
+  Emmanuel Rollinde, Ashley~J. Ross, Nicholas~P. Ross, Bruno Rossetto, Ariel~G.
+  Snchez, Basilio Santiago, Conor Sayres, Ricardo Schiavon, David~J. Schlegel,
+  Katharine~J. Schlesinger, Sarah~J. Schmidt, Donald~P. Schneider, Kris
+  Sellgren, Alaina Shelden, Erin Sheldon, Matthew Shetrone, Yiping Shu, John~D.
+  Silverman, Jennifer Simmerer, Audrey~E. Simmons, Thirupathi Sivarani, M.~F.
+  Skrutskie, Ane Slosar, Stephen Smee, Verne~V. Smith, Stephanie~A. Snedden,
+  Keivan~G. Stassun, Oliver Steele, Matthias Steinmetz, Mark~H. Stockett, Todd
+  Stollberg, Michael~A. Strauss, Alexander~S. Szalay, Masayuki Tanaka,
+  Aniruddha~R. Thakar, Daniel Thomas, Jeremy~L. Tinker, Benjamin~M. Tofflemire,
+  Rita Tojeiro, Christy~A. Tremonti, Mariana {Vargas Mag{\~{a}}a}, Licia Verde,
+  Nicole~P. Vogt, David~A. Wake, Xiaoke Wan, Ji~Wang, Benjamin~A. Weaver,
+  Martin White, Simon~D.M. White, John~C. Wilson, John~P. Wisniewski,
+  W.~Michael Wood-Vasey, Brian Yanny, Naoki Yasuda, Christophe Y{\`{e}}che,
+  Donald~G. York, Erick Young, Gail Zasowski, Idit Zehavi, and Bo~Zhao.
+\newblock {SDSS-III: Massive spectroscopic surveys of the distant Universe, the
+  MILKY WAY, and extra-solar planetary systems}.
+\newblock {\em Astronomical Journal}, Vol. 142, No.~3, 2011.
+
+\bibitem{Blanton2017}
+Michael~R. Blanton, Matthew~A. Bershady, Bela Abolfathi, Franco~D. Albareti,
+  Carlos~Allende Prieto, Andres Almeida, Javier Alonso-Garc{\'{i}}a, Friedrich
+  Anders, Scott~F. Anderson, Brett Andrews, Erik Aquino-Ort{\'{i}}z, Alfonso
+  Arag{\'{o}}n-Salamanca, Maria Argudo-Fern{\'{a}}ndez, Eric Armengaud, Eric
+  Aubourg, Vladimir Avila-Reese, Carles Badenes, Stephen Bailey, Kathleen~A.
+  Barger, Jorge Barrera-Ballesteros, Curtis Bartosz, Dominic Bates, Falk
+  Baumgarten, Julian Bautista, Rachael Beaton, Timothy~C. Beers, Francesco
+  Belfiore, Chad~F. Bender, Andreas~A. Berlind, Mariangela Bernardi, Florian
+  Beutler, Jonathan~C. Bird, Dmitry Bizyaev, Guillermo~A. Blanc, Michael
+  Blomqvist, Adam~S. Bolton, M{\'{e}}d{\'{e}}ric Boquien, Jura Borissova, Remco
+  van~den Bosch, Jo~Bovy, William~N. Brandt, Jonathan Brinkmann, Joel~R.
+  Brownstein, Kevin Bundy, Adam~J. Burgasser, Etienne Burtin, Nicol{\'{a}}s~G.
+  Busca, Michele Cappellari, Maria Leticia~Delgado Carigi, Joleen~K. Carlberg,
+  Aurelio~Carnero Rosell, Ricardo Carrera, Nancy~J. Chanover, Brian Cherinka,
+  Edmond Cheung, Yilen G{\'{o}}mez~Maqueo Chew, Cristina Chiappini,
+  Peter~Doohyun Choi, Drew Chojnowski, Chia-Hsun Chuang, Haeun Chung,
+  Rafael~Fernando Cirolini, Nicolas Clerc, Roger~E. Cohen, Johan Comparat, Luiz
+  da~Costa, Marie-Claude Cousinou, Kevin Covey, Jeffrey~D. Crane, Rupert A.~C.
+  Croft, Irene Cruz-Gonzalez, Daniel~Garrido Cuadra, Katia Cunha, Guillermo~J.
+  Damke, Jeremy Darling, Roger Davies, Kyle Dawson, Axel de~la Macorra, Flavia
+  Dell'Agli, Nathan~De Lee, Timoth{\'{e}}e Delubac, Francesco~Di Mille, Aleks
+  Diamond-Stanic, Mariana Cano-D{\'{i}}az, John Donor, Juan~Jos{\'{e}} Downes,
+  Niv Drory, H{\'{e}}lion du~Mas des Bourboux, Christopher~J. Duckworth, Tom
+  Dwelly, Jamie Dyer, Garrett Ebelke, Arthur~D. Eigenbrot, Daniel~J.
+  Eisenstein, Eric Emsellem, Mike Eracleous, Stephanie Escoffier, Michael~L.
+  Evans, Xiaohui Fan, Emma Fern{\'{a}}ndez-Alvar, J.~G. Fernandez-Trincado,
+  Diane~K. Feuillet, Alexis Finoguenov, Scott~W. Fleming, Andreu Font-Ribera,
+  Alexander Fredrickson, Gordon Freischlad, Peter~M. Frinchaboy, Carla~E.
+  Fuentes, Llu{\'{i}}s Galbany, R.~Garcia-Dias, D.~A.
+  Garc{\'{i}}a-Hern{\'{a}}ndez, Patrick Gaulme, Doug Geisler, Joseph~D.
+  Gelfand, H{\'{e}}ctor Gil-Mar{\'{i}}n, Bruce~A. Gillespie, Daniel Goddard,
+  Violeta Gonzalez-Perez, Kathleen Grabowski, Paul~J. Green, Catherine~J.
+  Grier, James~E. Gunn, Hong Guo, Julien Guy, Alex Hagen, ChangHoon Hahn,
+  Matthew Hall, Paul Harding, Sten Hasselquist, Suzanne~L. Hawley, Fred Hearty,
+  Jonay I.~Gonzalez Hern{\'{a}}ndez, Shirley Ho, David~W. Hogg, Kelly
+  Holley-Bockelmann, Jon~A. Holtzman, Parker~H. Holzer, Joseph Huehnerhoff,
+  Timothy~A. Hutchinson, Ho~Seong Hwang, H{\'{e}}ctor~J. Ibarra-Medel, Gabriele
+  da~Silva Ilha, Inese~I. Ivans, KeShawn Ivory, Kelly Jackson, Trey~W. Jensen,
+  Jennifer~A. Johnson, Amy Jones, Henrik J{\"{o}}nsson, Eric Jullo, Vikrant
+  Kamble, Karen Kinemuchi, David Kirkby, Francisco-Shu Kitaura, Mark Klaene,
+  Gillian~R. Knapp, Jean-Paul Kneib, Juna~A. Kollmeier, Ivan Lacerna,
+  Richard~R. Lane, Dustin Lang, David~R. Law, Daniel Lazarz, Youngbae Lee,
+  Jean-Marc~Le Goff, Fu-Heng Liang, Cheng Li, Hongyu Li, Jianhui Lian, Marcos
+  Lima, Lihwai Lin, Yen-Ting Lin, Sara~Bertran de~Lis, Chao Liu, Miguel Angel
+  C. de~Icaza Lizaola, Dan Long, Sara Lucatello, Britt Lundgren, Nicholas~K.
+  MacDonald, Alice~Deconto Machado, Chelsea~L. MacLeod, Suvrath Mahadevan,
+  Marcio Antonio~Geimba Maia, Roberto Maiolino, Steven~R. Majewski, Elena
+  Malanushenko, Viktor Malanushenko, Arturo Manchado, Shude Mao, Claudia
+  Maraston, Rui Marques-Chaves, Thomas Masseron, Karen~L. Masters, Cameron~K.
+  McBride, Richard~M. McDermid, Brianne McGrath, Ian~D. McGreer, Nicol{\'{a}}s
+  {Medina Pe{\~{n}}a}, Matthew Melendez, Andrea Merloni, Michael~R. Merrifield,
+  Szabolcs Meszaros, Andres Meza, Ivan Minchev, Dante Minniti, Takamitsu
+  Miyaji, Surhud More, John Mulchaey, Francisco M{\"{u}}ller-S{\'{a}}nchez,
+  Demitri Muna, Ricardo~R. Munoz, Adam~D. Myers, Preethi Nair, Kirpal Nandra,
+  Janaina~Correa do~Nascimento, Alenka Negrete, Melissa Ness, Jeffrey~A.
+  Newman, Robert~C. Nichol, David~L. Nidever, Christian Nitschelm, Pierros
+  Ntelis, Julia~E. O'Connell, Ryan~J. Oelkers, Audrey Oravetz, Daniel Oravetz,
+  Zach Pace, Nelson Padilla, Nathalie Palanque-Delabrouille, Pedro~Alonso
+  Palicio, Kaike Pan, John~K. Parejko, Taniya Parikh, Isabelle P{\^{a}}ris,
+  Changbom Park, Alim~Y. Patten, Sebastien Peirani, Marcos Pellejero-Ibanez,
+  Samantha Penny, Will~J. Percival, Ismael Perez-Fournon, Patrick Petitjean,
+  Matthew~M. Pieri, Marc Pinsonneault, Alice Pisani, Rados{\l}aw Poleski,
+  Francisco Prada, Abhishek Prakash, Anna B{\'{a}}rbara de~Andrade Queiroz,
+  M.~Jordan Raddick, Anand Raichoor, Sandro~Barboza Rembold, Hannah Richstein,
+  Rogemar~A. Riffel, Rog{\'{e}}rio Riffel, Hans-Walter Rix, Annie~C. Robin,
+  Constance~M. Rockosi, Sergio Rodr{\'{i}}guez-Torres, A.~Roman-Lopes, Carlos
+  Rom{\'{a}}n-Z{\'{u}}{\~{n}}iga, Margarita Rosado, Ashley~J. Ross, Graziano
+  Rossi, John Ruan, Rossana Ruggeri, Eli~S. Rykoff, Salvador Salazar-Albornoz,
+  Mara Salvato, Ariel~G. S{\'{a}}nchez, D.~S. Aguado, Jos{\'{e}}~R.
+  S{\'{a}}nchez-Gallego, Felipe~A. Santana, Bas{\'{i}}lio~Xavier Santiago,
+  Conor Sayres, Ricardo~P. Schiavon, Jaderson da~Silva Schimoia, Edward~F.
+  Schlafly, David~J. Schlegel, Donald~P. Schneider, Mathias Schultheis,
+  William~J. Schuster, Axel Schwope, Hee-Jong Seo, Zhengyi Shao, Shiyin Shen,
+  Matthew Shetrone, Michael Shull, Joshua~D. Simon, Danielle Skinner, M.~F.
+  Skrutskie, An{\v{z}}e Slosar, Verne~V. Smith, Jennifer~S. Sobeck, Flavia
+  Sobreira, Garrett Somers, Diogo Souto, David~V. Stark, Keivan Stassun, Fritz
+  Stauffer, Matthias Steinmetz, Thaisa Storchi-Bergmann, Alina Streblyanska,
+  Guy~S. Stringfellow, Genaro Su{\'{a}}rez, Jing Sun, Nao Suzuki, Laszlo
+  Szigeti, Manuchehr Taghizadeh-Popp, Baitian Tang, Charling Tao, Jamie Tayar,
+  Mita Tembe, Johanna Teske, Aniruddha~R. Thakar, Daniel Thomas, Benjamin~A.
+  Thompson, Jeremy~L. Tinker, Patricia Tissera, Rita Tojeiro, Hector~Hernandez
+  Toledo, Sylvain de~la Torre, Christy Tremonti, Nicholas~W. Troup, Octavio
+  Valenzuela, Inma~Martinez Valpuesta, Jaime Vargas-Gonz{\'{a}}lez, Mariana
+  Vargas-Maga{\~{n}}a, Jose~Alberto Vazquez, Sandro Villanova, M.~Vivek, Nicole
+  Vogt, David Wake, Rene Walterbos, Yuting Wang, Benjamin~Alan Weaver,
+  Anne-Marie Weijmans, David~H. Weinberg, Kyle~B. Westfall, David~G. Whelan,
+  Vivienne Wild, John Wilson, W.~M. Wood-Vasey, Dominika Wylezalek, Ting Xiao,
+  Renbin Yan, Meng Yang, Jason~E. Ybarra, Christophe Y{\`{e}}che, Nadia
+  Zakamska, Olga Zamora, Pauline Zarrouk, Gail Zasowski, Kai Zhang, Gong-Bo
+  Zhao, Zheng Zheng, Zheng Zheng, Xu~Zhou, Zhi-Min Zhou, Guangtun~B. Zhu,
+  Manuela Zoccali, and Hu~Zou.
+\newblock {Sloan Digital Sky Survey IV: Mapping the Milky Way, Nearby Galaxies,
+  and the Distant Universe}.
+\newblock {\em The Astronomical Journal}, Vol. 154, No.~1, p.~28, 2017.
+
+\bibitem{Lintott2010}
+Chris Lintott, Kevin Schawinski, Steven Bamford, Anze Slosar, Kate Land, Daniel
+  Thomas, Edd Edmondson, Karen Masters, Robert Nichol, Jordan Raddick, Alex
+  Szalay, Dan Andreescu, Phil Murray, and Jan Vandenberg.
+\newblock {Galaxy Zoo 1 : Data Release of Morphological Classifications for
+  nearly 900,000 galaxies}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 410,
+  No.~1, pp. 166--178, jul 2010.
+
+\bibitem{Willett2013}
+Kyle~W. Willett, Chris~J. Lintott, Steven~P. Bamford, Karen~L. Masters,
+  Brooke~D. Simmons, Kevin~R.V. Casteels, Edward~M. Edmondson, Lucy~F. Fortson,
+  Sugata Kaviraj, William~C. Keel, Thomas Melvin, Robert~C. Nichol, M.~{Jordan
+  Raddick}, Kevin Schawinski, Robert~J. Simpson, Ramin~A. Skibba, Arfon~M.
+  Smith, and Daniel Thomas.
+\newblock {Galaxy zoo 2: Detailed morphological classifications for 304 122
+  galaxies from the sloan digital sky survey}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 435,
+  No.~4, pp. 2835--2860, 2013.
+
+\bibitem{Abazajian2009}
+Kevork~N. Abazajian, Jennifer~K. Adelman-Mccarthy, Marcel~A. Ag{\"{u}}eros,
+  Sahar~S. Allam, Carlos {Allende Prieto}, Deokkeun An, Kurt~S.J. Anderson,
+  Scott~F. Anderson, James Annis, Neta~A. Bahcall, C.~A.L. Bailer-Jones, J.~C.
+  Barentine, Bruce~A. Bassett, Andrew~C. Becker, Timothy~C. Beers, Eric~F.
+  Bell, Vasily Belokurov, Andreas~A. Berlind, Eileen~F. Berman, Mariangela
+  Bernardi, Steven~J. Bickerton, Dmitry Bizyaev, John~P. Blakeslee, Michael~R.
+  Blanton, John~J. Bochanski, William~N. Boroski, Howard~J. Brewington, Jarle
+  Brinchmann, J.~Brinkmann, Robert~J. Brunner, Tams Budavri, Larry~N. Carey,
+  Samuel Carliles, Michael~A. Carr, Francisco~J. Castander, David Cinabro,
+  A.~J. Connolly, Istvn Csabai, Carlos~E. Cunha, Paul~C. Czarapata, James~R.A.
+  Davenport, Ernst {De Haas}, Ben Dilday, Mamoru Doi, Daniel~J. Eisenstein,
+  Michael~L. Evans, N.~W. Evans, Xiaohui Fan, Scott~D. Friedman, Joshua~A.
+  Frieman, Masataka Fukugita, Boris~T. G{\"{a}}nsicke, Evalyn Gates, Bruce
+  Gillespie, G.~Gilmore, Belinda Gonzalez, Carlos~F. Gonzalez, Eva~K. Grebel,
+  James~E. Gunn, Zsuzsanna Gy{\"{o}}ry, Patrick~B. Hall, Paul Harding,
+  Frederick~H. Harris, Michael Harvanek, Suzanne~L. Hawley, Jeffrey~J.E. Hayes,
+  Timothy~M. Heckman, John~S. Hendry, Gregory~S. Hennessy, Robert~B. Hindsley,
+  J.~Hoblitt, Craig~J. Hogan, David~W. Hogg, Jon~A. Holtzman, Joseph~B. Hyde,
+  Shin~Ichi Ichikawa, Takashi Ichikawa, Myungshin Im, Eljko Ivezi{\'{c}},
+  Sebastian Jester, Linhua Jiang, Jennifer~A. Johnson, Anders~M. Jorgensen,
+  Mario Juri{\'{c}}, Stephen~M. Kent, R.~Kessler, S.~J. Kleinman, G.~R. Knapp,
+  Kohki Konishi, Richard~G. Kron, Jurek Krzesinski, Nikolay Kuropatkin, Hubert
+  Lampeitl, Svetlana Lebedeva, Myung~Gyoon Lee, Young~Sun Lee, R.~French Leger,
+  S{\'{e}}bastien L{\'{e}}pine, Nolan Li, Marcos Lima, Huan Lin, Daniel~C.
+  Long, Craig~P. Loomis, Jon Loveday, Robert~H. Lupton, Eugene Magnier, Olena
+  Malanushenko, Viktor Malanushenko, Rachel Mandelbaum, Bruce Margon, John~P.
+  Marriner, David Mart{\'{i}}nez-Delgado, Takahiko Matsubara, Peregrine~M.
+  McGehee, Timothy~A. McKay, Avery Meiksin, Heather~L. Morrison, Fergal
+  Mullally, Jeffrey~A. Munn, Tara Murphy, Thomas Nash, Ada Nebot, Eric~H.
+  Neilsen, Heidi~Jo Newberg, Peter~R. Newman, Robert~C. Nichol, Tom Nicinski,
+  Maria Nieto-Santisteban, Atsuko Nitta, Sadanori Okamura, Daniel~J. Oravetz,
+  Jeremiah~P. Ostriker, Russell Owen, Nikhil Padmanabhan, Kaike Pan, Changbom
+  Park, George Pauls, John Peoples, Will~J. Percival, Jeffrey~R. Pier,
+  Adrian~C. Pope, Dimitri Pourbaix, Paul~A. Price, Norbert Purger, Thomas
+  Quinn, M.~Jordan Raddick, Paola~Re Fiorentin, Gordon~T. Richards, Michael~W.
+  Richmond, Adam~G. Riess, Hans~Walter Rix, Constance~M. Rockosi, Masao Sako,
+  David~J. Schlegel, Donald~P. Schneider, Ralf~Dieter Scholz, Matthias~R.
+  Schreiber, Axel~D. Schwope, Uro{\v{s}} Seljak, Branimir Sesar, Erin Sheldon,
+  Kazu Shimasaku, Valena~C. Sibley, A.~E. Simmons, Thirupathi Sivarani,
+  J.~Allyn Smith, Martin~C. Smith, Vernesa Smoli{\'{c}}, Stephanie~A. Snedden,
+  Albert Stebbins, Matthias Steinmetz, Chris Stoughton, Michael~A. Strauss,
+  Mark Subbarao, Yasushi Suto, Alexander~S. Szalay, Istvn Szapudi, Paula
+  Szkody, Masayuki Tanaka, Max Tegmark, Luis~F.A. Teodoro, Aniruddha~R. Thakar,
+  Christy~A. Tremonti, Douglas~L. Tucker, Alan Uomoto, Daniel~E. {Vanden Berk},
+  Jan Vandenberg, S.~Vidrih, Michael~S. Vogeley, Wolfgang Voges, Nicole~P.
+  Vogt, Yogesh Wadadekar, Shannon Watters, David~H. Weinberg, Andrew~A. West,
+  Simon~D.M. White, Brian~C. Wilhite, Alainna~C. Wonders, Brian Yanny, D.~R.
+  Yocum, Donald~G. York, Idit Zehavi, Stefano Zibetti, and Daniel~B. Zucker.
+\newblock {The seventh data release of the sloan digital sky survey}.
+\newblock {\em Astrophysical Journal, Supplement Series}, Vol. 182, No.~2, pp.
+  543--558, 2009.
+
+\bibitem{Tampo2020}
+Hiroaki Aihara, Yusra AlSayyad, Makoto Ando, Robert Armstrong, James Bosch,
+  Eiichi Egami, Hisanori Furusawa, Junko Furusawa, Sumiko Harasawa, Yuichi
+  Harikane, Bau-Ching Hsieh, Hiroyuki Ikeda, Kei Ito, Ikuru Iwata, Tadayuki
+  Kodama, Michitaro Koike, Mitsuru Kokubo, Yutaka Komiyama, Xiangchong Li,
+  Yongming Liang, Yen-Ting Lin, Robert~H. Lupton, Nate~B Lust, Lauren~A.
+  MacArthur, Ken Mawatari, Sogo Mineo, Hironao Miyatake, Satoshi Miyazaki,
+  Surhud More, Takahiro Morishima, Hitoshi Murayama, Kimihiko Nakajima, Fumiaki
+  Nakata, Atsushi~J. Nishizawa, Masamune Oguri, Nobuhiro Okabe, Yuki Okura,
+  Yoshiaki Ono, Ken Osato, Masami Ouchi, Yen-Chen Pan, Andr{\'{e}}s A.~Plazas
+  Malag{\'{o}}n, Paul~A. Price, Sophie~L Reed, Eli~S. Rykoff, Takatoshi
+  Shibuya, Mirko Simunovic, Michael~A. Strauss, Kanako Sugimori, Yasushi Suto,
+  Nao Suzuki, Masahiro Takada, Yuhei Takagi, Tadafumi Takata, Satoshi Takita,
+  Masayuki Tanaka, Shenli Tang, Dan~S. Taranu, Tsuyoshi Terai, Yoshiki Toba,
+  Edwin~L. Turner, Hisakazu Uchiyama, Bovornpratch Vijarnwannaluk,
+  Christopher~Z Waters, Yoshihiko Yamada, Naoaki Yamamoto, and Takuji
+  Yamashita.
+\newblock {Third Data Release of the Hyper Suprime-Cam Subaru Strategic
+  Program}.
+\newblock {\em Publications of the Astronomical Society of Japan}, Vol.~00,
+  No.~0, pp. 1--6, aug 2021.
+
+\end{thebibliography}
