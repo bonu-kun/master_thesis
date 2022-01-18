@@ -4,46 +4,46 @@ The top-level auxiliary file: homma22.aux
 The style file: junsrt.bst
 Database file #1: Master_thesis_bib.bib
 Warning--empty publisher in hubble1936
-You've used 18 entries,
+You've used 19 entries,
             2270 wiz_defined-function locations,
-            667 strings with 31391 characters,
-and the built_in function-call counts, 24691 in all, are:
-= -- 595
-> -- 3495
-< -- 45
-+ -- 1177
-- -- 1159
-* -- 2633
-:= -- 4125
-add.period$ -- 54
-call.type$ -- 18
-change.case$ -- 17
+            673 strings with 31828 characters,
+and the built_in function-call counts, 25358 in all, are:
+= -- 637
+> -- 3544
+< -- 48
++ -- 1194
+- -- 1175
+* -- 2687
+:= -- 4214
+add.period$ -- 57
+call.type$ -- 19
+change.case$ -- 18
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 437
-empty$ -- 619
-format.name$ -- 2318
-if$ -- 5047
+cite$ -- 20
+duplicate$ -- 465
+empty$ -- 659
+format.name$ -- 2350
+if$ -- 5201
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 19
-newline$ -- 93
-num.names$ -- 18
-pop$ -- 82
+int.to.str$ -- 19
+missing$ -- 20
+newline$ -- 98
+num.names$ -- 19
+pop$ -- 86
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 377
+skip$ -- 403
 stack$ -- 0
-substring$ -- 483
-swap$ -- 185
-text.length$ -- 45
+substring$ -- 523
+swap$ -- 199
+text.length$ -- 48
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 61
-width$ -- 20
-write$ -- 198
-is.kanji.str$ -- 1332
+while$ -- 65
+width$ -- 21
+write$ -- 209
+is.kanji.str$ -- 1358
 (There was 1 warning)

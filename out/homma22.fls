@@ -173,31 +173,22 @@ INPUT images/model_shape.png
 INPUT extractbb -B cropbox -O images/model_shape.png
 INPUT images/cm.png
 INPUT extractbb -B cropbox -O images/cm.png
-INPUT images/losses_ex4-1.png
-INPUT extractbb -B cropbox -O images/losses_ex4-1.png
-INPUT images/losses_ex4-2.png
-INPUT extractbb -B cropbox -O images/losses_ex4-2.png
-INPUT images/accs_ex4-1.png
-INPUT extractbb -B cropbox -O images/accs_ex4-1.png
-INPUT images/accs_ex4-2.png
-INPUT extractbb -B cropbox -O images/accs_ex4-2.png
-INPUT images/cm_mean_std_ex4-1.png
-INPUT extractbb -B cropbox -O images/cm_mean_std_ex4-1.png
-INPUT images/cm_mean_std_ex4-2.png
-INPUT extractbb -B cropbox -O images/cm_mean_std_ex4-2.png
-INPUT images/losses_ex4-2.png
-INPUT images/losses_ex4-3.png
-INPUT extractbb -B cropbox -O images/losses_ex4-3.png
-INPUT images/accs_ex4-2.png
-INPUT images/accs_ex4-3.png
-INPUT extractbb -B cropbox -O images/accs_ex4-3.png
-INPUT images/cm_mean_std_ex4-2.png
-INPUT images/cm_mean_std_ex4-3.png
-INPUT extractbb -B cropbox -O images/cm_mean_std_ex4-3.png
+INPUT images/drawio/4_2_losses.png
+INPUT extractbb -B cropbox -O images/drawio/4_2_losses.png
+INPUT images/drawio/4_2_accs.png
+INPUT extractbb -B cropbox -O images/drawio/4_2_accs.png
+INPUT images/drawio/4_2_cms.png
+INPUT extractbb -B cropbox -O images/drawio/4_2_cms.png
+INPUT images/drawio/4_3_losses.png
+INPUT extractbb -B cropbox -O images/drawio/4_3_losses.png
+INPUT images/drawio/4_3_accs.png
+INPUT extractbb -B cropbox -O images/drawio/4_3_accs.png
+INPUT images/drawio/4_3_cms.png
+INPUT extractbb -B cropbox -O images/drawio/4_3_cms.png
 INPUT images/5syou/syuron_5syou_kakudai/ver1/5syou_shrink_ver1.png
 INPUT extractbb -B cropbox -O images/5syou/syuron_5syou_kakudai/ver1/5syou_shrink_ver1.png
-INPUT images/5syou/syuron_5syou_kakudai/ver1/5syou_kakudai_ver1.png
-INPUT extractbb -B cropbox -O images/5syou/syuron_5syou_kakudai/ver1/5syou_kakudai_ver1.png
+INPUT images/drawio/5syou_kakudai.png
+INPUT extractbb -B cropbox -O images/drawio/5syou_kakudai.png
 INPUT images/5syou/print_errorbar/print_errorbar_inter_comparison/acc_with_errorbar_syuron5_inter_comparison_900epoch_30run_300_acc_max_std1sigma.png
 INPUT extractbb -B cropbox -O images/5syou/print_errorbar/print_errorbar_inter_comparison/acc_with_errorbar_syuron5_inter_comparison_900epoch_30run_300_acc_max_std1sigma.png
 INPUT images/5syou/print_errorbar/print_errorbar_inter_comparison/acc_with_errorbar_syuron5_inter_comparison_900epoch_30run_300_acc_max_ste1sigma.png

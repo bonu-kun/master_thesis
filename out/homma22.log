@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017/Debian) (preloaded format=platex 2021.10.7)  18 JAN 2022 20:38
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017/Debian) (preloaded format=platex 2021.10.7)  19 JAN 2022 04:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -322,13 +322,13 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
 ] [2] [3]
 第 2 章
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 157.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 171.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 157.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 171.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 161.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 175.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 161.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 175.
 File: images/drawio/pa-seputoron.png Graphic file (type bmp)
 <images/drawio/pa-seputoron.png>
 [4
@@ -336,44 +336,47 @@ File: images/drawio/pa-seputoron.png Graphic file (type bmp)
 ] [5]
 File: images/drawio/3nn.png Graphic file (type bmp)
 <images/drawio/3nn.png>
-[6] [7] [8]
+[6] [7]
 File: images/drawio/conv2d.png Graphic file (type bmp)
 <images/drawio/conv2d.png>
-[9]
+[8]
 File: images/drawio/maxpooling.png Graphic file (type bmp)
 <images/drawio/maxpooling.png>
-[10]
+[9]
 File: images/dropout.png Graphic file (type bmp)
 <images/dropout.png>
-[11] [12]
+[10] [11]
 File: images/sigmoid.png Graphic file (type bmp)
 <images/sigmoid.png>
 File: images/relu.png Graphic file (type bmp)
 <images/relu.png>
-[13] [14] [15]
+[12] [13] [14]
 File: images/drawio/gradient.png Graphic file (type bmp)
 <images/drawio/gradient.png>
-[16]
+[15]
 第 3 章
 File: images/drawio/filter_responces.png Graphic file (type bmp)
 <images/drawio/filter_responces.png>
-[17
+[16
 
-] [18] [19]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 440.
+] [17] [18]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 454.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 440.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 454.
 File: images/table2.png Graphic file (type bmp)
 <images/table2.png>
 
-Overfull \hbox (56.90552pt too wide) in paragraph at lines 458--459
+Overfull \hbox (56.90552pt too wide) in paragraph at lines 472--473
  [][] 
  []
 
-[20]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19] [20]
 第 4 章
 File: images/z_15000_0_040_kesson.png Graphic file (type bmp)
 <images/z_15000_0_040_kesson.png>
@@ -394,42 +397,28 @@ File: images/model_shape.png Graphic file (type bmp)
 File: images/cm.png Graphic file (type bmp)
 <images/cm.png>
 [26] [27] [28]
-File: images/losses_ex4-1.png Graphic file (type bmp)
-<images/losses_ex4-1.png>
-File: images/losses_ex4-2.png Graphic file (type bmp)
-<images/losses_ex4-2.png>
-File: images/accs_ex4-1.png Graphic file (type bmp)
-<images/accs_ex4-1.png>
-File: images/accs_ex4-2.png Graphic file (type bmp)
-<images/accs_ex4-2.png>
-[29]
-File: images/cm_mean_std_ex4-1.png Graphic file (type bmp)
-<images/cm_mean_std_ex4-1.png>
-File: images/cm_mean_std_ex4-2.png Graphic file (type bmp)
-<images/cm_mean_std_ex4-2.png>
-[30] [31] [32]
-File: images/losses_ex4-2.png Graphic file (type bmp)
-<images/losses_ex4-2.png>
-File: images/losses_ex4-3.png Graphic file (type bmp)
-<images/losses_ex4-3.png>
-File: images/accs_ex4-2.png Graphic file (type bmp)
-<images/accs_ex4-2.png>
-File: images/accs_ex4-3.png Graphic file (type bmp)
-<images/accs_ex4-3.png>
-[33]
-File: images/cm_mean_std_ex4-2.png Graphic file (type bmp)
-<images/cm_mean_std_ex4-2.png>
-File: images/cm_mean_std_ex4-3.png Graphic file (type bmp)
-<images/cm_mean_std_ex4-3.png>
-[34] [35] [36] [37]
+File: images/drawio/4_2_losses.png Graphic file (type bmp)
+<images/drawio/4_2_losses.png>
+File: images/drawio/4_2_accs.png Graphic file (type bmp)
+<images/drawio/4_2_accs.png>
+File: images/drawio/4_2_cms.png Graphic file (type bmp)
+<images/drawio/4_2_cms.png>
+[29] [30] [31] [32]
+File: images/drawio/4_3_losses.png Graphic file (type bmp)
+<images/drawio/4_3_losses.png>
+File: images/drawio/4_3_accs.png Graphic file (type bmp)
+<images/drawio/4_3_accs.png>
+File: images/drawio/4_3_cms.png Graphic file (type bmp)
+<images/drawio/4_3_cms.png>
+[33] [34] [35] [36] [37]
 第 5 章
 File: images/5syou/syuron_5syou_kakudai/ver1/5syou_shrink_ver1.png Graphic file (type bmp)
 <images/5syou/syuron_5syou_kakudai/ver1/5syou_shrink_ver1.png>
 [38
 
 ]
-File: images/5syou/syuron_5syou_kakudai/ver1/5syou_kakudai_ver1.png Graphic file (type bmp)
-<images/5syou/syuron_5syou_kakudai/ver1/5syou_kakudai_ver1.png>
+File: images/drawio/5syou_kakudai.png Graphic file (type bmp)
+<images/drawio/5syou_kakudai.png>
 [39] [40]
 File: images/5syou/print_errorbar/print_errorbar_inter_comparison/acc_with_errorbar_syuron5_inter_comparison_900epoch_30run_300_acc_max_std1sigma.png Graphic file (type bmp)
 <images/5syou/print_errorbar/print_errorbar_inter_comparison/acc_with_errorbar_syuron5_inter_comparison_900epoch_30run_300_acc_max_std1sigma.png>
@@ -444,16 +433,16 @@ File: images/5syou/print_errorbar/linear/acc_with_errorbar_syuron5_linear_900epo
 <images/5syou/print_errorbar/linear/acc_with_errorbar_syuron5_linear_900epoch_30run_num_of_gal_comparison_acc_max_std1sigma.png>
 File: images/5syou/print_errorbar/cubic/acc_with_errorbar_syuron5_cubic_900epoch_30run_num_of_gal_comparison_acc_max_std1sigma.png Graphic file (type bmp)
 <images/5syou/print_errorbar/cubic/acc_with_errorbar_syuron5_cubic_900epoch_30run_num_of_gal_comparison_acc_max_std1sigma.png>
-[48] [49] [50] [51] [52] [53]
+[48] [49] [50] [51] [52]
 第 6 章
-[54
+[53
 
-] [55] [56] [57]
+] [54] [55]
 File: images/6syou/acc_with_errorbar_auto_epoch.png Graphic file (type bmp)
 <images/6syou/acc_with_errorbar_auto_epoch.png>
-[58]
+[56]
 第 7 章
-[59
+[57
 
 ] (out/homma22.bbl
 
@@ -464,31 +453,31 @@ LaTeX Font Warning: Font shape `JT1/gt/m/it' undefined
 LaTeX Font Warning: Font shape `JY1/gt/m/it' undefined
 (Font)              using `JY1/gt/m/n' instead on input line 5.
 
-[60
+[58
 
-] [61] [62] [63] [64] [65] [66] [67] [68]) [69]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1273.
-[70
+] [59] [60] [61] [62] [63] [64] [65] [66]) [67]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1302.
+[68
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1273.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1302.
 (out/homma22.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1273.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1273.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1302.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1302.
 Package rerunfilecheck Info: File `homma22.out' has not changed.
-(rerunfilecheck)             Checksum: E6C559E64C1E173610D4F4E7B90801E2;3501.
+(rerunfilecheck)             Checksum: A61AD87792112BEC2A9B33D18FEF2C77;3507.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1273.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1302.
  ) 
 Here is how much of TeX's memory you used:
- 7217 strings out of 493640
- 110049 string characters out of 6150528
- 214503 words of memory out of 5000000
- 10703 multiletter control sequences out of 15000+600000
+ 7203 strings out of 493640
+ 109651 string characters out of 6150528
+ 214229 words of memory out of 5000000
+ 10692 multiletter control sequences out of 15000+600000
  20753 words of font info for 81 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 36i,12n,43p,1207b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,43p,1031b,433s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/homma22.dvi (75 pages, 259624 bytes).
+Output written on out/homma22.dvi (73 pages, 258456 bytes).

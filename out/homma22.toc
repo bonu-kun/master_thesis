@@ -1,33 +1,33 @@
-\contentsline {chapter}{\numberline {第1章}はじめに}{1}{chapter.1}
+\contentsline {chapter}{\numberline {第1章}研究背景}{1}{chapter.1}
 \contentsline {chapter}{\numberline {第2章}深層学習}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}ディープニューラルネットワーク (深層学習)}{4}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}パーセプトロン}{4}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}ニューラルネットワーク}{6}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Deep Neural Network (DNN)}{7}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.3}Deep Neural Network (DNN)}{6}{subsection.2.1.3}
 \contentsline {subsection}{\numberline {2.1.4}Convolutional Neural Network (CNN)}{7}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}モデルの過学習}{8}{subsection.2.1.5}
-\contentsline {section}{\numberline {2.2}層の説明}{9}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}全結合層}{9}{subsection.2.2.1}
-\contentsline {subsubsection}{全結合層の概要・演算}{9}{section*.7}
-\contentsline {subsubsection}{活性化関数}{9}{section*.8}
-\contentsline {subsection}{\numberline {2.2.2}畳み込み層(Conv)}{9}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}プーリング層}{10}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Dropout層}{11}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}活性化関数}{12}{section.2.3}
-\contentsline {subsubsection}{sigmoid関数}{12}{section*.12}
-\contentsline {subsubsection}{ReLu関数}{13}{section*.14}
-\contentsline {subsubsection}{softmax関数}{14}{section*.16}
-\contentsline {section}{\numberline {2.4}損失関数と重み更新}{14}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}損失関数}{14}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}重み更新}{15}{subsection.2.4.2}
-\contentsline {subsubsection}{誤差逆伝搬法}{15}{section*.17}
-\contentsline {subsubsection}{最適化手法(勾配降下法)}{15}{section*.18}
-\contentsline {chapter}{\numberline {第3章}使用するデータセット}{17}{chapter.3}
-\contentsline {section}{\numberline {3.1}Sloan Digital Sky Survey(SDSS)}{17}{section.3.1}
-\contentsline {section}{\numberline {3.2}Galaxy Zoo (GZ)}{18}{section.3.2}
-\contentsline {section}{\numberline {3.3}実験に使用するデータセットの作成方法}{19}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}天体画像データ}{19}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}形態分類ラベル}{20}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {2.1.5}モデルの過学習}{7}{subsection.2.1.5}
+\contentsline {section}{\numberline {2.2}層の説明}{8}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}全結合層}{8}{subsection.2.2.1}
+\contentsline {subsubsection}{全結合層の概要・演算}{8}{section*.7}
+\contentsline {subsubsection}{活性化関数}{8}{section*.8}
+\contentsline {subsection}{\numberline {2.2.2}畳み込み層(Conv)}{8}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}プーリング層}{9}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Dropout層}{10}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}活性化関数}{11}{section.2.3}
+\contentsline {subsubsection}{sigmoid関数}{11}{section*.12}
+\contentsline {subsubsection}{ReLu関数}{12}{section*.14}
+\contentsline {subsubsection}{softmax関数}{13}{section*.16}
+\contentsline {section}{\numberline {2.4}損失関数と重み更新}{13}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}損失関数}{13}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}重み更新}{14}{subsection.2.4.2}
+\contentsline {subsubsection}{誤差逆伝搬法}{14}{section*.17}
+\contentsline {subsubsection}{最適化手法(勾配降下法)}{14}{section*.18}
+\contentsline {chapter}{\numberline {第3章}使用するデータセット}{16}{chapter.3}
+\contentsline {section}{\numberline {3.1}Sloan Digital Sky Survey(SDSS)}{16}{section.3.1}
+\contentsline {section}{\numberline {3.2}Galaxy Zoo (GZ)}{17}{section.3.2}
+\contentsline {section}{\numberline {3.3}実験に使用するデータセットの作成方法}{18}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}天体画像データ}{18}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}形態分類ラベル}{19}{subsection.3.3.2}
 \contentsline {chapter}{\numberline {第4章}SDSSとGalaxy Zooを用いた分類モデル学習}{21}{chapter.4}
 \contentsline {section}{\numberline {4.1}実験概要}{21}{section.4.1}
 \contentsline {subsubsection}{用いるデータセット}{21}{section*.23}
@@ -64,14 +64,11 @@
 \contentsline {subsubsection}{使用天体数増加によるaccuracyの変化}{49}{section*.67}
 \contentsline {subsubsection}{内挿方法間での比較}{49}{section*.68}
 \contentsline {subsubsection}{使用可能なデータセット間の解像度差について}{50}{section*.69}
-\contentsline {section}{\numberline {5.4}議論}{52}{section.5.4}
-\contentsline {subsubsection}{どの補間フィルタを用いるべきか}{52}{section*.70}
-\contentsline {subsubsection}{クラスごとの使用天体数をどう設定するべきか}{53}{section*.72}
-\contentsline {chapter}{\numberline {第6章}議論}{54}{chapter.6}
-\contentsline {section}{\numberline {6.1}本研究のまとめ}{54}{section.6.1}
-\contentsline {section}{\numberline {6.2}将来課題}{54}{section.6.2}
-\contentsline {subsubsection}{深層学習モデルの分類精度向上}{54}{section*.73}
-\contentsline {subsubsection}{未知天体データセットへの予測適用方法}{55}{section*.74}
-\contentsline {subsubsection}{GZ1の不確かを，深層学習でどう扱うか}{55}{section*.75}
-\contentsline {section}{\numberline {6.3}将来展望}{56}{section.6.3}
-\contentsline {chapter}{\numberline {第7章}おわりに}{59}{chapter.7}
+\contentsline {section}{\numberline {5.4}議論}{51}{section.5.4}
+\contentsline {subsubsection}{どの補間フィルタを用いるべきか}{51}{section*.70}
+\contentsline {subsubsection}{クラスごとの使用天体数をどう設定するべきか}{52}{section*.72}
+\contentsline {chapter}{\numberline {第6章}将来課題}{53}{chapter.6}
+\contentsline {section}{\numberline {6.1}本研究のまとめ}{53}{section.6.1}
+\contentsline {section}{\numberline {6.2}将来課題}{53}{section.6.2}
+\contentsline {section}{\numberline {6.3}将来展望}{54}{section.6.3}
+\contentsline {chapter}{\numberline {第7章}おわりに}{57}{chapter.7}

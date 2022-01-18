@@ -1,5 +1,5 @@
 %このファイルは日本語文字を含みます.
-\BOOKMARK [0][-]{chapter.1}{はじめに}{}% 1
+\BOOKMARK [0][-]{chapter.1}{研究背景}{}% 1
 \BOOKMARK [0][-]{chapter.2}{深層学習}{}% 2
 \BOOKMARK [1][-]{section.2.1}{ディープニューラルネットワーク \(深層学習\)}{chapter.2}% 3
 \BOOKMARK [2][-]{subsection.2.1.1}{パーセプトロン}{section.2.1}% 4
@@ -40,7 +40,7 @@
 \BOOKMARK [2][-]{subsection.5.3.1}{実験条件}{section.5.3}% 39
 \BOOKMARK [2][-]{subsection.5.3.2}{実験結果}{section.5.3}% 40
 \BOOKMARK [1][-]{section.5.4}{議論}{chapter.5}% 41
-\BOOKMARK [0][-]{chapter.6}{議論}{}% 42
+\BOOKMARK [0][-]{chapter.6}{将来課題}{}% 42
 \BOOKMARK [1][-]{section.6.1}{本研究のまとめ}{chapter.6}% 43
 \BOOKMARK [1][-]{section.6.2}{将来課題}{chapter.6}% 44
 \BOOKMARK [1][-]{section.6.3}{将来展望}{chapter.6}% 45
