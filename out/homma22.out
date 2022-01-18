@@ -1,11 +1,11 @@
 %このファイルは日本語文字を含みます.
 \BOOKMARK [0][-]{chapter.1}{はじめに}{}% 1
-\BOOKMARK [0][-]{chapter.2}{ディープラーニング}{}% 2
-\BOOKMARK [1][-]{section.2.1}{ディープニューラルネットワーク \(ディープラーニング\)}{chapter.2}% 3
+\BOOKMARK [0][-]{chapter.2}{深層学習}{}% 2
+\BOOKMARK [1][-]{section.2.1}{ディープニューラルネットワーク \(深層学習\)}{chapter.2}% 3
 \BOOKMARK [2][-]{subsection.2.1.1}{パーセプトロン}{section.2.1}% 4
 \BOOKMARK [2][-]{subsection.2.1.2}{ニューラルネットワーク}{section.2.1}% 5
-\BOOKMARK [2][-]{subsection.2.1.3}{DNN \(Deep Neural Network\)}{section.2.1}% 6
-\BOOKMARK [2][-]{subsection.2.1.4}{CNN \(Convolutional Neural Network\)}{section.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.1.3}{Deep Neural Network \(DNN\)}{section.2.1}% 6
+\BOOKMARK [2][-]{subsection.2.1.4}{Convolutional Neural Network \(CNN\)}{section.2.1}% 7
 \BOOKMARK [2][-]{subsection.2.1.5}{モデルの過学習}{section.2.1}% 8
 \BOOKMARK [1][-]{section.2.2}{層の説明}{chapter.2}% 9
 \BOOKMARK [2][-]{subsection.2.2.1}{全結合層}{section.2.2}% 10

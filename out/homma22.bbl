@@ -1,5 +1,32 @@
 \begin{thebibliography}{10}
 
+\bibitem{hubble1936}
+E.~P. Hubble.
+\newblock {\em {Realm of the Nebulae}}.
+\newblock 1936.
+
+\bibitem{Tampo2020}
+Hiroaki Aihara, Yusra AlSayyad, Makoto Ando, Robert Armstrong, James Bosch,
+  Eiichi Egami, Hisanori Furusawa, Junko Furusawa, Sumiko Harasawa, Yuichi
+  Harikane, Bau-Ching Hsieh, Hiroyuki Ikeda, Kei Ito, Ikuru Iwata, Tadayuki
+  Kodama, Michitaro Koike, Mitsuru Kokubo, Yutaka Komiyama, Xiangchong Li,
+  Yongming Liang, Yen-Ting Lin, Robert~H. Lupton, Nate~B Lust, Lauren~A.
+  MacArthur, Ken Mawatari, Sogo Mineo, Hironao Miyatake, Satoshi Miyazaki,
+  Surhud More, Takahiro Morishima, Hitoshi Murayama, Kimihiko Nakajima, Fumiaki
+  Nakata, Atsushi~J. Nishizawa, Masamune Oguri, Nobuhiro Okabe, Yuki Okura,
+  Yoshiaki Ono, Ken Osato, Masami Ouchi, Yen-Chen Pan, Andr{\'{e}}s A.~Plazas
+  Malag{\'{o}}n, Paul~A. Price, Sophie~L Reed, Eli~S. Rykoff, Takatoshi
+  Shibuya, Mirko Simunovic, Michael~A. Strauss, Kanako Sugimori, Yasushi Suto,
+  Nao Suzuki, Masahiro Takada, Yuhei Takagi, Tadafumi Takata, Satoshi Takita,
+  Masayuki Tanaka, Shenli Tang, Dan~S. Taranu, Tsuyoshi Terai, Yoshiki Toba,
+  Edwin~L. Turner, Hisakazu Uchiyama, Bovornpratch Vijarnwannaluk,
+  Christopher~Z Waters, Yoshihiko Yamada, Naoaki Yamamoto, and Takuji
+  Yamashita.
+\newblock {Third Data Release of the Hyper Suprime-Cam Subaru Strategic
+  Program}.
+\newblock {\em Publications of the Astronomical Society of Japan}, Vol.~00,
+  No.~0, pp. 1--6, aug 2021.
+
 \bibitem{Lintott2008}
 Chris~J. Lintott, Kevin Schawinski, An{\v{z}}e Slosar, Kate Land, Steven
   Bamford, Daniel Thomas, M.~Jordan Raddick, Robert~C. Nichol, Alex Szalay, Dan
@@ -23,6 +50,12 @@ Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
 \newblock {\em Advances in Neural Information Processing Systems}, Vol.~25, ,
   2012.
 
+\bibitem{Glorot2011}
+Xavier Glorot, Antoine Bordes, and Yoshua Bengio.
+\newblock {Deep Sparse Rectifier Neural Networks}.
+\newblock {\em Proceedings of the Fourteenth International Conference on
+  Artificial Intelligence and Statistics}, Vol.~15, pp. 315----323, 2011.
+
 \bibitem{Srivastava2014}
 Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan
   Salakhutdinov.
@@ -30,11 +63,20 @@ Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan
 \newblock {\em Journal of Machine Learning Research}, Vol.~15, No.~56, pp.
   1929--1958, 2014.
 
-\bibitem{Glorot2011}
-Xavier Glorot, Antoine Bordes, and Yoshua Bengio.
-\newblock {Deep Sparse Rectifier Neural Networks}.
-\newblock {\em Proceedings of the Fourteenth International Conference on
-  Artificial Intelligence and Statistics}, Vol.~15, pp. 315----323, 2011.
+\bibitem{Abadi2016}
+Mart{\'{i}}n Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen,
+  Craig Citro, Greg~S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin,
+  Sanjay Ghemawat, Ian Goodfellow, Andrew Harp, Geoffrey Irving, Michael Isard,
+  Yangqing Jia, Rafal Jozefowicz, Lukasz Kaiser, Manjunath Kudlur, Josh
+  Levenberg, Dan Mane, Rajat Monga, Sherry Moore, Derek Murray, Chris Olah,
+  Mike Schuster, Jonathon Shlens, Benoit Steiner, Ilya Sutskever, Kunal Talwar,
+  Paul Tucker, Vincent Vanhoucke, Vijay Vasudevan, Fernanda Viegas, Oriol
+  Vinyals, Pete Warden, Martin Wattenberg, Martin Wicke, Yuan Yu, and Xiaoqiang
+  Zheng.
+\newblock {TensorFlow: Large-Scale Machine Learning on Heterogeneous
+  Distributed Systems}.
+\newblock {\em Network: Computation in Neural Systems}, Vol.~16, No. 2-3, pp.
+  121--138, mar 2016.
 
 \bibitem{Dieleman2015}
 Sander Dieleman, Kyle~W. Willett, and Joni Dambre.
@@ -61,6 +103,12 @@ KenIchi Tadaki, Masanori Iye, Hideya Fukumoto, Masao Hayashi, Cristian~E. Rusu,
   learning}.
 \newblock {\em Monthly Notices of the Royal Astronomical Society}, Vol. 496,
   No.~4, pp. 4276--4286, 2020.
+
+\bibitem{Simonyan2015}
+Karen Simonyan and Andrew Zisserman.
+\newblock {Very deep convolutional networks for large-scale image recognition}.
+\newblock {\em 3rd International Conference on Learning Representations, ICLR
+  2015 - Conference Track Proceedings}, pp. 1--14, 2015.
 
 \bibitem{York2000}
 Donald~G. York, J.~Adelman, John~E. {Anderson, Jr.}, Scott~F. Anderson, James
@@ -330,27 +378,5 @@ Kevork~N. Abazajian, Jennifer~K. Adelman-Mccarthy, Marcel~A. Ag{\"{u}}eros,
 \newblock {The seventh data release of the sloan digital sky survey}.
 \newblock {\em Astrophysical Journal, Supplement Series}, Vol. 182, No.~2, pp.
   543--558, 2009.
-
-\bibitem{Tampo2020}
-Hiroaki Aihara, Yusra AlSayyad, Makoto Ando, Robert Armstrong, James Bosch,
-  Eiichi Egami, Hisanori Furusawa, Junko Furusawa, Sumiko Harasawa, Yuichi
-  Harikane, Bau-Ching Hsieh, Hiroyuki Ikeda, Kei Ito, Ikuru Iwata, Tadayuki
-  Kodama, Michitaro Koike, Mitsuru Kokubo, Yutaka Komiyama, Xiangchong Li,
-  Yongming Liang, Yen-Ting Lin, Robert~H. Lupton, Nate~B Lust, Lauren~A.
-  MacArthur, Ken Mawatari, Sogo Mineo, Hironao Miyatake, Satoshi Miyazaki,
-  Surhud More, Takahiro Morishima, Hitoshi Murayama, Kimihiko Nakajima, Fumiaki
-  Nakata, Atsushi~J. Nishizawa, Masamune Oguri, Nobuhiro Okabe, Yuki Okura,
-  Yoshiaki Ono, Ken Osato, Masami Ouchi, Yen-Chen Pan, Andr{\'{e}}s A.~Plazas
-  Malag{\'{o}}n, Paul~A. Price, Sophie~L Reed, Eli~S. Rykoff, Takatoshi
-  Shibuya, Mirko Simunovic, Michael~A. Strauss, Kanako Sugimori, Yasushi Suto,
-  Nao Suzuki, Masahiro Takada, Yuhei Takagi, Tadafumi Takata, Satoshi Takita,
-  Masayuki Tanaka, Shenli Tang, Dan~S. Taranu, Tsuyoshi Terai, Yoshiki Toba,
-  Edwin~L. Turner, Hisakazu Uchiyama, Bovornpratch Vijarnwannaluk,
-  Christopher~Z Waters, Yoshihiko Yamada, Naoaki Yamamoto, and Takuji
-  Yamashita.
-\newblock {Third Data Release of the Hyper Suprime-Cam Subaru Strategic
-  Program}.
-\newblock {\em Publications of the Astronomical Society of Japan}, Vol.~00,
-  No.~0, pp. 1--6, aug 2021.
 
 \end{thebibliography}
