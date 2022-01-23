@@ -111,7 +111,8 @@ Application of a deep learning model for galaxy morphological classification to 
 % 学習データよりも解像度の低いテストデータに対する分類精度を調べ，学習データとテストデータに同じ解像度のデータを用いた場合の精度と同程度の精度である学習データとテストデータの解像度差がいくつまでかを検証した．
 
 次に，異なる観測装置データの組み合わせを念頭に置き，不確かな天体クラスを除外した2値分類問題において，学習データよりも1/2, 1/3, ..., 1/7, 1/8倍解像度が低いテストデータに対し予測を行った際，分類精度がどう変化するかを調べた．その結果学習データとテストデータとの解像度差が1/4倍，もしくはそれより解像度差が小さい場合，学習データとテストデータに同じ解像度のデータを用いた場合の分類精度であるaccuracy約0.917と同程度の精度での分類が行えることが分かった．
-また，テストデータに対する分類精度の使用天体数依存性についても調査を行った．モデルの学習およびテストに使用する，クラスごとの天体数を300天体から1000天体に増加させたところ，モデルに使用する天体数を増加させるほどテストデータに対する分類精度の期待値が向上した．しかしながら使用天体数の変化によって，学習データとテストデータに同じ解像度のデータを用いた場合と同程度の分類精度を達成する解像度差に変化は生じなかった．
+また，テストデータに対する分類精度の使用天体数依存性についても調査を行った．モデルの学習およびテストに使用する，クラスごとの天体数を300天体から1000天体に増加させたところ，モデルに使用する天体数を増加させるほどテストデータに対する分類精度の期待値が向上することが判明した．
+しかしながら使用天体数の変化によって，学習データとテストデータに同じ解像度のデータを用いた場合と同程度の分類精度を達成する解像度差に変化は生じなかった．
 
 これらの結果をまとめると，SDSSの銀河画像とGalaxy Zoo 1の形態分類フラグを用いて深層学習モデルを作成し，渦巻銀河と楕円銀河を分類する2値分類問題の解探索を行った場合，学習データより画像解像度が1/4倍低いテストデータに対して，学習データとテストデータに解像度差がない場合のモデルの分類精度と同程度の精度で分類が行えることが判明した．
 
@@ -126,12 +127,21 @@ Application of a deep learning model for galaxy morphological classification to 
 % 本研究では，異なる観測装置データを組み合わせた高精度形態分類モデルの開発を行うため，画像データを学習に用いた深層学習モデルが学習に用いたデータよりも解像度の低い画像データに対し予測を適用できるかについて検証した．また，予測が適用できた場合，学習データとテストデータの解像度差がいくつまでならば高精度な予測を提供できるかについても検証を行った．
 
 \chapter*{Abstract}
-In this study, we investigate whether a deep learning model for galaxy morphological classification can apply correct predictions to test data with lower spatial resolution than the training data. We used 14,998 source images from the Sloan Digital Sky Survey (SDSS), a large-scale galaxy image dataset, and three class labels (spiral galaxies, elliptical galaxies, and uncertain sources) from Galaxy Zoo 1, a galaxy morphology catalog, as training data for the deep learning model. 
+In this study, we investigate the applicability of prediction in deep learning models for galaxy morphological classification to test data with lower spatial resolution than the training data.
 
-When galaxies classified as uncertain by Galaxy Zoo 1 were used for model training and testing, the classification accuracy was found to decrease significantly. This may be due to the presence of incorrect morphological labeling in Galaxy Zoo 1, or the fact that the uncertain source class is considered to be a mixture of four types of sources.
+The higher the resolution of the galaxy images used to create the deep learning model for galaxy morphological classification, the better the classification accuracy and the more distant galaxies can be classified. However, it takes 10 years or more to complete a single imaging survey. The development and application of morphological classification models using the large scale high-resolution data that will be available in the future will also take a long time to start. Here, we do not wait for the completion of the high-resolution imaging survey, but train the model as soon as a small amount of image data is obtained. If the model is applied to an existing low-resolution dataset and its accuracy is higher than that of the model trained on the low-resolution data, then the benefits of high-resolution images can be reaped earlier. However, the extent to which morphological classification can be performed when there is a resolution difference between the training and test data has not been well investigated. Therefore, in this study, we investigated the classification accuracy when there is a resolution difference between the training data and the test data.
 
-Next, we examined how the classification accuracy changes by making predictions on the test data, which has 1/2 to 1/8 times lower resolution than the training data, for the binary classification problem excluding the uncertain object class. The results showed that when the resolution difference between the training data and the test data was 1/4 times or smaller, the classification accuracy was the same as when the training data and the test data had the same resolution.
-We also investigated the dependence of the classification accuracy on the number of sources used for the test data. The results show that the expected classification accuracy for the test data increases as the number of objects used in the model increases. However, the change in the number of sources did not change the difference in the resolution at which the same level of classification accuracy was achieved when the same resolution data was used for training and test data. In summary, the results show that a deep learning model using SDSS galaxy images and the morphological classification flags of the Gakaxy Zoo 1 can apply correct predictions to test data with 1/4 times lower image resolution than the training data when searching for a solution to the binary classification problem of classifying spiral and elliptical galaxies. It was found that the correct predictions could be applied to the test data, which had 1/4 times lower image resolution than the training data.
+For the training data of the deep learning model, we used 14,998 source images from the Sloan Digital Sky Survey (SDSS), a large-scale galaxy imaging project, and three class labels (spiral galaxies, elliptical galaxies, and uncertain sources) from Galaxy Zoo 1, a galaxy morphology catalog. We used three class labels: spiral, elliptical, and uncertain.
+
+We used galaxies classified as uncertain sources by Galaxy Zoo 1 for training and testing the model. When galaxies classified as uncertain by Galaxy Zoo 1 were used for training and testing the models, the accuracy of the classification for the test data was about 0.688, and the accuracy when uncertain sources were excluded was about 0.931.
+These results show that the accuracy of the classification decreases significantly when uncertain sources are used in the model. One of the possible reasons for this is that the uncertain source class is considered to be a mixture of four types of sources.
+
+Then, keeping in mind the different combinations of instrumental data, we found that the binary classification problem excluding the uncertain source classes was better than the training data by 1/2, 1/3, ... The results show that the classification accuracy of the training and test data is improved by a factor of 1/2, 1/3, ..., 1/7, and 1/8. As a result, we found that when the resolution difference between the training data and the test data is 1/4 times or smaller, the classification accuracy is about the same as the accuracy of 0.917 when the training data and the test data have the same resolution. We also investigated the dependency of the classification accuracy on the number of objects used for the test data. We increased the number of sources per class used for training and testing the model from 300 to 1000, and found that the expected classification accuracy for the test data improved as the number of sources used in the model increased.
+The expected classification accuracy for the test data improved as the number of sources used in the model increased. However, the change in the number of sources used did not change the difference in resolution at which the same level of classification accuracy was achieved when the same resolution data was used for the training and test data.
+
+In summary, the deep learning model created using SDSS galaxy images and Galaxy Zoo 1 morphological classification flags is able to classify spiral and elliptical galaxies with the same accuracy as the model without resolution difference for test data with 1/4 times lower image resolution than the training data.
+
+Translated with www.DeepL.com/Translator (free version)
 
 % END:アブストラクト-------------------------------
 
@@ -1277,10 +1287,15 @@ SDSSの画像データのみを使用した分類モデルの分類精度とHSC-
 
 \newpage
 \chapter{おわりに}
-そこで本研究は，銀河画像データを用いて深層学習によって銀河形態を学習したモデルが，学習データに用いた画像よりも解像度の低い画像データに対し適用が行えるかについて検証した．具体的には，SDSSから取得した切り出し画像とそれを縮小した縮小画像を用意し，
+本研究は，銀河画像データを用いて深層学習によって銀河形態を学習したモデルが，学習データに用いた画像よりも解像度の低い画像データに対し適用が行えるかについて検証した．具体的には，SDSSから取得した切り出し画像とそれを縮小した縮小画像を用意し，
 学習データとテストデータとの間に画像解像度差がある場合にテストデータへの予測が成立するか，また学習データとテストデータとの間の解像度差がどれほどまでならば，学習データとテストデータの画像解像度が揃っている状況での予測結果と同程度の精度を達成するかを調べた．
-その結果，学習データとテストデータとの間に1/4倍までの画像解像度差が生じていても，解像度差がない場合と同程度の精度の予測を行うことに成功した．
-この結果を受け，将来展望である「異なる観測装置データの組み合わせ」を実際に行い深層学習モデルの作成を行ったが，結果としては高解像度データのみで学習およびテストを行ったモデルと，低解像度データのみで学習およびテストを行ったモデルとの間で分類精度に有意な差が生じなかった．この結果はTadaki et al.(2020)で示された結果と異なることから，本研究における将来展望は改善が望まれる．
+
+
+その結果，学習データとテストデータとの間に1/4倍までの画像解像度差が生じていても，解像度差がない場合の予測精度であるaccuracy$0.917 \pm 0.020$と同程度の精度の予測を行うことに成功した．
+この結果を受け，将来展望である「異なる観測装置データの組み合わせ」を実際に行い深層学習モデルの作成を行ったところ，
+高解像度データのみで学習を行ったモデルのテストデータに対するaccuracyは$0.934 \pm 0.011$，低解像度データのみで学習を行ったモデルのテストデータに対するaccuracyは$0.914 \pm 0.012$であり，
+結果として高解像度データのみで学習およびテストを行ったモデルと，低解像度データのみで学習およびテストを行ったモデルとの間で分類精度に有意な差が生じなかった．
+この結果はTadaki et al.(2020)で示された結果と異なることから，本研究における将来展望は改善が望まれる．
 
 今後の課題として，
 \begin{inparaenum}[(1)]
