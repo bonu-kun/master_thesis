@@ -1,0 +1,49 @@
+This is pBibTeX, Version 0.99d-j0.33 (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: homma22.aux
+The style file: junsrt.bst
+Database file #1: Master_thesis_bib.bib
+Warning--empty publisher in hubble1936
+You've used 20 entries,
+            2270 wiz_defined-function locations,
+            680 strings with 32032 characters,
+and the built_in function-call counts, 25782 in all, are:
+= -- 674
+> -- 3557
+< -- 50
++ -- 1199
+- -- 1179
+* -- 2711
+:= -- 4264
+add.period$ -- 60
+call.type$ -- 20
+change.case$ -- 19
+chr.to.int$ -- 0
+cite$ -- 21
+duplicate$ -- 490
+empty$ -- 695
+format.name$ -- 2358
+if$ -- 5306
+int.to.chr$ -- 0
+int.to.str$ -- 20
+missing$ -- 21
+newline$ -- 103
+num.names$ -- 20
+pop$ -- 90
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 426
+stack$ -- 0
+substring$ -- 555
+swap$ -- 210
+text.length$ -- 50
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 69
+width$ -- 22
+write$ -- 220
+is.kanji.str$ -- 1371
+(There was 1 warning)
