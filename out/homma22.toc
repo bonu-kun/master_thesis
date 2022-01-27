@@ -39,7 +39,7 @@
 \contentsline {subsection}{\numberline {4.3.1}実験条件}{31}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}実験結果}{32}{subsection.4.3.2}
 \contentsline {subsubsection}{テストデータに対するaccuracyの評価}{33}{section*.39}
-\contentsline {subsubsection}{TSSの導出方法，および両分類モデルの分類性能評価}{33}{section*.40}
+\contentsline {subsubsection}{テストデータに対するTSSの評価}{33}{section*.40}
 \contentsline {subsubsection}{混同行列によるモデルの評価}{34}{section*.41}
 \contentsline {section}{\numberline {4.4}議論}{35}{section.4.4}
 \contentsline {chapter}{\numberline {第5章}空間解像度差のあるデータセットを用いた分類モデル作成}{37}{chapter.5}
