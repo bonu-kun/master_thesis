@@ -4,7 +4,7 @@ INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/eptex/platex.fmt
-INPUT /home/homma/iida/master_thesis/homma22.tex
+INPUT /home/homma/master/homma22.tex
 OUTPUT out/homma22.log
 INPUT /usr/share/texlive/texmf-dist/tex/platex/base/jreport.cls
 INPUT /usr/share/texlive/texmf-dist/tex/platex/base/jreport.cls
