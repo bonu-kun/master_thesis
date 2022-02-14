@@ -68,4 +68,4 @@
 \contentsline {section}{\numberline {6.1}本研究のまとめ}{52}{section.6.1}
 \contentsline {section}{\numberline {6.2}将来課題}{52}{section.6.2}
 \contentsline {section}{\numberline {6.3}将来展望}{53}{section.6.3}
-\contentsline {chapter}{\numberline {第7章}おわりに}{56}{chapter.7}
+\contentsline {chapter}{\numberline {第7章}おわりに}{57}{chapter.7}

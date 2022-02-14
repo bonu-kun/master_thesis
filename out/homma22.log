@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017/Debian) (preloaded format=platex 2021.10.7)  2 FEB 2022 10:40
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017/Debian) (preloaded format=platex 2021.10.7)  14 FEB 2022 15:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -432,9 +432,9 @@ File: images/5syou/print_errorbar/cubic/acc_with_errorbar_syuron5_cubic_900epoch
 ] [53] [54]
 File: images/6syou/acc_with_errorbar_auto_epoch.png Graphic file (type bmp)
 <images/6syou/acc_with_errorbar_auto_epoch.png>
-[55]
+[55] [56]
 第 7 章
-[56
+[57
 
 ] (out/homma22.bbl
 
@@ -445,23 +445,23 @@ LaTeX Font Warning: Font shape `JT1/gt/m/it' undefined
 LaTeX Font Warning: Font shape `JY1/gt/m/it' undefined
 (Font)              using `JY1/gt/m/n' instead on input line 5.
 
-[57
+[58
 
-] [58] [59] [60] [61] [62] [63] [64] [65]) [66]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1340.
-[67
+] [59] [60] [61] [62] [63] [64] [65] [66]) [67]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1343.
+[68
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1340.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1343.
 (out/homma22.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1340.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1340.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1343.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1343.
 Package rerunfilecheck Info: File `homma22.out' has not changed.
 (rerunfilecheck)             Checksum: 4743EDF1A0CF075E7239E6CCF3F6D7B4;3256.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1340.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1343.
  ) 
 Here is how much of TeX's memory you used:
  7204 strings out of 493640
@@ -472,4 +472,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  36i,12n,43p,1218b,433s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/homma22.dvi (74 pages, 262776 bytes).
+Output written on out/homma22.dvi (75 pages, 263976 bytes).
